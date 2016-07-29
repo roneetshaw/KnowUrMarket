@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="The Rate of Change (ROC) indicator measures the percentage change of the current price as compared to the price a certain number of periods ago. The ROC indicator can be used to confirm price moves or detect divergences; it can also be used as a guide for determining overbought and oversold conditions. The formula for Rate of Change is expressed below:
+
+\n\n[(Current Price / Price n periods ago) - 1] x 100
+\n\nGenerally, the Rate of Change is calculated based on 14-periods for input n, but of course can be modified to any trader preferred period. A chart of the Nasdaq 100 ETF (QQQQ) is shown below with the 14-day Rate of Change indicator:"/>
+    <ImageView 
+        android:src="@drawable/roc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculating Rate of Change
+\nThe right side of the chart of the QQQQ's shows how the Rate of Change is calculated. The closing price on Day #14 was divided by the closing price 14-days ago on Day #1 which netted 1.0467. One was then subtracted to get .0467 and then it was multiplied by 100 to get 4.67. That means there was a 4.67% increase in the price of the QQQQ's over the 14-day period highlighted in the chart.
+\n\n
+Numerous Uses of the Rate of Change Indicator
+\nThe Rate of Change indicator can be used to confirm price moves or detect divergences and can be used as a guide for determining overbought and oversold conditions.
+\n\n
+Rate of Change as a Confirmation Tool
+\nAn example of the ROC indicator confirming price action occurred from Low #1 to Low #2: the stock price of the QQQQ's made higher lows, generally a bullish sign; likewise, the Rate of Change indicator confirmed price action and made higher lows as well.
+\n\n
+Rate of Change as an Overbought and Oversold Indicator
+\nIn the chart above, when the Rate of Change indicator surpassed the +3% mark, it would have been inadvisable to buy, as prices were in an overbought area; looking for sell signals would be more advisable. Similarly when the ROC entered oversold areas, it would not be smart to sell, as most of the downward move had been made, rather buy signals should be sought.
+\n\n
+The Rate of Change (ROC) indicator is a helpful technical analysis tool for confirming price movements, detecting divergences, and determing levels of overbought and oversold. A similar indicator that should be investigated is the Momentum indicator."/>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

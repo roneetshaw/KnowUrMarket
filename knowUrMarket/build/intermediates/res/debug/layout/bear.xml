@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+		android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Bearish Engulfing Candlestick Pattern is a bearish reversal pattern, usually occuring at the top of an uptrend. The pattern consists of two Candlesticks:
+\n
+\nSmaller Bullish Candle (Day 1)
+\nLarger Bearish Candle (Day 2)"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/bear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="Generally, the bullish candle real body of Day 1 is contained within the real body of the bearish candle of Day 2.
+\n
+The market gaps up (bullish sign) on Day 2; but, the bulls do not push very far higher before bears take over and push prices further down, not only filling in the gap down from the morning's open but also pushing prices below the previous day's open.
+\n
+With the Bullish Engulfing Pattern, there is an incredible change of sentiment from the bullish gap up at the open, to the large bearish real body candle that closed at the lows of the day. Bears have successfully overtaken bulls for the day and possibly for the next few periods."/>
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/bear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bearish Engulfing Sell Signal
+\nThree methodologies for selling using the Bearish Engulfing Pattern are listed below in order of most aggressive to most conservative:
+\n
+\nSell at the close of Day 2. An even stronger indication to sell is given when there is a substantial increase in volume that accompanies the large move downward in price (see: Volume).
+\nSell on the day after the Bearish Engulfing Pattern occurs; by waiting until the next day to sell, a trader is making sure that the bearish reversal pattern is for real and was not just a one day occurance. In the chart above of Verizon, a trader would probably entered on the day after the Bearish Engulfing Pattern because the selling continued.
+\nUsually trader's wait for other signals, such as a price break below the upward support line, before entering a sell order. However, in the case of Verizon above, the Bearish Engulfing Pattern occured at the same time as the trendline break below support."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/bear.xml -->

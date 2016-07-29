@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Doji बैल और भालू के बीच अनिर्णय वाचक, एक शक्तिशाली कैंडलस्टिक गठन है. एक Doji अक्सर नीचे और प्रवृत्तियों के शीर्ष पर पाया जाता है और इस प्रकार मूल्य दिशा के संभव उत्क्रमण के एक संकेत के रूप में माना जाता है, लेकिन Doji. \n के रूप में अच्छी तरह से एक निरंतरता पैटर्न के रूप में देखा जा सकता है"/>
+    <ImageView 
+        android:src="@drawable/doji1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="
+एक Doji उद्घाटन कीमत और बंद भाव के बराबर हैं जब बनाई है. अक्सर एक 'रिक्शा मैन' नामक एक लंबी टांगों वाला Doji, ऊपरी और निचले छाया बहुत लंबे समय तक नियमित Doji गठन से कर रहे हैं, सिवाय एक Doji के रूप में ही है.
+\n
+Doji ऐसी अनिर्णय का प्रतिनिधित्व करता है क्यों Doji पैटर्न की रचना दिखाता है. खोलने के बाद, बैल केवल कीमतों को खारिज कर दिया और भालू से कम धक्का दिया करने के लिए उच्च कीमतों धक्का. हालांकि, भालू कम कीमतों रखने में असमर्थ हैं, और बैल फिर खोलने की कीमत वापस करने के लिए कीमतों धक्का.
+\n
+बेशक, एक Doji कम पहली और दिन शुरू कर दिया है, जहां उच्च तो दूसरा, फिर भी, किसी भी तरह, बाजार वापस बंद कर देता घूम रहा कीमतों द्वारा गठित किया जा सकता है."/>
+    
+    <ImageView 
+        android:src="@drawable/doji2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="एक Doji पैटर्न में, बाजार दोनों ऊपर और नीचे अपने विकल्पों की पड़ताल, लेकिन किसी भी तरह से प्रतिबद्ध नहीं है. एक लंबे uptrend के बाद, Doji द्वारा प्रकट इस अनिर्णय एक की स्थिति से बाहर निकलने के लिए एक समय के रूप में देखा है, या कम से कम वापस पैमाने पर किया जा सकता है. इसी तरह, एक की स्थिति का आकार कम करने या पूरी तरह से बाहर निकलने जनरल इलेक्ट्रिक के शेयर के ऊपर दिखाए गए एक की तरह एक लंबी गिरावट के बाद एक बुद्धिमान कदम हो सकता है.
+\n \n
+यह Doji पैटर्न उलटा मतलब यह नहीं है कि बल देने के लिए महत्वपूर्ण है, यह अनिर्णय का मतलब है. Doji के अक्सर अधिक या कम एक महत्वपूर्ण कदम के बाद विश्राम की अवधि के दौरान पाए जाते हैं; बाजार, आराम करने के बाद, तो अपने रास्ते पर जारी है. फिर भी, एक Doji पैटर्न एक पूर्व प्रवृत्ति अपनी ताकत खोने, और कुछ मुनाफे में अच्छी तरह से सलाह दी जा सकती है ले जा रहा है कि एक महान संकेत है."/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/doji3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+       
+        />
+    <ImageView 
+        android:src="@drawable/doji4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+       
+        />
+    </LinearLayout>
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOJI A:
+        \n उद्घाटन, बैल प्रभारी थे; भालू चार्ज लिया हालांकि, इससे पहले सुबह रैली लंबे समय तक नहीं किया था. मध्य सुबह से देर दोपहर तक, जनरल इलेक्ट्रिक को बेच दिया, लेकिन दिन के अंत तक, बैल वापस दिन का उद्घाटन कीमत जीई धक्का दे दिया.
+
+पिछले पृष्ठ पर दूसरा Doji दैनिक चार्ट अगले दिखाया गया है. (Doji ए) ऊपर दिखाए गए चार्ट बनाया गया था के रूप में (Doji बी) के नीचे अंतर दिन चार्ट में, Doji सटीक विपरीत रास्ता बनाया गया था; Doji बी दूसरा highs पहले, फिर अपने दिन के चढ़ाव बना दिया.
+\n \nDOJI बी: \n
+खोलने की घंटी से कम, भालू जीई के एक पकड़ लिया, लेकिन मध्य सुबह तक, बैल दिन के लिए सकारात्मक क्षेत्र में जीई धक्का जीई के शेयर में प्रवेश किया. दुर्भाग्य से बैल के लिए, दोपहर भालू ने पदभार संभाल लिया है और कम जीई धक्का दे दिया. दिन के अंत तक, भालू सफलतापूर्वक वापस दिन का उद्घाटन कीमत जीई की कीमत लाया था.
+
+ऊपर प्रस्तुत किया गया था, Doji गठन दो अलग अलग तरीकों से बनाया जा सकता है, लेकिन Doji की व्याख्या ही रहता है: Doji पैटर्न अनिर्णय की निशानी है, बैल और न ही भालू न तो सफलतापूर्वक ले सकते हैं."
+/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/dojih.xml -->

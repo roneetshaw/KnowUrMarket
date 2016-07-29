@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="The following is the profit/loss graph at expiration for the call option in the example given on the previous page."/>
+    <ImageView 
+        android:src="@drawable/call2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Break-even
+\nThe breakeven point is quite easy to calculate for a call option:
+\n\n
+Breakeven Stock Price = Call Option Strike Price + Premium Paid
+\nTo illustrate, the trader purchased the $52.50 strike price call option for $0.60. Therefore, $52.50 + $0.60 = $53.10. The trader will breakeven, excluding commissions/slippage, if the stock reaches $53.10 by expiration.
+\n\n
+Profit
+\nTo calculate profits or losses on a call option use the following simple formula:
+\n\n
+Call Option Profit/Loss = Stock Price at Expiration - Breakeven Point
+\nFor every dollar the stock price rises once the $53.10 breakeven barrier has been surpassed, there is a dollar for dollar profit for the options contract. So if the stock gains $5.00 to $55.00 by expiration, the owner of the the call option would make $1.90 per share ($55.00 stock price - $53.10 breakeven stock price). So total, the trader would have made $190 ($1.90 x 100 shares/contract).
+\n\n
+Partial Loss
+\nIf the stock price increased by $2.75 to close at $52.75 by expiration, the option trader would lose money. For this example, the trader would have lost $0.35 per contract ($52.75 stock price - $53.10 breakeven stock price). Therefore, the hypothetical trader would have lost $35 (-$0.35 x 100 shares/contract).
+\n\n
+To summarize, in this partial loss example, the option trader bought a call option because they thought that the stock was going to rise. The trader was right, the stock did rise by $2.75, however, the trader was not right enough. The stock needed to move higher by at least $3.10 to $53.10 to breakeven or make money.
+\n\n
+Complete Loss
+\nIf the stock did not move higher than the strike price of the option contract by expiration, the option trader would lose their entire premium paid $0.60. Likewise, if the stock moved down, irrelavent by how much it moved downward, then the option trader would still lose the $0.60 paid for the option. In either of those two circumstances, the trader would have lost $60 (-$0.60 x 100 shares/contract)."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/call2.xml -->

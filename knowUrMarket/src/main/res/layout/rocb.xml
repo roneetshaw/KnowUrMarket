@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="পরিবর্তনের হার (ROC) নির্দেশক মূল্য সময়সীমার আগে নির্দিষ্ট সংখ্যক তুলনায় বর্তমান মূল্য শতকরা হার পরিবর্তনের মাপা. ROC নির্দেশক দাম প্যাচসমূহ নিশ্চিত করতে অথবা divergences সনাক্ত করতে ব্যবহার করা যেতে পারে; এটা overbought এবং oversold অবস্থায় তা নির্ধারণের জন্য একটি নির্দেশিকা হিসেবে ব্যবহার করা যাবে. পরিবর্তনের হার জন্য সূত্র নিম্নে প্রকাশ করা হয়:
+
+\n\n [(বর্তমান দাম / মূল্য এন সময়সীমার পূর্বে) - 1] x 100
+\n\nGenerally, পরিবর্তনের হার ইনপুট এন জন্য 14 সময়সীমার উপর ভিত্তি করে হিসাব করা হয়, কিন্তু অবশ্যই কোন ব্যবসায়ীর পছন্দের সময়ের পরিবর্তন করা যাবে. Nasdaq 100 ETF (QQQQ) একটি চার্ট পরিবর্তন সূচক 14 দিনের হার দিয়ে নিচে দেখানো হল:"/>
+    <ImageView 
+        android:src="@drawable/roc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculating Rate of Change
+\nপরিকাঠামেগত পরিবর্তনের হার গণনা করা হয় কিভাবে QQQQ এর শো চার্ট ডান দিকে. দিন # 14 ক্লোজিং দাম 1,0467 বাবদ যা দিন # 1 উপর 14 দিন আগে ক্লোজিং মূল্য দ্বারা বিভক্ত ছিল. ওয়ান তারপর .0467 পেতে বিয়োগ করা হয়েছিল এবং তারপর এটি 4.67 পেতে 100 দ্বারা গুন করা হয়. যে সেখানে 14 দিনের সময়কালে QQQQ এর দাম একটি 4.67% বৃদ্ধি চার্টে হাইলাইট মানে.
+\n
+পরিবর্তন ইনডিকেটর এর হার অনেক ব্যবহার
+\nপরিবর্তন সূচক এর পরিকাঠামেগত রেট দাম প্যাচসমূহ নিশ্চিত করতে অথবা divergences সনাক্ত করতে ব্যবহার করা যেতে পারে এবং overbought এবং oversold অবস্থায় তা নির্ধারণের জন্য একটি নির্দেশিকা হিসেবে ব্যবহার করা যাবে.
+\n\n
+একটি নিশ্চিতকরণ টুল হিসাবে পরিবর্তনের হার
+\nদাম কর্ম নিশ্চিত ROC সূচক এর Nan উদাহরণস্বরূপ নিম্ন # 2 থেকে নিম্ন # 1 থেকে ঘটেছে: QQQQ এর তৈরি উচ্চতর lows, সাধারণত একটি bullish সাইন স্টক মূল্য; অনুরূপভাবে, পরিবর্তন সূচক হার দাম ব্যবস্থা নিশ্চিত করা এবং পাশাপাশি উচ্চতর lows তৈরি.
+\n\n
+একটি overbought এবং oversold নির্দেশক হিসেবে পরিবর্তনের হার
+\n\n উপরের চার্ট, পরিবর্তন সূচক হার +3% চিহ্ন অতিক্রান্ত হলে দামের একটি overbought এলাকায় ছিল, এটা, কিনতে বিবেকবর্জিত হত; বিক্রয় সংকেত খুঁজছেন আরো যুক্তিযুক্ত হবে. ROC oversold অঞ্চলে প্রবেশ একইভাবে, এটি নিম্নগামী সরানো অধিকাংশ তৈরি করা হয়েছে হিসাবে, বরং সংকেত চাওয়া উচিত কিনতে, বিক্রি স্মার্ট হতে পারেন না.
+\n\n
+পরিবর্তনের হার (ROC) সূচক, দাম আন্দোলন নিশ্চিত divergences detecting, এবং overbought এবং oversold মাত্রা Determing জন্য সহায়ক প্রযুক্তিগত বিশ্লেষণ টুল. তদন্ত করা উচিত যে অনুরূপ একটি সূচক ভরবেগ সূচক."/>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

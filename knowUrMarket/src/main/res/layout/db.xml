@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Double Bottom technical analysis charting pattern is a common and highly effective price reversal pattern.
+\n\n
+The chart below of Altria (MO) stock illustrates the Double Bottom reversal pattern:"/>
+    <ImageView 
+        android:src="@drawable/db1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="To create a double bottom pattern, price begins in a downtrend, stops, and then reverses trend. However, the reversal to the upside is short-term. Price breaks again to the downside only to stop again and reverse direction upwards. With the second bottom of the double bottom pattern, it is usually more bullish if the second low is higher than the first low.
+\n\n
+Double Bottom Buy Signal
+The signal to buy is given when the confirmation line is penetrated to the upside. The confirmation line is drawn across the top of the double bottom pattern (see chart above).
+\n
+Often, after price penetrates the confirmation line, price will retrace for a short time, sometimes back to the confirmation line. This retracement offers a second chance to get into the market long.
+\n
+Volume also plays an important part of interpreting the Double Bottom pattern; this is illustrated in the chart below of Pfizer (PFE):"/>
+        
+        
+     <ImageView 
+        android:src="@drawable/db2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+     <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Generally, volume should explode when the confirmation line is penetrated as it did in the chart of Pfizer (PFE).
+
+\n\nThe Double Bottom reversal pattern is a heavily used and effective charting reversal pattern. Another similar and popular bottom reversal pattern is the Reverse Head and Shoulders Pattern "/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="मैं दलाल या उप दलाल के साथ किसी भी समझौते पर हस्ताक्षर करने की जरूरत है?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हां. आप एक साथ सीधे काम कर रहे हैं - 'उपभोक्ता करार सदस्य समय - समय पर अपनी ओर से ट्रेडों निष्पादित और आप हस्ताक्षर करने के लिए ग्राहक को पंजीकरण फार्म बनाए रखने के लिए दलाल सक्रिय करने के लिए अपने आप से संबंधित विवरण प्रस्तुत करने के लिए एक दलाल उलझाने के उद्देश्य के लिए दलाल. '- उप ब्रोकर - क्लाइंट त्रिपक्षीय समझौता ब्रोकर' मामले में आप तो आप एक हस्ताक्षर करने के लिए एक उप दलाल के माध्यम से काम कर रहे हैं. मॉडल त्रिपक्षीय समझौता ब्रोकर-उप दलाल और ग्राहकों के बीच केवल नकद खंड के लिए लागू है." />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="एक शेयर का चयन कैसे करें"
+        android:textSize="20dp"/>
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बाजार समझ में आ चुके हैं, यह एक कंपनी, एक शेयर और सही कीमत के चयन के बारे में जाने के लिए पता करने के लिए महत्वपूर्ण है. अनुसंधान, कुछ स्मार्ट विविधीकरण और उचित निगरानी का एक छोटा सा बातें शायद ही कभी गलत जाना सुनिश्चित करेंगे.
+\ लीख कि मुश्किल नहीं है: बस इन 4 स्वर्ण नियमों का पालन करें. और तुम उस पर रहे हैं, यही कारण है कि आप भी कम खरीदें उच्च बेचने के लिए बाहर की जाँच नहीं है."/>
+	<TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कैसे निवेश करने के लिए ज्यादा?"
+        android:textSize="20dp"/>
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="इक्विटी आप निवेश करना चाहिए कितना उच्च जोखिम, उच्च वापसी उपकरणों, चूंकि वास्तव में आप बर्दाश्त कर सकते हैं कि कितना जोखिम पर निर्भर करेगा. आपके जोखिम प्रोफाइल क्या है जानने के लिए यह प्रश्नोत्तरी लो.
+\n
+आप किया है कि एक बार, आप इक्विटी में निवेश करना चाहिए कितना अपनी बचत के बिल्कुल गणना करने के लिए इस परिसंपत्ति आवंटन परीक्षण का उपयोग करें."/>
+    
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बोनस शेयरों क्या हैं?"
+        android:textSize="20dp"/>
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बोनस शेयरों के पहले के वर्षों में अर्जित लाभ से संचित भंडार का पूंजीकरण द्वारा निःशुल्क उनके शेयरधारकों के लिए कंपनियों द्वारा जारी किए गए शेयरों हैं."/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ब्रोकर या सब दलाल पंजीकृत है, तो मुझे कैसे पता चलेगा?"
+        android:textSize="20dp"/>
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="आप सेबी द्वारा जारी पंजीकरण प्रमाण पत्र सत्यापित करके यह पुष्टि कर सकते हैं. एक दलाल के पंजीकरण संख्या पत्र 'INB' और पत्र 'आईएनएस' के साथ एक उप दलाल का उस के साथ शुरू होता है. डेरिवेटिव सेगमेंट के दलालों के लिए, पंजीकरण संख्या पत्र 'INF' के साथ शुरू होता है. डेरिवेटिव खंड में कोई उप दलाल है."/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="बैंकों के संबंध में सीआरआर और एसएलआर क्या हैं?"
+        android:textSize="20dp"/>
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="सीआरआर या नकद आरक्षित अनुपात नकदी के रूप में आयोजित होने वाले एक बैंक की जमा राशि का न्यूनतम अनुपात / प्रतिशत है. बैंकों को वास्तव में खुद के पास नकदी के रूप में इन पकड़ है, लेकिन खुद के साथ नकदी जोत के बराबर माना जाता है जो भारतीय रिज़र्व बैंक / करेंसी चेस्ट, के साथ ही जमा नहीं है.
+\n
+एक बैंक के जमा रुपये की वृद्धि करते हैं. 100 करोड़, और 6% की वर्तमान नकद आरक्षित अनुपात पर विचार, बैंक रुपये की अतिरिक्त पकड़ के लिए होगा. 6 भारतीय रिजर्व बैंक के साथ करोड़ और रुपये का ही उपयोग करने में सक्षम हो जाएगा. निवेश और उधार देने के लिए 94 करोड़. इसलिए, उच्च सीआरआर, बैंकों उधार दे सकते हैं कि राशि कम है. इस प्रकार भारतीय रिजर्व बैंक सीआरआर यानी उधार देने योग्य राशि और उपाध्यक्ष विपरीत कम करने के लिए सीआरआर में वृद्धि को बदलने की तरलता को नियंत्रित कर सकते हैं.
+\n
+एसएलआर या सांविधिक तरलता अनुपात एक बैंक सोना, नकदी या अन्य अनुमोदित प्रतिभूतियों के रूप में बनाए रखने के लिए है कि जमा की न्यूनतम प्रतिशत है. यह मांग और अवधि की देनदारियों / जमा करने के लिए तरल संपत्ति (नकद और अनुमोदित प्रतिभूतियों) का अनुपात है.
+\n
+भारतीय रिजर्व बैंक 40% करने के लिए इस अनुपात में वृद्धि करने का अधिकार है. एसएलआर में वृद्धि हुई है, जिससे ऋण वृद्धि को विनियमित करने, अर्थव्यवस्था में अधिक पैसा पंप करने के लिए बैंक का लाभ उठाने की स्थिति सीमित."/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/faqsh.xml -->

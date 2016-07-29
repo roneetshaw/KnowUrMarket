@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Bullish Engulfing Candlestick Pattern is a bullish reversal pattern, usually occuring at the bottom of a downtrend. The pattern consists of two Candlesticks:
+
+\nSmaller Bearish Candle (Day 1)
+\nLarger Bullish Candle (Day 2)"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/bull1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="The bearish candle real body of Day 1 is usually contained within the real body of the bullish candle of Day 2.
+\n
+On Day 2, the market gaps down; however, the bears do not get very far before bulls take over and push prices higher, filling in the gap down from the morning's open and pushing prices past the previous day's open.
+\n
+The power of the Bullish Engulfing Pattern comes from the incredible change of sentiment from a bearish gap down in the morning, to a large bullish real body candle that closes at the highs of the day. Bears have overstayed their welcome and bulls have taken control of the market."/>
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/bull2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Bullish Engulfing Buy Signal
+\nThere are three main times to buy using the Bullish Engulfing Pattern; the buy signals that are presented below are ordered from the most aggressive to most conservative:
+
+\nBuy at the close of Day 2 when prices rallied upwards from the gap down in the morning. A strong indication that the rally on Day 2 was significant and truly a reversal of market sentiment, is if there was a substantial increase in volume that accompanied the large move upward in price (see: Volume).
+\nBuy on the day after the Bullish Engulfing Pattern occurs; by waiting until the next day to buy, a trader is making sure that the bullish reversal and enthusiasm of the prior day is continuing and was not just a one day occurance like a short covering rally. In the chart above of the SPY's, a trader would likely not enter the market long on the day after the Bullish Engulfing Pattern because the market gapped down significantly and even made new lows. A trader using methodology #2, would likely wait for a more concrete buy signals such as the one presented in method #3 next.
+\nAfter a trader sees the Bullish Engulfing Pattern, the trader would wait for another signal, mainly a price break above the downward resistance line, before entering a buy order."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

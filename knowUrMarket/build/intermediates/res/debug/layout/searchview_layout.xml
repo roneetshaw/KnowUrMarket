@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v7.widget.SearchView
+    android:id="@+id/search_view"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    tools:queryHint="search stock"
+    tools:iconifiedByDefault="false"
+
+     />
+
+    <ListView
+        android:id="@+id/listViewStock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </ListView>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/searchview_layout.xml -->

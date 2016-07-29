@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Double Top technical analysis charting pattern is a common and highly effective price reversal pattern.
+\n\n
+The chart below of Altria (MO) stock illustrates the Double Top reversal pattern:"/>
+    <ImageView 
+        android:src="@drawable/dt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double Top Formation Components
+\n1. First High: Bulls push prices upwards making new highs; however, these new highs are short lived and prices retreat.
+\n2.Second High: Prices don't retreat for long because bulls make another run, making a similar high. Nevertheless, this is bearish, because bulls were unable to push prices higher; bears held their ground at the previous high level. The bears push prices back to support (Confirmation line); this is a pivotal moment - either bulls will make another push higher or bears will take control and push prices even lower, more than likely taking over for good.
+\n\nDouble Top Sell Signal
+\nSell when price closes below the confirmation line.
+\n\n
+Note that traders expect a significant increase in volume to accompany the confirmation line break; if there is very little volume when price pierces the confirmation line, then the move downward is suspect. Small volume usually means weak support of price movement "/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

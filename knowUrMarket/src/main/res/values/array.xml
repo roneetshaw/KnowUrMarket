@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array
+       name="Language">
+    	<item>English</item>
+		<item>Hindi</item>       
+		<item>Bengali</item>
+   </string-array> 
+   <string-array name="lvalues">
+       <item>E</item>
+       <item>H</item>
+       <item>B</item>
+   </string-array>
+</resources>

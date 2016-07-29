@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="A Bear Put Spread, also known as a put debit spread, is a bearish strategy involving two put option strike prices:
+\n
+1. पैसा में या बाहर का पैसा लगा एक खरीदें
+\n 2. पुट खरीदी से आगे दूर पैसे से एक पुट बेचें
+\n \n ना व्यापारी निम्न काल्पनिक स्थिति में बिखरा हुआ है एक भालू पुट का प्रयोग करेंगे:
+\n
+1. एक व्यापारी $ 50 पर एक विशेष शेयर ट्रेडिंग पर बहुत तेजी है.
+\n 2. व्यापारी हाथ उनकी अधिकतम नुकसान से पहले जानना चाहते, जोखिम खिलाफ या तो या बस शेयर के मालिक से अधिक लाभ उठाने के लिए चाहता है.
+\n 3. व्यापारी शेयर $ 47.15 है लेकिन अगले 30 दिनों में नहीं की तुलना में कम $ 45.00 से नीचे ले जाने की उम्मीद है."/>
+    <ImageView 
+        android:src="@drawable/bps1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy One Put - Sell One Put
+\n कैप और मानक विचलन के संयोजन एक बहुमुखी उपकरण है और व्यापारियों के लिए उपलब्ध सबसे लोकप्रिय तकनीकी विश्लेषण उपकरणों में से एक है. बोलिंगर बैंड संकेतक के तीन घटक हैं:
+\n 
+बढ़ते औसत: डिफ़ॉल्ट रूप से, एक 20 अवधि साधारण औसत हिल प्रयोग किया जाता है \n.
+ऊपरी बैंड: ऊपरी बैंड आमतौर पर चल औसत से ऊपर (समापन डेटा के 20 अवधि की गणना से) 2 मानक विचलन है \n.
+लोअर बैंड: निचले बैंड 2 मानक विचलन के औसत से नीचे आमतौर पर है.
+\n Bollinger बैंड (नीला) में ई मिनी snp 500 वायदा अनुबंध के चार्ट में नीचे दिखाई जाती हैं
+एक भालू पुट स्प्रेड खरीदा जाता है \nWhen, व्यापारी तुरन्त वे संभवतः खो सकते हैं पैसे की अधिकतम राशि और वे कर सकते हैं पैसे की अधिकतम राशि को जानता है. अधिकतम नुकसान हमेशा विकल्प अनुबंध शून्य से बेचा ऑफ सेटिंग डाल विकल्प से प्राप्त प्रीमियम के मालिक को भुगतान प्रीमियम है; इस उदाहरण में, $ 35 ($ 44 - $ 9).
+\n 
+शेयर $ 95 या $ 55 एक शेयर के लिए बढ़ जाता है चाहे, पुट विकल्प धारक ही वे विकल्प प्रसार ($ 35) के लिए भुगतान की गई राशि को खो देंगे. इस बार विकल्प व्यापार करने के लिए एक कारण के रूप में के बारे में चर्चा की जोखिम से परिभाषित लाभ है. इसी तरह, भालू पुट स्प्रेड लाभ से परिभाषित के रूप में अच्छी तरह से है. व्यापारी इस व्यापार से कर सकते हैं अधिकतम $ 215 है. यह कैसे अधिकतम लाभ अगले पृष्ठ पर विस्तार से दिया जाता है की गणना है.
+\n  \n 
+भालू रखो बिखरा सटीक भविष्यवाणी की आवश्यकता
+\nएक विकल्प रणनीति और विकल्प हड़ताल कीमतों के चयन के बारे में Nthe महत्वपूर्ण हिस्सा है, भविष्य के लिए व्यापारी के सटीक उम्मीदें है. व्यापारी स्टॉक कम करने के लिए कदम की उम्मीद है, लेकिन केवल $ 1 कम है, तो $ 47.50 / 45.00 $ भालू पुट स्प्रेड मूर्खता होगी खरीद. शेयर की कीमत में यह $ 125 या $ 47.51, चाहे कहीं भी $ 47.50 से ऊपर है अगर समाप्ति पर, प्रसार की रणनीति बेकार समाप्त हो जाएगा क्योंकि यह है. एक व्यापारी शेयर $ 1 से कम कदम होगा कि उनकी भविष्यवाणी पर सही था, तो इसलिए, वे अभी भी खो दिया होता."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

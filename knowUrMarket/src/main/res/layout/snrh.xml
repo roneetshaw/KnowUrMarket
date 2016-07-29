@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="समर्थन और विरोध तकनीकी विश्लेषण का सबसे महत्वपूर्ण और बुनियादी हिस्सा है:
+\n \n
+समर्थन: मूल्य समर्थन छूने के बाद जन्म देना चाहिए.
+\nResistance: कीमतें प्रतिरोध से टकराने के बाद गिर चाहिए.
+\ कीमत सम्मान समर्थन और विरोध लाइनों की नेन उदाहरण सेमीकंडक्टर HOLDRS (SMH) के चार्ट में अगले दिया जाता है:"/>
+    <ImageView 
+        android:src="@drawable/snr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="समर्थन और विरोध मजबूती से स्थापित किया गया है: खरीदें सिग्नल - मूल्य छू समर्थन
+
+\n \n
+सिग्नल \n खरीदें
+मूल्य समर्थन लाइन से छू जब खरीदें
+\n \n
+सिग्नल \n बेचें
+कीमत प्रतिरोध रेखा को छू लेती है जब बेचें."/>
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breaking Support and Resistance"
+        android:textSize="20dp"
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="समर्थन और विरोध का एक और मौलिक अवधारणा अगले सूचीबद्ध है और Alcoa (एए) के शेयर के लिए नीचे दिए गए चार्ट में दिखाया गया है:
+\n
+समर्थन नीचे कीमत टूटता है, तो वह समर्थन स्तर नई प्रतिरोध स्तर हो जाता है.
+\ समर्थन से ऊपर रखते कीमत टूटता है, तो उस प्रतिरोध स्तर नया समर्थन स्तर बन जाता है."/>
+    
+    <ImageView 
+        android:src="@drawable/snr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="समर्थन और प्रतिरोध बुनियादी अभी तक vitally महत्वपूर्ण तकनीकी विश्लेषण उपकरण हैं. पर हर बार दैनिक फ्रेम, अंतर दिन, साप्ताहिक, और मासिक, समर्थन और प्रतिरोध स्तरों व्यापारियों द्वारा सम्मान किया जाता है. इन स्तरों का ज्ञान इस प्रकार व्यापारी लाभ की मदद करने, बाजार की सही पक्ष पर एक व्यापारी रखने में मदद करता है."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

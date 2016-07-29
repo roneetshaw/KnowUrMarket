@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:paddingBottom="10dp"
+    android:background="@drawable/blue">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             >
+            
+            <TextView android:textStyle="bold" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                
+                android:textSize="15dp"
+                android:text="Bollinger Bands 
+कैप और मानक विचलन के संयोजन एक बहुमुखी उपकरण है और व्यापारियों के लिए उपलब्ध सबसे लोकप्रिय तकनीकी विश्लेषण उपकरणों में से एक है. बोलिंगर बैंड संकेतक के तीन घटक हैं:
+\n
+बढ़ते औसत: डिफ़ॉल्ट रूप से, एक 20 अवधि साधारण औसत हिल प्रयोग किया जाता है \n.
+ऊपरी बैंड: ऊपरी बैंड आमतौर पर चल औसत से ऊपर (समापन डेटा के 20 अवधि की गणना से) 2 मानक विचलन है \n.
+लोअर बैंड: निचले बैंड 2 मानक विचलन के औसत से नीचे आमतौर पर है.
+\n Bollinger बैंड (नीला) में ई मिनी snp 500 वायदा अनुबंध के चार्ट में नीचे दिखाई जाती हैं"/>
+            </LinearLayout>
+                    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" >
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv2"/>
+            </LinearLayout>
+                    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             >
+             <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="इस प्रकार के रूप बोलिंगर बैंड रहे हैं प्रयोग करने के लिए तीन मुख्य तरीके होते हैं:" />
+             </LinearLayout>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/playing"
+                 android:text="Playing the bands"
+                 
+                 android:layout_gravity="center"/>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/breakout"
+                 android:text="Bollinger Bands Breakout"
+                 android:layout_gravity="center"/>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/volatility"
+                 android:text="Option Volatility strategy"
+                 android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>

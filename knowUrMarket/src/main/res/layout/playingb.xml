@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView android:textStyle="bold" 
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:text="ব্যান্ড বাজানো সব ক্লোজিং দাম বেশীরভাগ বোলিঙ্গার ব্যান্ড মধ্যে হতে হবে যে প্রতিজ্ঞা উপর ভিত্তি করে. বলেন যে, তারপর খুব কমই ঘটে যা বোলিঙ্গার ব্যান্ড,, বাইরে যাওয়া একটি স্টক এর দাম স্থায়ী করা উচিত নয় এবং সাধারণত 20 সময়সীমার সহজ চলমান গড়, যার মানে 'ফিরে গড় প্রত্যাবর্তন' উচিত. এই কৌশলের একটি সংস্করণ জেমস Altucher দ্বারা একটি হেজ ফান্ড লেগেছে বই ট্রেড আলোচনা করা হয়."/>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv3"/>
+             <TextView android:textStyle="bold"
+                 android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="কেনার জন্য সংকেত
+\n ই মিনি SNP 500 ভবিষ্যত এর নিচের চার্টে দেখানো উদাহরণস্বরূপ, একজন ব্যবসায়ীর ক্রয় বা দাম কম বোলিঙ্গার ব্যান্ড নীচের কমে গেছে যখন আবরণ ক্রয়.
+\nবিক্রয় জন্য সংকেত
+যখন উপরের বোলিঙ্গার ব্যান্ড বাইরে স্টক, ভবিষ্যত, অথবা মুদ্রার দাম ভেদ. \ পরিকাঠামেগত বিক্রি বা প্রস্থানের আবরণ কিনতে শুরু হয়" />
+       
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>

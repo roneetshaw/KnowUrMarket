@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The following is the profit/loss graph at expiration for the put option in the example given on the previous page."/>
+    <ImageView 
+        android:src="@drawable/put2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break-even
+\n\n পরিকাঠামেগত breakeven বিন্দু একটি করা বিকল্পের জন্য নিরূপণ করা বেশ সহজ:
+\n\n
+Breakeven স্টক মূল্য = রাখুন অপশন স্ট্রাইক দাম - প্রিমিয়াম পরিশোধের
+\n\n ব্যবসায়ী $ 0.44 জন্য $ 47,50 ধর্মঘট দাম রাখা বিকল্প ক্রয়, চিত্রিত. অতএব, $ 47,50 - $ 0.44 = $ 47.06. স্টক মেয়াদ দ্বারা $ 47.06 পড়ে যদি ব্যবসায়ী, কমিশন / slippage ব্যতীত, breakeven করা হবে.
+\n\n
+মুনাফা
+\nলাভ নিরূপণ বা করা বিকল্পের উপর লোকসান নিম্নলিখিত সহজ সূত্র ব্যবহার:
+\n\n
+অপশন থেকে লাভ / ক্ষতি = Breakeven পয়েন্ট রাখুন - স্টক মূল্য মেয়াদ এ
+\n\nFor $ 47.06 breakeven বাধা অতিক্রান্ত হয়েছে একবার স্টক মূল্য পড়ে প্রতি ডলারের, বিকল্প চুক্তির জন্য ডলার লাভের জন্য একটি ডলার আছে. স্টক মেয়াদ দ্বারা $ 45.00 থেকে $ 5.00 পড়ে সুতরাং, যদি রাখা বিকল্প মালিক শেয়ার প্রতি $ 2.06 (- মেয়াদ এ $ 45.00 স্টক মূল্য $ 47.06 breakeven স্টক মূল্য) যাবে না. সুতরাং মোট, ব্যবসায়ী $ 206 ($ 2.06 এক্স 100 শেয়ার / চুক্তি) তৈরি করে.
+\n\n
+আংশিক ক্ষতি
+\n মেয়াদ দ্বারা $ 47,25 সময়ে বন্ধ করতে $ 2.75 হ্রাস স্টক মূল্য থাকেন, বিকল্প ব্যবসায়ীর টাকা হারাবে. (- $ 47,25 স্টক মূল্য $ 47.06 breakeven স্টক মূল্য) এই উদাহরণস্বরূপ, ব্যবসায়ী চুক্তির প্রতি $ 0.19 হারিয়েছে করবে. (- $ 0.19 এক্স 100 শেয়ার / চুক্তি) অতএব, প্রকল্পিত ব্যবসায়ী $ 19 হারিয়েছে করবে.
+
+\n, সংক্ষেপ তারা স্টক পড়ে যাচ্ছে বলে মনে করা, কারণ এই আংশিক ক্ষতি উদাহরণে, বিকল্প ব্যবসায়ীর একটি রাখা বিকল্প কেনা. সব অ্যাকাউন্টগুলি, ব্যবসায়ী যাইহোক, ব্যবসায়ী যথেষ্ট অধিকার ছিল না, স্টক $ 2.75 করে পড়ে নি, অধিকার ছিল. স্টক breakeven যাও $ 47.06 অন্তত $ 2.94 করে নিম্ন সরানো প্রয়োজন.
+
+\n nComplete ক্ষতি
+\n স্টক থাকেন মেয়াদ দ্বারা করা বিকল্প চুক্তি ধর্মঘট দাম কম সরানো হয়নি, বিকল্প ব্যবসায়ী তাদের সমগ্র প্রিমিয়াম $ 0.44 প্রদত্ত হারাবে. স্টক সরানো পর্যন্ত যদি অনুরূপভাবে,, এটি উর্ধ্বগামী সরানো কতটা দ্বারা irrelavent তারপর অপশন ব্যবসায়ী এখনও বিকল্পের জন্য দেওয়া $ 0.44 হারাবে. (- $ 0.44 এক্স 100 শেয়ার / চুক্তি) ঐ দুটি পরিস্থিতিতে হয় ইন, ব্যবসায়ী $ 44 হারিয়েছে করবে."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/put2b.xml -->

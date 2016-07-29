@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="निम्नलिखित पिछले पृष्ठ पर दिए गए उदाहरण में डाल विकल्प के लिए समय सीमा समाप्ति पर लाभ / हानि ग्राफ है."/>
+    <ImageView 
+        android:src="@drawable/put2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break-even
+\nThe breakeven बिंदु एक डाल विकल्प के लिए गणना करने के लिए काफी आसान है:
+\n \n
+Breakeven स्टॉक मूल्य = डाल विकल्प हड़ताल मूल्य - प्रीमियम का भुगतान
+\n \n व्यापारी $ 0.44 के लिए $ 47.50 हड़ताल कीमत डाल विकल्प खरीदा, उदाहरण देकर स्पष्ट करना. इसलिए, $ 47.50 - $ 0.44 = $ 47.06. शेयर समाप्ति से $ 47.06 तक गिर जाता है, तो व्यापारी, आयोगों / slippage को छोड़कर, breakeven जाएगा.
+\n \n
+लाभ
+n \ मुनाफे की गणना या एक डाल विकल्प पर घाटा निम्नलिखित सरल सूत्र का उपयोग करें:
+\n \n
+विकल्प लाभ / हानि = breakeven बिंदु रखो - स्टॉक मूल्य समाप्ति पर
+\nfor $ 47.06 breakeven बाधा को पार कर गया है एक बार शेयर की कीमत गिर जाता है हर डॉलर, विकल्प अनुबंध के लिए डॉलर के लाभ के लिए एक डॉलर है. शेयर समाप्ति से $ 45.00 के लिए $ 5.00 गिर जाता है तो, अगर डाल विकल्प के मालिक प्रति शेयर 2.06 $ (- समाप्ति पर 45.00 $ शेयर की कीमत $ 47.06 breakeven शेयर की कीमत) करना होगा. तो कुल, व्यापारी $ 206 ($ 2.06 x 100 शेयरों / अनुबंध) बना दिया जाएगा.
+\n \n
+आंशिक हानि
+\n समाप्ति से $ 47.25 पर बंद $ 2.75 की कमी आई शेयर मूल्य रखते हैं, विकल्प व्यापारी पैसे खो जाएगा. (- $ 47.25 शेयर की कीमत $ 47.06 breakeven शेयर मूल्य) इस उदाहरण के लिए, व्यापारी अनुबंध के अनुसार 0.19 $ खो दिया होता. (- $ 0.19 x 100 शेयरों / अनुबंध) इसलिए, काल्पनिक व्यापारी 19 $ खो दिया होता.
+
+\n संक्षेप वे शेयर गिर करने के लिए जा रहा था कि सोचा था कि इस वजह से आंशिक नुकसान उदाहरण में, विकल्प व्यापारी एक डाल विकल्प खरीदा. सभी खातों के द्वारा, व्यापारी हालांकि, व्यापारी पर्याप्त अधिकार नहीं था, शेयर $ 2.75 से गिर गया, सही था. शेयर breakeven करने के लिए $ 47.06 के लिए कम से कम $ 2.94 से कम करने के लिए कदम की जरूरत है.
+
+\n Complete हानि 
+\n स्टॉक रखते समाप्ति से डाल विकल्प अनुबंध की हड़ताल मूल्य से कम कदम नहीं था, विकल्प व्यापारी अपने पूरे प्रीमियम $ 0.44 भुगतान खो देगा. शेयर ऊपर चले गए इसी तरह, अगर यह ऊपर की ओर ले जाया कितना द्वारा irrelavent, तो विकल्प व्यापारी अभी भी विकल्प के लिए भुगतान $ 0.44 खोना होगा. (- $ 0.44 x 100 शेयरों / अनुबंध) उन दो परिस्थितियों में से किसी में, व्यापारी 44 $ खो दिया होता."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/put2h.xml -->

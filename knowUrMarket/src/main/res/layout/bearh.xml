@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="मंदी Engulfing कैंडलस्टिक पैटर्न आमतौर पर एक uptrend के शीर्ष पर होने वाली, एक मंदी उलटा पैटर्न है. पैटर्न दो कैंडलस्टिक्स के होते हैं:
+\n
+\nछोटे तेजी मोमबत्ती(1 दिन) 
+\n बड़ी मंदी मोमबत्ती (2 दिन)"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/bear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:textSize="15dp"
+        android:text="आम तौर पर, दिन 1 की तेजी मोमबत्ती असली शरीर
+दिन 2 की मंदी मोमबत्ती की असली शरीर के भीतर निहित है.
+\n
+दिन 2 पर बाजार अंतराल (तेजी साइन); लेकिन, बैल नीचे सुबह की खुली से अंतराल में भरने, लेकिन यह भी पिछले दिन की खुली नीचे कीमतों धक्का नहीं केवल, भालू से अधिक लेने से पहले बहुत दूर उच्च धक्का और आगे नीचे कीमतों धक्का नहीं है.
+\n
+तेजी Engulfing पैटर्न के साथ, दिन के निचले स्तर पर बंद हुआ है कि बड़ी मंदी की असली शरीर मोमबत्ती के लिए खुले में तेजी अंतराल, से भावना का एक अविश्वसनीय बदलाव नहीं आया है. भालू सफलतापूर्वक अगले कुछ अवधि के लिए संभवतः दिन के लिए बैल से आगे निकल गए हैं."/>
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/bear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Bearish Engulfing Sell Signal
+मंदी Engulfing पैटर्न का उपयोग कर बेचने के लिए \nthree तरीके सबसे रूढ़िवादी करने के लिए सबसे आक्रामक के क्रम में नीचे सूचीबद्ध हैं:
+\n
+\n( खंड देखें) की कीमत में गिरावट का बड़ा कदम के साथ जुडा हुआ है कि मात्रा में पर्याप्त वृद्धि हुई है जब 2 दिवस की समाप्ति पर \n sell बेचने के लिए एक भी मजबूत संकेत दिया है.
+\n  मंदी Engulfing पैटर्न के बाद दिन पर Nsell तब होता है; बेचने के लिए अगले दिन तक इंतजार कर से, एक व्यापारी मंदी उलटा पैटर्न असली के लिए है और सिर्फ एक एक दिन घटना नहीं था कि यकीन कर रहा है. बिक्री जारी है क्योंकि Verizon के ऊपर चार्ट में, एक व्यापारी शायद मंदी Engulfing पैटर्न के बाद दिन में प्रवेश किया जाएगा.
+\n  बेचने के क्रम में प्रवेश करने से पहले इस तरह के ऊपर की ओर समर्थन रेखा से नीचे एक मूल्य तोड़ के रूप में अन्य संकेतों के लिए \n Usually ट्रेडर का इंतजार,. हालांकि, ऊपर Verizon के मामले में मंदी Engulfing पैटर्न समर्थन नीचे ट्रेंडलाइन तोड़ के रूप में एक ही समय में हुई."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

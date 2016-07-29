@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="A Bull Call Spread, also known as a call debit spread, is a bullish strategy involving two call option strike prices:
+\n
+1. Buy one at-the-money or out-of-the money call.
+\n2. Sell one call further away from the money than the call purchased.
+\n\nA trader would use a Bull Call Spread in the following hypothetical situation:
+
+\n1. A trader is very bullish on a particular stock trading at $50.
+\n2. The trader is either risk-averse, wanting to know before hand their maximum loss or wants greater leverage than simply owning stock.
+\n3. The trader expects the stock to move above $52.92 but not higher than $55.00 in the next 30 days."/>
+    <ImageView 
+        android:src="@drawable/bcs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Buy One Call - Sell One Call
+\nGiven those expectations, the trader selects the $52.50 call option strike price to buy which is trading for $0.60. For this example, the trader will buy only 1 option contract (Note: 1 contract is for 100 shares) so the total cost will be $60 ($0.60 x 100 shares/contract).
+\n
+Also, the trader will sell the further out-of-the money call strike price at $55.00. By selling this call, the trader will receive $18 ($0.18 x 100 shares/contract). The net effect of this transaction is that the trader has paid out $42 ($60 paid - $18 received).
+\n
+In this situation, the trader is bullish: for example, the price chart shows very bullish action (stock is moving upwards); the trader might have used other technical or fundamental reasons for being bullish on the stock.
+\n\n
+Risk Defined and Profit Defined
+\nWhen a Bull Call Spread is purchased, the trader instantly knows the maximum amount of money they can possibly lose and the maximum amount of money they can make. The max loss is always the premium paid to own the option contract minus the premium received from the off-setting call option sold; in this example, $42 ($60 - $18).
+\n
+Whether the stock falls to $5 or $50 a share, the call option holder will only lose the amount they paid for the option spread ($42). This is the risk-defined benefit often discussed about as a reason to trade options. Similarly, the Bull Call Spread is profit-defined as well. The max the trader can make from this trade is $208. How this max profit is calculated is given in detail on the Bull Call Spread profit and loss graph on the next page.
+\n\n
+Bull Call Spread requires Accurate Predictions
+\nThe important part about selecting an option strategy and option strike prices, is the trader's exact expectations for the future. If the trader expects the stock to move higher, but only $1 higher, then buying the $52.50/$55.00 Bull Call Spread would be foolish. This is because at expiration, if the stock price is anywhere below $52.50, whether it be $20 or $52.49, the spread strategy will expire worthless. Therefore, if a trader was correct on their prediction that the stock would move higher by $1, they would still have lost."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/bcs.xml -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KYM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="clickGame">game</string>
+    <string name="clickTutorial">tutorial</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_front">FrontActivity</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_activity1">LoginActivity1</string>
+    <string name="tRegistration">reg</string>
+    <string name="tL">login</string>
+    <string name="DoReg">doReg</string>
+    <string name="Logout">logout</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="title_activity_hot_picks">HotPicksActivity</string>
+    <string name="title_activity_nifty">NiftyActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_balance">BalanceActivity</string>
+    <string name="title_activity_buy_sell">BuySellActivity</string>
+    <string name="title_activity_curreny">CurrenyActivity</string>
+    <string name="title_activity_portfolio">PortfolioActivity</string>
+    <string name="title_activity_quotation">QuotationActivity</string>
+    <string name="title_activity_market_watch">MarketWatchActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_order_book">OrderBookActivity</string>
+    <string name="doRefresh">doRefresh</string>
+    <string name="buysell">onClickBuy</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="title_activity_trade_book">TradeBookActivity</string>
+    <string name="title_activity_trade">TradeActivity</string>
+    <string name="title_activity_stock_value">StockValueActivity</string>
+    <string name="title_activity_display_result">DisplayResultActivity</string>
+    <string name="clickRefresh">onClickRefresh</string>
+    <string name="clicksell">doClickSell</string>
+    <string name="hell">hello</string>
+    <string name="onClickReset">onClickReset</string>
+    <string name="onClickDel">onClickDel</string>
+    <string name="title_activity_launch">KnowUrMarket</string>
+    <string name="title_activity_game_splash">GameSplashActivity</string>
+    <string name="onClickPlay">onClickPlay</string>
+    <string name="onClickInst">onClickInst</string>
+    <string name="onClickAbout">onClickAbout</string>
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">Close</string>
+    <string name="tech">Technical Indicators</string>
+    <string name="onClickForgot">onClickForgot</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="onClickConfirm">onClickConfirm</string>
+    <string name="doLoad">doLoad</string>
+    <string name="doNew">doNew</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="तेजी Engulfing कैंडलस्टिक पैटर्न आम तौर पर गिरावट के तल पर होने वाली, एक तेजी उत्क्रमण पैटर्न है. पैटर्न दो कैंडलस्टिक्स के होते हैं:
+
+\nछोटे मंदी मोमबत्ती(1 दिन) 
+\n बड़ी तेजी मोमबत्ती (2 दिन)"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/bull1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="
+दिन 1 की मंदी मोमबत्ती असली शरीर आम तौर पर दिन 2 की तेजी मोमबत्ती की असली शरीर के भीतर निहित है.
+\n
+दिन 2 पर, बाजार अंतराल नीचे; बैल से अधिक लेने से पहले हालांकि, भालू बहुत दूर नहीं मिलता है और उच्च कीमतों धक्का, नीचे पिछले दिन की खुली अतीत सुबह की खुली और धकेलने की कीमतों से अंतराल में भरने.
+\n
+तेजी Engulfing पैटर्न की शक्ति दिन के उच्च स्तर पर बंद कर देता है कि एक बड़ी तेजी वास्तविक शरीर मोमबत्ती को सुबह में एक मंदी के अंतराल के नीचे से भावना का अविश्वसनीय परिवर्तन से आता है. भालू उनके स्वागत overstayed है और बैल बाजार का नियंत्रण कर लिया है."/>
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/bull2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bullish Engulfing Buy Signal
+\n There तेजी Engulfing पैटर्न का उपयोग कर खरीदने के लिए तीन मुख्य बार कर रहे हैं; नीचे प्रस्तुत कर रहे हैं कि खरीदें संकेतों सबसे रूढ़िवादी करने के लिए सबसे आक्रामक से आदेश दिए हैं:
+
+\n  कीमतों सुबह में खाई से ऊपर की ओर नीचे लामबंद दिन जब 2 की समाप्ति पर nBuy. कीमत में वृद्धि की बड़ी चाल के साथ कि मात्रा में पर्याप्त वृद्धि हुई थी, तो दिन के 2 पर रैली महत्वपूर्ण और बाजार के भावों का सही मायने में एक उलट था कि एक मजबूत संकेत, (: खंड देखें) है.
+\n तेजी Engulfing पैटर्न के बाद दिन पर nBuy तब होता है; खरीदने के लिए अगले दिन तक इंतजार कर से, एक व्यापारी से पहले दिन की तेजी उलट और उत्साह को जारी रखने और एक शॉर्ट कवरिंग रैली की तरह सिर्फ एक एक दिन घटना नहीं था है कि यकीन कर रहा है. बाजार काफी नीचे gapped और भी नए चढ़ाव बना क्योंकि जासूस के ऊपर चार्ट में, एक व्यापारी की संभावना तेजी Engulfing पैटर्न के बाद दिन पर लंबे समय से बाजार में प्रवेश नहीं करेंगे. कार्यप्रणाली # 2 का उपयोग कर एक व्यापारी, संभावना इस तरह अगले विधि # 3 में प्रस्तुत एक के रूप में एक और अधिक ठोस खरीदें संकेतों के लिए इंतजार करना होगा.
+\n After एक व्यापारी व्यापारी एक खरीद आदेश में प्रवेश करने से पहले, मुख्य रूप से एक मूल्य तोड़ नीचे प्रतिरोध रेखा से ऊपर, एक और संकेत के लिए इंतजार करना होगा तेजी Engulfing पैटर्न, देखता है."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

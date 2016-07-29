@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView android:textStyle="bold" 
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:text="Playing the bands is based on the premise that the vast majority of all closing prices should be between the Bollinger Bands. That stated, then a stock's price going outside the Bollinger Bands, which occurs very rarely, should not last and should 'revert back to the mean', which generally means the 20-period simple moving average. A version of this strategy is discussed in the book Trade Like a Hedge Fund by James Altucher."/>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv3"/>
+             <TextView android:textStyle="bold"
+                 android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Buy Signal
+\nIn the example shown in the chart below of the E-mini SnP 500 Future, a trader buys or buys to cover when the price has fallen below the lower Bollinger Band.
+\nSell Signal
+\nThe sell or buy to cover exit is initiated when the stock, future, or currency price pierces outside the upper Bollinger Band." />
+       
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>

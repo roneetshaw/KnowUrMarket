@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="
+$ VIX এস ও পি 500 সূচক বিকল্প 30 দিনের বার্ষিক উহ্য অবিশ্বাস করে. উপরন্তু, $ VXN Nasdaq 100 সূচক বিকল্প 30 দিনের বার্ষিক উহ্য অবিশ্বাস করে. বাজারের বিপর্যস্ত বা দ্রুত নিম্নগামী সরানো হলে, বিকল্প জনপ্রিয় হয়ে করা. ব্যবসায়ীরা উহ্য অবিশ্বাস স্তর বৃদ্ধি হিসাবে নিজেকে টেপা যা এইসব করা অপশনের মূল্য, আপ বিড; একটি $ VIX বৃদ্ধি এবং $ VXN সূচী এইভাবে. স্টক ও সূচক মূল্য এবং $ VIX এবং $ VXN মধ্যে মৌলিক সম্পর্ক পরবর্তী প্রস্তুত করা হয়:
+
+\nWhen দাম, $ VIX পড়ে এবং $ VXN ইনডেক্সে ওঠা.
+দাম ওঠা যখন \n বিপরীতে,, $ VIX এবং $ VXN ইনডেক্সে পড়ে.
+\n\n মৌলিক সম্পর্ক একটি বিখ্যাত ব্যবসায়ীদের 'কথা:' দ্বারা সংকলিত আপ VIX বেশী হলে তা কিনতে সময়; VIX কম যখন এটি যেতে সময়. '
+\n\n
+এস এবং পি 500 বিনিময় নিম্নলিখিত চার্ট ফান্ড (গুপ্তচর) ব্যবসা, লেখচিত্র উপরের অর্ধেক, এটা এবং $ VIX উদ্বায়ীতামূলক মধ্যে বিপরীত সম্পর্ক দেখায় সূচক, চার্ট নীচে অর্ধেক:"/>
+    <ImageView 
+        android:src="@drawable/vix1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="এস এবং পি 500 দাম একটি Uptrend $ VIX স্তর একটি downtrend দ্বারা সঙ্গে লক্ষ্য করুন কিভাবে.
+\n\n
+Nasdaq 100 বিনিময় পরবর্তী লেখচিত্র (QQQQ) $ VXN spikes উচ্চতর যখন মহান কেনার সুযোগ হয় দেখায় কিভাবে তহবিল ব্যবসা:"/>
+    
+    <ImageView 
+        android:src="@drawable/vix2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIX এবং VXN এখনই সংকেত
+\nWhen $ VIX বা $ VXN গজাল (একই সময়ে সাধারণত তারা উভয় গজাল) কিনতে. ইতিহাসে এটা $ VIX কেনা, প্রায়ই কাজ করেনি এবং $ VXN spikes বেশ লাভজনক প্রমাণিত হয়েছে, যা পুনরাবৃত্তি নিজেই যদি. যাইহোক, মিউচুয়াল ফান্ড মন্ত্রকে প্রযোজ্য: 'অতীত পারফরম্যান্স ভবিষ্যতে কর্মক্ষমতা ইঙ্গিতবহ নয়'."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/vixb.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="धुरी अंक संभावित समर्थन और प्रतिरोध स्तरों परियोजना के लिए उपयोग किया जाता है. इस्तेमाल समय अवधि दैनिक, साप्ताहिक, और मासिक pivots हैं. दैनिक बिंदु धुरी, समर्थन, और प्रतिरोध के लिए सूत्र नीचे दिखाया गया है:
+
+\n \nPivot प्वाइंट = [कल की उच्च + कल की कम + कल के बंद] / 3
+\n \n ना मिनी डॉव वायदा अनुबंध और इसी मंजिल व्यापारी pivots के 15 मिनट के चार्ट नीचे दिखाई जाती हैं:"/>
+    <ImageView 
+        android:src="@drawable/pivot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support Levels
+\nS1 = [धुरी प्वाइंट * 2] - कल की बारिश
+\nS2 = धुरी प्वाइंट - कल की उच्च + कल की कम
+\nS3 = S2 - कल की उच्च + कल की कम
+\n Resistance स्तर \
+\nR1 = [धुरी प्वाइंट * 2] - कल की कम
+\nR2 = धुरी प्वाइंट + कल की उच्च - कल की कम
+\nR3 = R2 + कल की उच्च - कल की कम
+\n \n बस 'पिछले सप्ताह' या 'के साथ कल की' की जगह, साप्ताहिक या मासिक संख्या की गणना 'पिछले महीने' उच्च या कम."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/pivoth.xml -->

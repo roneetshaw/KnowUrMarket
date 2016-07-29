@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Am I required to sign any agreement with the broker or sub-broker?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes. For the purpose of engaging a broker to execute trades on your behalf from time to time and furnish details relating to yourself for enabling the broker to maintain client registration form you have to sign the 'Member - Client agreement' if you are dealing directly with a broker. In case you are dealing through a sub-broker then you have to sign a 'Broker - Sub broker - Client Tripartite Agreement'. Model Tripartite Agreement between Broker-Sub broker and Clients is applicable only for the cash segment. " />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to choose a stock"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Having understood the markets, it is important to know how to go about selecting a company, a stock and the right price. A little bit of research, some smart diversification and proper monitoring will ensure that things seldom go wrong. 
+\nIt's not that difficult: Just follow these 4 golden rules. And while you are at it, why don't you also check out How to buy low, sell high." />
+	<TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How much to invest?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Since equities are high risk, high return instruments, how much you should invest would really depend on how much risk you can tolerate. Take this quiz to find out what your risk profile is.
+\n
+Once you have done that, use this asset allocation test to calculate exactly how much of your savings you should invest in equities."/>
+    
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are Bonus Shares?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonus shares are shares issued by the companies to their shareholders free of cost by capitalization of accumulated reserves from the profits earned in the earlier years."/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do I know if the broker or sub broker is registered?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can confirm it by verifying the registration certificate issued by SEBI. A broker's registration number begins with the letters 'INB' and that of a sub broker with the letters 'INS'. For the brokers of derivatives segment, the registration number begins with the letters 'INF'. There is no sub-broker in the derivatives segment."/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are CRR and SLR with respect to banks?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRR or cash reserve ratio is the minimum proportion / percentage of a bank's deposits to be held in the form of cash. Banks actually don't hold these as cash with themselves, but deposit the same with RBI / currency chests, which is considered equivalent to holding cash with themselves.
+\n
+When a bank's deposits increase by Rs. 100 crore, and considering the present cash reserve ratio of 6%, bank will have to hold additional Rs. 6 crore with RBI and will be able to use only Rs. 94 crore for investments and lending. Therefore, higher the CRR, lower the amount that banks can lend. Thus RBI can control the liquidity by changing the CRR i.e. increase CRR to reduce the lendable amount and vice-versa.
+\n
+SLR or statutory liquidity ratio is the minimum percentage of deposits that a bank has to maintain in form of gold, cash or other approved securities. It is the ratio of liquid assets (cash and approved securities) to the demand and term liabilities / deposits.
+\n
+RBI is empowered to increase this ratio up to 40%. An increase in SLR restricts the bank's leverage position to pump more money into the economy, thereby regulating credit growth."/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/faqs.xml -->

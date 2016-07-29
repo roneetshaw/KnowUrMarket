@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="A Bear Put Spread, also known as a put debit spread, is a bearish strategy involving two put option strike prices:
+\n
+1. মানি-এ বা অপ্রচলিত টাকা করা এক কিনুন
+\n 2. রাখা ক্রয় তুলনায় আরও দূরে টাকা থেকে এক করা শোনে
+\n \n A ব্যবসায়ী নিম্নলিখিত প্রকল্পিত অবস্থায় ছড়িয়ে দিন একটি বিয়ার রাখুন ব্যবহার করেন:
+\n 
+1. একজন ব্যবসায়ী $ 50 এ একটি নির্দিষ্ট স্টক ট্রেডিং খুব অভদ্র হয়.
+\n 2. ব্যবসায়ীর হাত তাদের সর্বোচ্চ ক্ষতি করার আগে জানতে অনুপস্থিত, ঝুঁকি বিমুখ হয় অথবা শুধুমাত্র স্টক মালিক তার চেয়ে অনেক বেশী লিভারেজ চায়.
+\n 3. ব্যবসায়ী স্টক $ 47.15 কিন্তু পরবর্তী 30 দিনের মধ্যে না নিম্ন তুলনায় $ 45.00 নীচের সরাতে আশা."/>
+    <ImageView 
+        android:src="@drawable/bps1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Buy One Put - Sell One Put
+\n Given যারা প্রত্যাশা, ব্যবসায়ী $ 0.44 জন্য বিক্রী হয়, যা কিনতে $ 47,50 করা বিকল্প ধর্মঘট দাম নির্বাচন করা হয়. এই উদাহরণস্বরূপ, ব্যবসায়ী মাত্র 1 বিকল্প চুক্তি (দ্রষ্টব্য: 1 চুক্তি 100 শেয়ারের জন্য হয়) কিনতে হবে যাতে মোট খরচ $ 44 ($ 0.44 এক্স 100 শেয়ার / চুক্তি) হতে হবে.
+\n 
+এছাড়াও, ব্যবসায়ী $ 45.00 এ আরও অপ্রচলিত টাকা রাখা ধর্মঘট দাম বিক্রি হবে. এই করা বিক্রি করে, ব্যবসায়ী $ 9 ($ 0.09 এক্স 100 শেয়ার / চুক্তি) পাবেন. এই লেনদেনের নেট প্রভাব ব্যবসায়ী $ 35 (- $ 9 প্রাপ্তি দেওয়া $ 44) পরিশোধিত হয়েছে.
+\n  \n 
+ঝুঁকি নির্দিষ্ট এবং লাভ নির্দিষ্ট
+একটি বিয়ার রাখুন ছড়িয়ে কেনা হয় \nWhen, ব্যবসায়ীর সঙ্গে সঙ্গে তারা সম্ভবত হারাতে পারেন টাকা সর্বাধিক পরিমাণ এবং তারা তুলতে পারে অর্থের সর্বোচ্চ পরিমাণ জানেন. সর্বোচ্চ ক্ষতি সবসময় বিকল্প চুক্তি বিয়োগ বিক্রি অফ সেটিং করা অপশন থেকে প্রাপ্ত প্রিমিয়াম মালিক প্রদত্ত প্রিমিয়াম হয়; এই উদাহরণে, $ 35 ($ 44 - $ 9).
+\n
+স্টক $ 95 বা $ 55 একটি ভাগ রি কিনা, করা বিকল্প ধারক শুধুমাত্র তারা বিকল্প বিস্তার ($ 35) জন্য দেওয়া পরিমাণ নষ্ট হয়ে যাবে. এই প্রায়ই অপশন বাণিজ্য একটি কারণ হিসেবে বিষয়ে আলোচনা ঝুঁকি বর্ণিত সুবিধা. একইভাবে, বিয়ার রাখুন ছড়িয়ে লাভ বর্ণিত হিসাবে ভাল হয়. ব্যবসায়ী এই ট্রেড থেকে করতে পারেন সর্বোচ্চ $ 215 হয়. কিভাবে এই সর্বোচ্চ মুনাফা পরের পেজে বিস্তারিতভাবে দেওয়া হয় গণনা করা হয়.
+\n\n
+সহ্য রাখুন ছড়িয়ে সঠিক ভবিষ্যতবাণী প্রয়োজন
+\n একটি বিকল্প কৌশল এবং বিকল্প ধর্মঘট দাম নির্বাচন সম্পর্কে পরিকাঠামেগত গুরুত্বপূর্ণ অংশ, ভবিষ্যতের জন্য ব্যবসায়ী এর সঠিক প্রত্যাশা করে. ব্যবসায়ী স্টক কম অগ্রসর আশা, কিন্তু শুধুমাত্র $ 1 কম, তাহলে $ 47,50 / $ 45.00 বিয়ার রাখুন ছড়িয়ে গবা হবে কিনছেন. স্টক মূল্য এটা $ 125 বা $ 47,51 হবে কিনা, যে কোন স্থানে $ 47,50 উপরে যদি মেয়াদ এ, ছড়িয়ে কৌশল অখাদ্য মেয়াদ শেষ হবে কারণ হল. একজন ব্যবসায়ীর স্টক $ 1 দ্বারা নিম্ন সরাতে হবে তাদের ভবিষ্যদ্বাণী সঠিক ছিল অতএব, যদি, এখনও তারা হারিয়েছে করবে."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/bpsb.xml -->

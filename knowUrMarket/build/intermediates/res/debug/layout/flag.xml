@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Flag pattern usually occurs after a significant up or down market move. After a strong move, prices usually need to rest. This resting period usually occurs in the shape of a rectangle, thus the word 'flag'. The Flag is considered a continuation pattern because after resting, prices will usually continue in the direction they did before.
+\n\n
+The chart of eBay (EBAY) shows many Flag patterns:"/>
+    <ImageView 
+        android:src="@drawable/flag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flag Buy Signal\n
+When price has moved higher and prices have consolidated, creating a channel of support and resistance, a buy signal is given when prices penetrate and close above the upward resistance line.
+\n\n
+Flag Sell Signal\n
+Assuming prices previously moved downward, then after a period of price consolidation, a sell signal is given when price penetrates and closes below the support line."/>
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/flag.xml -->

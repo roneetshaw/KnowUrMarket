@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Head and Shoulders"/>
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="হেড ও কাঁধ চার্ট প্যাটার্ন সহজেই বোঝা এখনই এবং সংকেত বিক্রয়, দান একটি প্রচন্ডভাবে ব্যবহার করা হয় এবং বেশ লাভজনক charting প্যাটার্ন.
+
+হোম ডিপো (এইচডি) এর চার্ট নিচে একটি হেড ও কাঁধ প্যাটার্ন দেখায়:"/>
+    <ImageView 
+        android:src="@drawable/hns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="Head and Shoulders Components
+\n1 টি. বাম কাঁধে: Bulls ঊর্ধ্বমুখী নতুন highs তৈরীর দাম ধাক্কা; তবে এই নতুন highs স্বল্প বসবাস করতেন এবং দাম পশ্চাদপসরণ করা হয়.
+\n2. হেড: Bulls অন্য রান করতে, কারণ বর্ণনা এই সময় পদানুবর্তী এবং পূর্ববর্তী উচ্চ টপকানোর, দীর্ঘ জন্য পশ্চাদপসরণ না; একটি bullish সাইন. বর্ণনা শুধুমাত্র এখনো আবার সমর্থন খুঁজে পেতে, আবার পশ্চাদপসরণ.
+\n3. ডান কাঁধ: Bulls আবার উচ্চতর ধাক্কা, কিন্তু এই সময় একটি উচ্চতর উচ্চ করতে ব্যর্থ. বহন Bulls একটি সমান উচ্চ এমনকি একটি উচ্চতর নতুন বা করার অনুমতি প্রদান করা হয়নি, কারণ এই, খুব অভদ্র হয়. বহন ফিরে সমর্থন (নিশ্চিতকরণ লাইন) থেকে দামের ধাক্কা; এই একটি কেঁদ্রগত মুহূর্ত - Bulls অন্য উচ্চতর ধাক্কা বা বহন উচ্চতর সরানো বাঁধন মধ্যে সাফল্যের সাথে সম্পন্ন করা হবে.
+\n\nHead\n এবং কাঁধ সংকেত বিক্রয়
+\n থাকেন মূল্য নিশ্চিতকরণ সমর্থন লাইন বিরতি, এটা বহন ভারপ্রাপ্ত যে স্পষ্ট; মূল্য নিশ্চিতকরণ রেখার নিচের প্রচেষ্টা যখন এইভাবে,, একটি শক্তিশালী বিক্রয় সংকেত দেওয়া হয়.
+\n\n
+একটি নিম্নগামী নিচু নিশ্চিতকরণ লাইন সাধারণত একটি নিম্নগামী নিচু নিশ্চিতকরণ লাইন দাম কম lows তৈরি করছেন মানে হল যে প্রধানত কারণ, একটি অধিক শক্তিশালী হেড ও কাঁধ প্যাটার্ন হিসেবে দেখা হয় উল্লেখ্য."/>
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="বিপরীত হেড ও কাঁধ"/>
+    <ImageView 
+        android:src="@drawable/hns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="নিম্নরূপ একটি হেড ও কাঁধ প্যাটার্ন পিছনে যুক্তি হল:
+
+\n1 টি. কাঁধ বাম: ভালুক কৃত নতুন lows তৈরীর দাম ধাক্কা; তবে, Bulls সামান্য উচ্চ ফিরে এবং দাম ধাক্কা শুরু.
+\n2. হেড: মূল্য লাভ বহন ফিরে আগে দীর্ঘ স্থায়ী এবং আগের চেয়ে অনেক কম দামের ধাক্কা না; একটি অভদ্র সাইন. বর্ণনা তারপর নতুন কম দামে ক্রেতা খুঁজে.
+\n3. ডান কাঁধ: বহন আবার নিম্নগামী ধাক্কা, কিন্তু এই সময় কম কম করতে ব্যর্থ. সাধারণত হিসাবে bullish সাইন দেখা হয়, বহন আরও নিচে দাম ধাক্কা করতে পারিনি. দাম ফিরে সমর্থন (নিশ্চিতকরণ লাইন) থেকে উচ্চতর push করা হয় যখন ডিসিশন সময় দেখা দেয়; বহন ফিরে নিচে দাম ধাক্কা হবে বা ষাঁড় স্টক, ভবিষ্যত, বা মুদ্রা জোড়া নিয়ন্ত্রণ পুন: প্রাপ্তি, উচ্চ দামের ধাক্কা হবে হয়.
+\n\nReverse হেড ও কাঁধ এন সংকেত কিনুন
+\n\nWhen মূল্য নিশ্চিতকরণ রেখার উপরের প্রচেষ্টা, একটি শক্তিশালী এখনই সংকেত দেওয়া হয়.
+\n\n
+সাধারণত একটি উর্ধ্বগামী নিচু নিশ্চিতকরণ লাইন একটি উর্ধ্বগামী নিচু নিশ্চিতকরণ লাইন দাম উচ্চতর highs তৈরি করছেন মানে হল যে প্রধানত কারণ, একটি অধিক শক্তিশালী বিপরীত হেড ও কাঁধ প্যাটার্ন হিসাবে দেখা হয়."/>
+    
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="ভলিউম এবং হেড ও কাঁধ"/>
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="একটি হেড ও কাঁধ প্যাটার্ন নিশ্চিতকরণ লাইন downside হয় করতে ভঙ্গ করা হলে, ভলিউম বৃহৎ পরিমাণ যেমন ঘটা উচিত.
+\n\n
+জেনারেল ইলেকট্রিক (জিই) এর নিচের চার্ট হেড ও কাঁধ প্যাটার্ন নিশ্চিতকরণ লাইন ভাঙ্গা ছিল যখন আয়তনের একটি ধারালো বৃদ্ধি দেখায়:"/>
+    <ImageView 
+        android:src="@drawable/hns3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আয়তনের ধারালো বৃদ্ধি ছাড়াও, জি এর চার্ট ফাঁক নিচে এছাড়াও নিশ্চিতকরণ লাইন ফুটো করা হয় যখন বিক্রি করার দৃঢ় ইঙ্গিত দিয়েছেন.
+\n\n
+একই ধারণা একটি বিপরীত হেড ও কাঁধ প্যাটার্ন প্রযোজ্য, নিশ্চিতকরণ লাইন ভেঙ্গে ভলিউম বৃদ্ধি দ্বারা অনুষঙ্গী করা উচিত.
+\n\n
+গোল্ড ফিউচার এর নিচের চার্ট নিশ্চিতকরণ লাইন ফুটো করা হয় যখন ভলিউম একটি বৃদ্ধি প্রকাশ:"/>
+
+    <ImageView 
+        android:src="@drawable/hns4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

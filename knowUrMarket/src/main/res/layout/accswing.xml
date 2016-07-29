@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Developed by Welles Wilder in his popular technical analysis book New Concepts in Technical Trading Systems, the Accumulative Swing Index (ASI) is mainly used as a divergence and confirmation tool, but can be used for buy and sell signals as well.\nIt was designed to be used for futures trading, but can be used for stock trading and currency trading too.\n\nBasically, the Accumulative Swing Index is a running total of the Swing Index"/>
+    <ImageView 
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Signal - Accumulative Swing Index\n
+Buy when Accumulative Swing Index breaks above a downward trendline or, in a price consolidation period, above resistance.
+\n\n
+Sell Signal - Accumulative Swing Index\n
+Sell when the Accumulative Swing Index breaks below an upward trendline or, in a price consolidation period, below support."/>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

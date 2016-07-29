@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Doji Bulls এবং বহন মধ্যে ভাব বোধক, একটি শক্তিশালী পিলসুজ গঠন হয়. একটি Doji বেশ প্রায়ই নীচে এবং প্রবণতা শীর্ষে পাওয়া যায় এবং এইভাবে দাম দিক সম্ভাব্য উলটাপালটা একটি চিহ্ন হিসেবে গণ্য করা হয়, কিন্তু Doji. \n পাশাপাশি একটি ধারাবাহিক প্যাটার্ন হিসেবে দেখা যাবে"/>
+    <ImageView 
+        android:src="@drawable/doji1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="একটি Doji খোলার মূল্য এবং বন্ধের দাম সমান যখন গঠিত হয়. প্রায়ই একটি 'রিকশা ম্যান' নামে একটি দীর্ঘ পদ Doji, উচ্চ এবং নিম্ন ছায়া অনেক আর নিয়মিত Doji গঠনের চেয়ে আছে, ব্যতীত একটি Doji হিসাবে একই.
+\n
+Doji যেমন ভাব প্রতিনিধিত্ব করে কেন Doji প্যাটার্ন তৈরির প্রকাশ করে. ওপেন করার পর, Bulls শুধুমাত্র দাম প্রত্যাখ্যাত এবং বহন করে নিম্ন push করা জন্য দাম ধাক্কা. তবে, বহন কম দাম রাখা অক্ষম, এবং Bulls তারপর খোলার দাম ফিরে দামের ধাক্কা.
+\n
+অবশ্যই, একটি Doji নিম্ন প্রথম এবং দিন শুরু যেখানে তারপর উচ্চতর দ্বিতীয় তবুও,, উভয় ক্ষেত্রেই, বাজারে ফিরে প্রচেষ্টা চলন্ত দাম দ্বারা গঠিত হতে পারে."/>
+    
+    <ImageView 
+        android:src="@drawable/doji2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="একটি Doji প্যাটার্ন সালে বাজারে উভয় উর্ধ্বগামী এবং নিম্নগামী তার বিকল্প প্রতিবেদক, কিন্তু উপায় হয় কমিট করতে পারবেন না. একটি দীর্ঘ Uptrend পর, Doji দ্বারা উদ্ভিন্ন এই ভাব নিজের অবস্থান থেকে প্রস্থান করার জন্য একটি সময় হিসাবে দেখা, বা অন্তত ফিরে আকার পরিবর্তন করা যায়নি. একইভাবে, নিজের অবস্থানে আকার হ্রাস বা সম্পূর্ণরূপে প্রস্থান জেনারেল ইলেকট্রিক স্টক উপরে দেখানো এক, মত একটি দীর্ঘ downtrend, পরে একটি বুদ্ধিমান পদক্ষেপ হতে পারে.
+\n \n
+এটা Doji প্যাটার্ন উলটাপালটা মানে এই নয় যে জোর দেওয়া গুরুত্বপূর্ণ, এটা ভাব মানে. Doji এর প্রায়ই কম বা উল্লেখযোগ্য পদক্ষেপ পর বিশ্রামের সময়ে পাওয়া যায়; বাজার, ঘুমানো পর, তারপর জারি চলতে. যাইহোক, একটি Doji প্যাটার্ন একটি পূর্বে প্রবণতা তার শক্তি হারানোর, এবং কিছু লাভ ভাল উপদেশ দেওয়া হতে পারে গ্রহণ করা হয় যে একটি মহান সাইন."/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/doji3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+       
+        />
+    <ImageView 
+        android:src="@drawable/doji4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+       
+        />
+    </LinearLayout>
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOJI A:
+        \nat খোলার, Bulls ভারপ্রাপ্ত ছিলেন; বহন চার্জ গ্রহণ করার আগে তবে, সকালে মিছিল দীর্ঘ শেষ না. মধ্য সকালে থেকে দেরী বৈকাল পর্যন্ত জেনারেল ইলেকট্রিক বিক্রি বন্ধ, কিন্তু দিনের শেষে, Bulls ফিরে দিন খোলার দাম জি ধাক্কা.
+
+পূর্ববর্তী পৃষ্ঠায় দ্বিতীয় Doji দৈনিক চার্ট পরের প্রদর্শিত হয়. (Doji একটি) উপরে প্রদর্শিত চার্ট তৈরি করা হয়েছে হিসাবে (Doji বি) নীচের ভিতরে দিনের চার্ট ইন, Doji সঠিক বিপরীত ভাবে তৈরি করা হয়েছে; Doji বি দ্বিতীয় highs তারপর, প্রথম তার দিন এর lows তৈরি.
+\n \n nDOJI বি: \n
+খোলার ঘণ্টা এ, বহন জিই একটি হোল্ড গ্রহণ করে, কিন্তু মধ্য সকালে দ্বারা, Bulls দিনের জন্য ইতিবাচক অঞ্চল মধ্যে জি ঠেলে, জিই এর স্টক মধ্যে প্রবেশ করানো. দুর্ভাগ্যবশত Bulls জন্য, দুপুর বহন করে ধরে নিয়ে যায় এবং নিম্ন জি ধাক্কা. দিনের শেষে, বহন সফলভাবে ফিরে দিন এর উদ্বোধনী দাম জি দাম এনেছিলেন.
+
+উপরে উপস্থিত ছিল, Doji গঠন দুটি ভিন্ন উপায়ে তৈরি করা যায়, কিন্তু Doji ব্যাখ্যার অবশেষ একই: Doji প্যাটার্ন ভাব একটি চিহ্ন, ষাঁড় কিংবা বহন ত্ত সফলভাবে নিতে পারেন."
+/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/dojib.xml -->

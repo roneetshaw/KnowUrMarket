@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="ডাবল শীর্ষ প্রযুক্তিগত বিশ্লেষণ charting প্যাটার্ন একটি সাধারণ এবং অত্যন্ত কার্যকর মূল্য উলটাপালটা প্যাটার্ন.
+\n \n
+Altria (MO) স্টক নীচের চার্ট ডাবল শীর্ষ উলটাপালটা প্যাটার্ন প্রকাশ:"/>
+    <ImageView 
+        android:src="@drawable/dt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ডাবল শীর্ষ গঠন সামগ্রী
+\n1 টি. প্রথম উচ্চ: Bulls ঊর্ধ্বমুখী নতুন highs তৈরীর দাম ধাক্কা; যাইহোক, এই নতুন highs স্বল্প বসবাস করতেন এবং দাম পশ্চাদপসরণ করা হয়.
+\n2.Second উচ্চ: Bulls একটি অনুরূপ উচ্চ, যার ফলে অন্য রান করতে, কারণ বর্ণনা দীর্ঘ জন্য পশ্চাদপসরণ না. Bulls দাম ধাক্কা করতে পারিনি, কারণ যাইহোক, এই, অভদ্র হয়; বহন পূর্ববর্তী উচ্চ পর্যায়ে তাদের মাটিতে অনুষ্ঠিত. বহন ফিরে সমর্থন (নিশ্চিতকরণ লাইন) থেকে দামের ধাক্কা; এই একটি কেঁদ্রগত মুহূর্ত - Bulls আরেকটি ধাক্কা উচ্চতর করতে হবে বা বহন নিয়ন্ত্রণ নিতে হবে এবং এমনকি কম সম্ভবত ভাল জন্য থা বেশী দামের ধাক্কা হয়.
+\n\n শীর্ষ বিক্রি \ সংকেত
+\nSell মূল্য নিশ্চিতকরণ রেখার নিচের প্রচেষ্টা যখন.
+\n \n
+ব্যবসায়ীদের নিশ্চিতকরণ লাইন বিরতি সংসর্গে আয়তনের একটি উল্লেখযোগ্য বৃদ্ধি আশা উল্লেখ্য; মূল্য নিশ্চিতকরণ রেখা ভেদ করে যখন খুব অল্প পরিমাণ আছে, তারপর সরানো নিম্নগামী সন্দেহভাজন হয়. ছোট ভলিউম সাধারণত দাম আন্দোলন দুর্বল সমর্থনের মানে"/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

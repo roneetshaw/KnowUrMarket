@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="নিম্নলিখিত পূর্ববর্তী পৃষ্ঠায় দেওয়া উদাহরণে কল বিকল্পের জন্য মেয়াদ এ লাভ / ক্ষতি গ্রাফ হয়."/>
+    <ImageView 
+        android:src="@drawable/call2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break-even
+\n পরিকাঠামেগত breakeven বিন্দু একটি কল বিকল্পের জন্য নিরূপণ করা বেশ সহজ:
+\n \n
+প্রদত্ত Breakeven স্টক মূল্য = কল অপশন স্ট্রাইক দাম + + প্রিমিয়াম
+\n চিত্রিত, ব্যবসায়ী $ 0.60 জন্য $ 52.50 স্ট্রাইক দাম কল অপশন কেনা. অতএব, $ 52,50 + $ 0,60 = $ 53,10. স্টক মেয়াদ দ্বারা $ 53.10 ছুঁয়েছে যদি ব্যবসায়ী, কমিশন / slippage ব্যতীত, breakeven করা হবে.
+\n \n
+মুনাফা
+\n লাভ নিরূপণ বা একটি কল বিকল্পের উপর লোকসান নিম্নলিখিত সহজ সূত্র ব্যবহার:
+\n \n
+মেয়াদ এ অপশন লাভ / ক্ষতি = স্টক মূল্য কল করুন - Breakeven পয়েন্ট
+\nFor $ 53.10 breakeven বাধা অতিক্রান্ত হয়েছে একবার স্টক মূল্য রি প্রতি ডলারের, বিকল্প চুক্তির জন্য ডলার লাভের জন্য একটি ডলার আছে. স্টক মেয়াদ দ্বারা $ 55.00 থেকে $ 5.00 আয় সুতরাং, যদি কল অপশন মালিক শেয়ার প্রতি $ 1.90 (- $ 53.10 breakeven স্টক মূল্য $ 55.00 স্টক মূল্য) যাবে না. সুতরাং মোট, ব্যবসায়ী $ 190 ($ 1.90 এক্স 100 শেয়ার / চুক্তি) তৈরি করে.
+\n \n
+আংশিক ক্ষতি
+\ মেয়াদ দ্বারা $ 52,75 সময়ে বন্ধ করতে $ 2.75 বৃদ্ধি স্টক মূল্য থাকেন, বিকল্প ব্যবসায়ীর টাকা হারাবে. এই উদাহরণস্বরূপ, ব্যবসায়ী (- $ 53.10 breakeven স্টক মূল্য $ 52,75 স্টক মূল্য) চুক্তির প্রতি $ 0.35 হারিয়েছে করবে. (- $ 0.35 এক্স 100 শেয়ার / চুক্তি) অতএব, প্রকল্পিত ব্যবসায়ী $ 35 হারিয়েছে করবে.
+\n \n
+তারা স্টক বেড়ে যাচ্ছে বলে মনে করা, কারণ সংক্ষেপ করা, এই আংশিক ক্ষতি উদাহরণে, বিকল্প ব্যবসায়ীর একটি কল অপশন কেনা. ব্যবসায়ী যাইহোক, ব্যবসায়ী যথেষ্ট অধিকার ছিল না, স্টক $ 2.75 দ্বারা বৃদ্ধি করেছেন, অধিকার ছিল. স্টক টাকা breakeven বা করতে $ 53.10 অন্তত $ 3.10 করে উচ্চতর সরানো প্রয়োজন.
+\n \n
+সম্পূর্ণ ক্ষতি
+\n স্টক থাকেন মেয়াদ দ্বারা বিকল্প চুক্তি ধর্মঘট দাম বেশি অগ্রসর হয়নি, বিকল্প ব্যবসায়ী তাদের সমগ্র প্রিমিয়াম $ 0.60 প্রদত্ত হারাবে. স্টক নিচে সরানো হলে অনুরূপভাবে,, এটা নিম্নগামী সরানো কতটা দ্বারা irrelavent তারপর অপশন ব্যবসায়ী এখনও বিকল্পের জন্য দেওয়া $ 0.60 হারাবে. (- $ 0.60 এক্স 100 শেয়ার / চুক্তি) ঐ দুটি পরিস্থিতিতে হয় ইন, ব্যবসায়ী $ 60 হারিয়েছে করবে. "/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/call2b.xml -->

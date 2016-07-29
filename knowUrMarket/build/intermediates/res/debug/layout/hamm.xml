@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Hammer candlestick formation is a significant bullish reversal candlestick pattern that mainly occurs at the bottom of downtrends.\n"/>
+    <ImageView 
+        android:src="@drawable/hamm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="A Gap Up occurs when the open of Day 2 is greater than the close of Day 1. Contrastly, a Gap Down occurs when the open of Day 2 is less than the close of Day 1.
+\n
+There is much psychology behind gaps. Gaps can act as:
+\n
+Resistance: Once price gaps downward, the gap can act as long-term or even permanent resistance.
+\n
+Support: When prices gap upwards, the gap can act as support to prices in the future, either long-term or permanently."/>
+    
+    <ImageView 
+        android:src="@drawable/win2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Often after a gap, prices will do what is referred to as 'fill the gap'. This occurs quite often. Think of a gap as a hole in the price chart that needs to be filled back in. Another common occurance with gaps is that once gaps are filled, the gap tends to reverse direction and continue its way in the direction of the gap (for example, in the chart above of eBay, back upwards).
+\n
+The example of eBay (EBAY) above shows the gap acting as support. Traders and investors see anything below the gap as an area of no return, after all, there was probably some positive news that sparked the gap up and is still in play for the company.
+\n
+The chart below of Wal-Mart (WMT) stock shows many instances of gaps up and gaps down. Notice how gaps down act as areas of resistance and gaps up as areas of support:"/>
+    
+     <ImageView 
+        android:src="@drawable/win3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaps are important areas on a chart that can help a technical analysis trader better find areas of support or resistance."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/hamm.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Pivot Points are used to project potential support and resistance levels. The main time periods used are daily, weekly, and monthly pivots. The formula for the daily pivot point, support, and resistance is shown below:
+
+\n\nPivot Point = [Yesterday's High + Yesterday's Low + Yesterday's Close] / 3
+\n\nA 15-minute chart of the mini-Dow futures contract and the corresponding floor trader pivots are shown below:"/>
+    <ImageView 
+        android:src="@drawable/pivot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support Levels
+\nS1 = [Pivot Point * 2] - Yesterday's High
+\nS2 = Pivot Point - Yesterday's High + Yesterday's Low
+\nS3 = S2 - Yesterday's High + Yesterday's Low
+\n\nResistance Levels
+\nR1 = [Pivot Point * 2] - Yesterday's Low
+\nR2 = Pivot Point + Yesterday's High - Yesterday's Low
+\nR3 = R2 + Yesterday's High - Yesterday's Low
+\n\nTo calculate weekly or monthly numbers, simply replace 'yesterday's' with 'last week's' or 'last month's' high or low."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/pivot.xml -->

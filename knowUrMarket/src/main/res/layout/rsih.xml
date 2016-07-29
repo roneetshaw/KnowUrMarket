@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="
+सबसे लोकप्रिय तकनीकी विश्लेषण संकेतकों में से एक, सापेक्ष शक्ति सूचकांक (RSI) पिछले कीमतों के संबंध में वर्तमान कीमत उपायों ताकत है कि एक थरथरानवाला है. आरएसआई एक बहुमुखी उपकरण है, इसका इस्तेमाल किया जा सकता है:
+
+\nGenerate खरीदने और बेचने के संकेत
+\n Show overbought और oversold स्थितियों
+\nConfirm कीमत आंदोलन
+\n मतभेदों के माध्यम से संभावित कीमत reversals की \nWarn
+ईबे (eBay) के नीचे \n \n चार्ट RSI संकेतों को खरीदने और बेचने का पालन करने के लिए आसान उत्पन्न कर सकते हैं दिखाता है कि कैसे:"/>
+    <ImageView 
+        android:src="@drawable/rsi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRSI Buy Signal
+\nBuy आरएसआई oversold रेखा (30) से ऊपर को पार करते हैं.
+\n \n
+आरएसआई सिग्नल बेचें
+\nSell RSI अधिक खरीददार रेखा (70) से नीचे पार.
+\n \n
+सापेक्ष शक्ति का सूचकांक की समय अवधि परिवर्तनीय खरीदने और बेचने संकेतों की संख्या में वृद्धि या कमी कर सकते हैं. सोने के लिए नीचे दिए गए चार्ट में, दो RSI समय अवधि, 14 दिन (डिफ़ॉल्ट) दिखाए जाते हैं और 5 दिन. समय अवधि को कम करने में काफी खरीदने और बेचने संकेतों की संख्या बढ़ रही है, आरएसआई अधिक अस्थिर बना सूचना कैसे."/>
+<ImageView 
+        android:src="@drawable/rsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+     </LinearLayout>
+</ScrollView>
+</LinearLayout>

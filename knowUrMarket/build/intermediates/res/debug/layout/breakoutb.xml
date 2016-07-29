@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:padding="10dp" >
+
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView android:textStyle="bold" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="মূলত 'ব্যান্ড বাজানো' এবং গড় যাও প্রত্যাবর্তন নেভিগেশন পণ বিপরীত বোলিঙ্গার ব্যান্ড breakouts বাজানো হয়. দাম বোলিঙ্গার ব্যান্ড বাইরে প্রচেষ্টা যখন breakouts, একত্রীকরণের একটি নির্দিষ্ট সময়ের পরে ঘটবে. যেমন সমর্থন এবং প্রতিরোধের লাইন (দেখুন: সমর্থন ও প্রতিরোধ) হিসাবে অন্যান্য সূচক ব্রেকআউট দিক কিনতে বা বিক্রি করতে না তা যখন সিদ্ধান্ত উপকারী প্রমাণ করতে পারেন."/>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv4"/>
+             
+        <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="Buy সংকেত
+        
+\n ই মিনি SNP 500 ভবিষ্যত এর নিচের চার্টে দেখানো উদাহরণস্বরূপ, একজন ব্যবসায়ীর ক্রয় বা দাম কম বোলিঙ্গার ব্যান্ড নীচের কমে গেছে যখন আবরণ ক্রয়.
+\n Sell সংকেত
+\n পরিকাঠামেগত বিক্রি বা প্রস্থানের আবরণ কিনতে শুরু হলে উপরের বোলিঙ্গার ব্যান্ড বাইরে স্টক, ভবিষ্যত, অথবা মুদ্রার দাম ভেদ." />
+       
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/breakoutb.xml -->

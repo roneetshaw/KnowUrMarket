@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="फ्लैग पैटर्न आमतौर पर एक अप महत्वपूर्ण या नीचे बाजार इस कदम के बाद होता है. एक मजबूत कदम के बाद, कीमतें आम तौर पर आराम करने की जरूरत है. यह आराम की अवधि आमतौर पर शब्द 'झंडा' इस प्रकार, एक आयत के आकार में होता है. आराम करने के बाद, कीमतें आम तौर पर वे पहले किया था दिशा में जारी रहेगा क्योंकि फ्लैग एक निरंतरता पैटर्न माना जाता है.
+\n \n
+ईबे (eBay) के चार्ट कई फ्लैग पैटर्न से पता चलता है:"/>
+    <ImageView 
+        android:src="@drawable/flag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="फ्लैग खरीदने के संकेत \n
+कीमत अधिक ले जाया गया है और कीमतों में समर्थन और विरोध का एक चैनल बनाने, समेकित है जब कीमतों में घुसना और करीब ऊपर की ओर प्रतिरोध रेखा से ऊपर है, जब एक खरीदने के संकेत दिए है.
+\n \n
+फ्लैग सिग्नल \n बेचें
+मान लिया जाये कि कीमतों में पहले से जब कीमत प्रवेश और समर्थन की रेखा से नीचे बंद होता है तो कीमत समेकन की अवधि के बाद, एक बेचने के संकेत दिए है, नीचे की ओर ले जाया गया."/>
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

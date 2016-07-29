@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="कैंडलस्टिक चार्ट कीमत आंदोलनों दृश्यमान करने का एक कारगर तरीका है. दो बुनियादी मोमबत्ती कर रहे हैं:
+\n \n
+तेजी मोमबत्ती: \n करीब खुला (आमतौर पर हरे या सफेद) से अधिक है
+\nBearish मोमबत्ती: \n करीब खुले से कम है (आमतौर पर लाल या काले रंग की)"/>
+    <ImageView 
+        android:src="@drawable/basic1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candlestick Parts
+\nएक मोमबत्ती के लिए तीन मुख्य भागों हैं:
+\n \n
+ऊपरी छाया: दिन के उच्च और करीब (तेजी मोमबत्ती) या खुला (मंदी मोमबत्ती) के बीच खड़ी रेखा
+\n \n
+असली शरीर: बंद खुला और बीच का अंतर; मोमबत्ती के रंग का भाग
+\n \n
+लोअर छाया: दिन का लो और खुले (तेजी मोमबत्ती) या बंद (मंदी मोमबत्ती) के बीच खड़ी रेखा"/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

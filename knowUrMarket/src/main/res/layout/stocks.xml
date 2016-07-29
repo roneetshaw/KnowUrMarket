@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is stock?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A stock is a document issued by a company, which entitles its holder to be one of the owners of the Company.\nA share is directly issued by a company through IPO or can be purchased from the stock market. By owning a share you can earn a portion of the company's profit called dividend. Also, by buying and selling the shares you get capital gain. So, your return is the dividend plus the capital gain. However, you also run a risk of making a capital loss if you have sold the share at a price below your buying price." />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView3"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Types of stock"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are basically two main types of stock:
+\n
+1. Common
+\n2. Preferred.
+\n\n
+Common stock represents the majority of stock. It represents ownership in a company and a claim on a portion of profits, or dividends. The dividend amount fluctuates and is not guaranteed. Shareholders are entitled to one vote per share to elect board members, who oversee the major decisions made by the company's management. In the long run, common stock yields higher returns than most other investments.
+Preferred stock represents a degree of ownership in a company but usually doesn't include voting rights. With this type of stock, shareholders are usually guaranteed a fixed dividend amount." />
+	<TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is stock market?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basically it is an exchange place or a market that facilitates the trading of stocks. People participating in the stock markets range from some casual traders and investors who trade as a hobby, to large fund traders.
+In India the most famous exchanges or markets are the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE). Globally there are many markets including the famous New York Stock (NYSE), NASDAQ, London Stock Exchange, Hong Kong Stock Exchange etc..
+Any market can be thought of with two functionalities:
+\n\n
+PRIMARY MARKET: Here the companies and industries raise long term funds for their operations by issuing shares. Companies come up with an initial price, mostly with premium for the face value of the shares, which will be distributed to the investors. This is called the Initial Public Offer or the IPO.
+\n
+SECONDARY MARKET: After a Company has finished its IPO, it is listed in the markets. After getting listed and issued shares to investors, the shares can then be sold to other investors in the stock market. Here the people can buy the shares at a current price as determined by other investors in the market."/>
+    
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is stock market index?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An index is basically an indicator. It gives you a general idea about whether most of the stocks have gone up or most of the stocks have gone down. 
+\n
+The Sensex is an indicator of all the major companies of the BSE. 
+\n
+The Nifty is an indicator of all the major companies of the NSE. 
+\n
+If the Sensex goes up, it means that the prices of the stocks of most of the major companies on the BSE have gone up. If the Sensex goes down, this tells you that the stock price of most of the major stocks on the BSE have gone down. 
+
+Just like the Sensex represents the top stocks of the BSE, the Nifty represents the top stocks of the NSE. 
+\n
+TWO TYPES OF INDEX
+\n
+Nifty - Nifty consist of a group of 50 shares. 
+\nSensex - Sensex consist of a group of 30 shares"/>
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Types of Trading"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day trading and Delivery trading (it is also called as investing) are the two main types of share trading.
+\n
+DAY TRADING\n
+\n
+Buying and selling of shares on daily basis is called day trading; this is also called as intraday trading.
+Whatever you buy today you have to sell it today OR whatever you sell today you have to buy it today and very importantly during market hours that is between 9.55 am to 3.30 pm (Indian time).
+In day trading, brokers provide margin to do trading. Means you get extra amount for day trading. Suppose if you have 10,000 rupees in your account then you can buy and sell shares worth rupees 40,000(four times more - basically
+margin amount depends on your broker).
+So if you use margin amount for day trading then you have square off your shares before market closes irrespective of share price or whether you are making loss or profit.
+\n
+Please note - If you don’t use margin amount and trade only with your available amount then no need to square off your positions.
+For example if the you buy some shares and the share prices falls then you can hold them and take delivery and sell them whenever the share prices increases.
+\n\n
+DELIVERY TRADING
+\n\n
+In Delivery Trading, as the name say, you have to take the delivery of shares and after getting these shares in your demat account you can sell them at anytime (or you can hold them till you want, there is no restriction).
+In delivery trading you need to have the amount required to buy share in other words you don’t get margin amount as you get in day trading
+For example - If you want to buy 10 shares of Reliance at price 1200 than you must have (100x1200) Rs 12,000 in your account; once
+you purchased these shares will get deposited in your demat account (after trading day and 2 additional days). Then you can sell these shares when the price of these shares goes up or else you can hold them as long as you want.
+\n
+Please Note - First you have to buy and sell. You can’t sell before buying in delivery trading while it’s possible in day trading which is called as short selling."/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

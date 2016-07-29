@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Bullish engulfing পিলসুজ প্যাটার্ন সাধারণত একটি downtrend নীচে occuring, একটি bullish উলটাপালটা প্যাটার্ন. প্যাটার্ন দুটি মোমবাতি নিয়ে গঠিত:
+
+\nছোট Bearish মোমবাতি (দিন 1) 
+\n বৃহত্তর Bullish মোমবাতি (দিন 2)"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/bull1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="দিন 1 হাজার অভদ্র মোমবাতি বাস্তব শরীর সাধারণত দিন 2 এর bullish মোমবাতি আসল শরীরের মধ্যে অন্তর্ভুক্ত করা হয়.
+\n
+দিন 2 অন, বাজারের ফাঁক নিচে; Bulls নিতে আগে তবে, বহন সুদূর পাবেন না এবং দাম ধাক্কা নিচে আগের দিন এর খোলা গত সকালে এর খোলা এবং ঠেলে দাম থেকে ফাঁক পূরণ.
+\n
+Bullish engulfing প্যাটার্ন শক্তি দিন highs এ প্রচেষ্টা যে বৃহৎ bullish বাস্তব শরীরের মোমবাতি সকালে একটি অভদ্র ফাঁক নিচে, থেকে অনুভূতি অবিশ্বাস্য পরিবর্তন থেকে আসে. ভালুক তাদের স্বাগত আছে overstayed এবং ষাঁড় বাজার নিয়ন্ত্রণ নিয়েছে."/>
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/bull2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="কেনার জন্য Bullish engulfing সংকেত
+\n There Bullish engulfing প্যাটার্ন ব্যবহার করে কিনতে তিনটি প্রধান গুণ আছে; নীচে উপস্থিত করা হয় যে এখনই সংকেত সবচেয়ে রক্ষণশীল সবচেয়ে আক্রমনাত্মক থেকে আদেশ করা হয়:
+
+\n দাম সকালে ফাঁক থেকে ঊর্ধ্বে নিচে দাম বেড়েছে যখন দিন 2 এর নিকট এ nBuy. মূল্য উর্ধ্বগামী বড় পদক্ষেপ অনুষঙ্গী যে আয়তনের একটি উল্লেখযোগ্য বৃদ্ধি ছিল দিন 2 সমাবেশে উল্লেখযোগ্য এবং বাজার ভাবপ্রবণতা এর সত্যিই একটি উলটাপালটা ছিল যে একটি শক্তিশালী ইঙ্গিত, (: ভলিউম দেখুন) হয়.
+\n Bullish engulfing প্যাটার্ন পরে দিনে nBuy দেখা দেয়; কিনতে পরের দিন পর্যন্ত অপেক্ষা করে, একজন ব্যবসায়ীর পূর্বে দিনের bullish উলটাপালটা ও উদ্যম অব্যাহত এবং একটি সংক্ষিপ্ত আবরণ সমাবেশে মত মাত্র এক দিন সংঘটন ছিল না যে এমনটা নিশ্চিত করা হয়. বাজারে উল্লেখযোগ্যভাবে নিচে অনার্স এবং এমনকি নতুন lows প্রণীত কারণ গুপ্তচর এর উপরের চার্ট, একটি ব্যবসায়ী সম্ভবত Bullish engulfing প্যাটার্ন পরে দিনে দীর্ঘ বাজারে প্রবেশ করবে. পদ্ধতি # 2 ব্যবহার করে একটি ব্যবসায়ী, সম্ভবত যেমন পরের পদ্ধতি # 3 উপস্থাপন এক হিসাবে আরো একটি কংক্রিট এখনই সংকেত জন্য অপেক্ষা করবে.
+\n একজন ব্যবসায়ীর ব্যবসায়ীর একটি কিনতে যাতে প্রবেশের আগে, প্রধানত একটি মূল্য বিরতির নিম্নগামী প্রতিরোধের রেখার উপরের, অন্য সংকেত জন্য অপেক্ষা করবে Bullish engulfing প্যাটার্ন, সূচিত করা হবে."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/bullb.xml -->

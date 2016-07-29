@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Buying put options is a bearish strategy using leverage and is a risk-defined alternative to shorting stock. An illustration of the thought process of buying a put is given next:
+\n
+\n1. A trader is very bearish on a particular stock trading at $50.
+\n2. The trader is either risk-averse, wanting to know before hand their maximum loss or wants greater leverage than simply shorting stock.
+\n3. The trader expects the stock to move below $47.06 in the next 30 days.
+\n\nGiven those expectations, the trader selects the $47.50 put option strike price which is trading for $0.44. For this example, the trader will buy only 1 put option contract (Note: 1 contract is for 100 shares) so the total cost will be $44 ($0.44 x 100 shares/contract). The graph below of this hypothetical situation is given below:"/>
+    <ImageView 
+        android:src="@drawable/put1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options offer Defined Risk
+\nWhen a put option is purchased, the trader instantly knows the maximum amount of money they can possibly lose. The max loss is always the premium paid to own the option contract; in this example, $44. Whether the stock rises to $55 or $100 a share, the put option holder will only lose the amount they paid for the option. This is the risk-defined benefit often discussed about as a reason to trade options.
+\n\n
+Options offer Leverage
+\nThe other benefit is leverage. When a stock price is below its breakeven point (in this example, $47.06) the option contract at expiration acts exactly like being short stock. To illustrate, if a 100 shares of stock moves down $1, then the trader would profit $100 ($1 x $100). Likewise, below $47.06, the options breakeven point, if the stock moved down $1, then the option contract would increase by $1, thus making $100 ($1 x $100) as well.
+\n\n
+Remember, to short the stock, the trader would have had to put up margin requirements, sometimes 150% of the present stock value ($7,500). However, the trader in this example, only paid $60 for the put option and does not need to worry about margin calls or the unlimited risk to the upside.
+\n\n
+Options require Timing
+\nThe important part about selecting an option and option strike price, is the trader's exact expectations for the future. If the trader expects the stock to move lower, but only $1 lower, then buying the $47.50 strike price would be foolish. This is because at expiration, if the stock price is anywhere above $47.50, whether it be $75 or $47.51, the put option will expire worthless. If a trader was correct on their prediction that the stock would move lower by $1, they would still have lost.
+\n\n
+Similarly, if the stock moved down to $46 the day after the put option expired, the trader still would have lost all their premium paid for the option. Simply stated, when buying options, you need to predict the correct direction of stock movement, the size of the stock movement, and the time period the stock movement will occur--more complicated then shorting stock, when all a person is doing is predicting that the stock will move in their predicted direction downward."/>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next Page"
+        android:id="@+id/nextput"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/put.xml -->

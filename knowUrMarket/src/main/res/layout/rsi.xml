@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="One of the most popular technical analysis indicators, the Relative Strength Index (RSI) is an oscillator that measures current price strength in relation to previous prices. The RSI is a versatile tool, it can be used to:
+
+\nGenerate buy and sell signals
+\nShow overbought and oversold conditions
+\nConfirm price movement
+\n\nWarn of potential price reversals through divergences
+\n\nThe chart below of eBay (EBAY) shows how the RSI can generate easy to follow buy and sell signals:"/>
+    <ImageView 
+        android:src="@drawable/rsi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRSI Buy Signal
+\nBuy when the RSI crosses above the oversold line (30).
+\n\n
+RSI Sell Signal
+\nSell when the RSI crosses below the overbought line (70).
+\n\n
+Varying the time period of the Relative Strength Index can increase or decrease the number of buy and sell signals. In the chart below of Gold, two RSI time periods are shown, 14-day (default) and 5-day. Notice how decreasing the time period made the RSI more volatile, increasing the number of buy and sell signals substantially."/>
+<ImageView 
+        android:src="@drawable/rsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+     </LinearLayout>
+</ScrollView>
+</LinearLayout>

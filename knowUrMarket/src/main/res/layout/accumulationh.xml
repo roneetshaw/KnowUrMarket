@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="\nAccumulation वितरण मूल्य रुझानों की पुष्टि करने या एक कीमत उत्क्रमण में परिणाम सकता है कि कमजोर आंदोलनों की चेतावनी देने के लिए मात्रा का उपयोग करता है.
+
+\n \nAccumulation: दिन के करीब पिछले दिन के बंद भाव की तुलना में अधिक है जब वॉल्यूम संचित किया जाता है. इस प्रकार 'शब्द का संचय दिन'
+\n \nDistribution: दिन के करीब पिछले दिन के बंद भाव की तुलना में कम है जब वॉल्यूम वितरित किया जाता है. कई व्यापारियों को 'शब्द का वितरण दिन' का उपयोग
+एक दिन एक संचय दिन है जब \n \nTherefore , दिन की मात्रा पिछले दिन के संचय वितरण लाइन को जोड़ा जाता है. एक दिन एक वितरण दिन है जब इसी प्रकार, दिन की मात्रा पिछले दिन के संचय वितरण लाइन से घटाया जाता है."/>
+    <ImageView 
+        android:id="@+id/acc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:src="@drawable/acc1"
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High #1 to High #2:\n
+नैस्डैक 100 HIGH # 2 पर एक समान उच्च (यानी डबल शीर्ष गठन) कर दिया, \nhowever, संचय वितरण लाइन वास्तव में यह एक कम उच्च बनाया, एक बराबर उच्च बनाने में असफल रहा. औसत पर, कम मात्रा उच्च # 2 पर अधिक कदम पर सम्पादित किया गया था हाई # 1 पर उच्च पहला कदम पर हुई से; \ nthus, इस नैस्डैक में रैली दूसरा कदम के पीछे कम शक्ति और विश्वास वहाँ जा रहा है के रूप में व्याख्या की जा सकती संचय वितरण लाइन के उच्च. \ n यह विफलता एक मजबूत मंदी की विचलन का संकेत है.
+\n \n
+हाई # 4 को उच्च # 3: \n
+फिर, संचय वितरण लाइन नैस्डैक 100 इस समय एक उच्च उच्च बनाया है, भले ही एक कम उच्च बनाया है. इस मंदी की विचलन दूसरी चाल सजा का अभाव कीमत में एक उच्च उच्च बनाने के लिए चेतावनी दी है कि."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

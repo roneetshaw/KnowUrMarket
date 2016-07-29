@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Buying put options is a bearish strategy using leverage and is a risk-defined alternative to shorting stock. An illustration of the thought process of buying a put is given next:
+\n
+\n 1. एक व्यापारी $ 50 पर एक विशेष शेयर ट्रेडिंग पर बहुत तेजी है.
+\n2. व्यापारी हाथ उनकी अधिकतम नुकसान से पहले जानना चाहते, जोखिम खिलाफ या तो या बस शेयर shorting से अधिक लाभ उठाने के लिए चाहता है.
+\n3. व्यापारी स्टॉक अगले 30 दिनों में $ 47.06 से नीचे ले जाने की उम्मीद है.
+\n \nGiven उन उम्मीदों, व्यापारी $ 0.44 के लिए कारोबार कर रहा है जो $ 47.50 डाल विकल्प हड़ताल मूल्य का चयन करता है. इस उदाहरण के लिए, व्यापारी केवल 1 डाल विकल्प अनुबंध (नोट: 1 अनुबंध 100 शेयरों के लिए है) खरीद लेंगे तो कुल लागत $ 44 ($ 0.44 x 100 शेयरों / अनुबंध) हो जाएगा. इस काल्पनिक स्थिति के नीचे ग्राफ नीचे दी गई है:"/>
+    <ImageView 
+        android:src="@drawable/put1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options offer Defined Risk
+एक डाल विकल्प खरीदा है \nWhen, व्यापारी तुरन्त वे संभवतः खो सकते हैं पैसे की अधिकतम राशि को जानता है. अधिकतम नुकसान हमेशा विकल्प अनुबंध के मालिक को भुगतान प्रीमियम है; इस उदाहरण में, $ 44. शेयर $ 55 या 100 डॉलर प्रति शेयर तक बढ़ जाता है, चाहे डाल विकल्प धारक ही वे विकल्प के लिए भुगतान की गई राशि को खो देंगे. इस बार विकल्प व्यापार करने के लिए एक कारण के रूप में के बारे में चर्चा की जोखिम से परिभाषित लाभ है.
+\n \n
+विकल्प का लाभ उठाने की पेशकश
+\nthe अन्य लाभ का लाभ उठाने है. एक शेयर की कीमत (इस उदाहरण में, $ 47.06) अपने breakeven बिंदु से नीचे है जब समाप्ति पर विकल्प अनुबंध बिल्कुल कम स्टॉक होने की तरह कार्य करता है. शेयर के 100 शेयरों $ 1 नीचे जाता है, तो उदाहरण देकर स्पष्ट करने के लिए, तो व्यापारी $ 100 ($ 1 एक्स 100 डॉलर) लाभ होगा. इसी तरह, $ 47.06 नीचे, विकल्प breakeven बिंदु, शेयर तो विकल्प अनुबंध इस प्रकार $ 100 के रूप में अच्छी तरह से ($ 1 एक्स 100 डॉलर) बनाने, $ 1 से वृद्धि होगी, $ 1 नीचे चले गए हैं.
+\n \n
+कम स्टॉक के लिए, व्यापारी मार्जिन आवश्यकताओं, वर्तमान शेयर मूल्य की कभी कभी 150% ($ 7500) प्रस्तुत करने के लिए होता था, याद रखें. हालांकि, इस उदाहरण में व्यापारी, केवल डाल विकल्प के लिए 60 डॉलर का भुगतान किया है और मार्जिन कॉल या उल्टा करने के लिए असीमित जोखिम के बारे में चिंता करने की जरूरत नहीं है.
+\n \n
+विकल्प समय की आवश्यकता
+\ एक विकल्प और विकल्प हड़ताल मूल्य के चयन के बारे में N-th महत्वपूर्ण हिस्सा है, भविष्य के लिए व्यापारी के सटीक उम्मीदें है. व्यापारी स्टॉक कम करने के लिए कदम की उम्मीद है, लेकिन केवल $ 1 कम है, तो $ 47.50 हड़ताल कीमत खरीदने मूर्खता होगी. शेयर की कीमत में यह $ 75 या $ 47.51, चाहे कहीं भी $ 47.50 से ऊपर है अगर समाप्ति पर, पुट विकल्प बेकार समाप्त हो जाएगा क्योंकि यह है. एक व्यापारी शेयर $ 1 से कम कदम होगा कि उनकी भविष्यवाणी पर सही था, वे अभी भी खो दिया होता.
+\n \n
+शेयर $ 46 डाल विकल्प समाप्त हो गई है के बाद सुबह तक नीचे चला गया इसी प्रकार, यदि व्यापारी अभी भी विकल्प के लिए भुगतान अपने सभी प्रीमियम खो दिया होता. बस ने कहा, विकल्प जब खरीदने, आप शेयर आंदोलन की सही दिशा की भविष्यवाणी करने की जरूरत है, स्टॉक आंदोलन के आकार, और समय की अवधि के स्टॉक आंदोलन घटित होगा - और अधिक जटिल तो shorting स्टॉक, सभी एक व्यक्ति की भविष्यवाणी कर रहा है जब शेयर नीचे उनकी भविष्यवाणी की दिशा में कदम होगा."/>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+		android:text="अगले पेज"
+        android:id="@+id/nextput"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

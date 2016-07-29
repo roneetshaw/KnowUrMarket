@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="
+হাতুড়ি পিলসুজ গঠনের প্রধানত downtrends তে নীচে যেটা উল্লেখযোগ্য bullish উলটাপালটা পিলসুজ প্যাটার্ন. \n"/>
+    <ImageView 
+        android:src="@drawable/hamm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="দিন 2 এর খোলা দিন 1 এর নিকট তার চেয়ে অনেক বেশী হলে একটা ফাঁক আপ ঘটে. দিন 2 এর খোলা দিন 1 এর নিকট কম হলে Contrastly, একটি শূন্যস্থান নিচে দেখা দেয়.
+\n
+ফাঁক পিছনে অনেক মনোবিজ্ঞান পর্যন্ত. : সঠিকভাবে হিসাবে কাজ করতে পারেন
+\n
+প্রতিরোধ: নিম্নগামী দাম ফাঁক একবার ফাঁক হিসাবে দীর্ঘমেয়াদী বা স্থায়ী প্রতিরোধের কাজ করতে পারেন.
+\n
+সাপোর্ট: দাম ফাঁক ঊর্ধ্বমুখী, ফাঁক স্থায়ীভাবে দীর্ঘমেয়াদী বা হয়, ভবিষ্যতে দাম সমর্থন হিসাবে কাজ করতে পারেন না."/>
+    
+    <ImageView 
+        android:src="@drawable/win2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="প্রায়ই একটা ফাঁক পরে, দাম 'শূন্যস্থান পূরণ' হিসাবে উল্লেখ করা হয় কি করতে হবে. এই বেশ প্রায়ই ঘটে. ফাঁক দিয়ে আরেকটি সাধারণ সংঘটন ইন ফিরে ভরাট করা প্রয়োজন যে মূল্য চার্ট একটি গর্ত হিসাবে একটা ফাঁক চিন্তা ফাঁক ভরা হয়, একবার ফাঁক (দিক বিপরীত এবং ফাঁক দিক জারি চালিয়ে থাকে যে উদাহরণস্বরূপ , ইবে এর উপরের চার্টে ফিরে ঊর্ধ্বে).
+\n
+ইবে (eBay) এর উদাহরণ উপরে ফাঁক সমর্থন হিসাবে অভিনয় দেখায়. ব্যবসায়ীরা এবং বিনিয়োগকারীদের সব পরে, ফাঁক আপ sparked ও কোম্পানির জন্য খেলা এখনো যে কিছু ইতিবাচক সংবাদ সম্ভবত ছিল, কোন রিটার্ন একটি এলাকা হিসাবে ফাঁক নীচের কিছু দেখতে.
+\n
+ওয়াল মার্টের (WMT) স্টক নীচের চার্ট ফাঁক আপ এবং ফাঁক নিচে অনেক দৃষ্টান্ত দেখায়. লক্ষ্য করুন কিভাবে সহ্য করার ক্ষমতা এবং সমর্থন এলাকা হিসাবে ফাঁক আপ এলাকা হিসেবে আইন নিচে ফাঁক:"/>
+    
+     <ImageView 
+        android:src="@drawable/win3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+সঠিকভাবে একটি প্রযুক্তিগত বিশ্লেষণ ব্যবসায়ীর উন্নত সমর্থন বা প্রতিরোধের এলাকাসমূহ খুঁজে পেতে সাহায্য করতে পারেন একটি চার্ট গুরুত্বপূর্ণ এলাকায় হয়."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

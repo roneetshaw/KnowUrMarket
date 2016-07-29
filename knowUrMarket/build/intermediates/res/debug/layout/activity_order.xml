@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalbck"
+    android:gravity="center"
+    tools:context="com.example.kym.OrderActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/txtStockName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtStockName" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:orientation="vertical" 
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_alignLeft="@+id/txt1_1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txt1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtOP"
+                android:layout_alignLeft="@+id/txt1_2"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txt1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textV1_3"
+                android:layout_alignLeft="@+id/txt1_3"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textV1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtOP"
+                android:layout_below="@+id/txtOP"
+                android:layout_marginTop="15dp"
+                android:text="Status    :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textViewBal1"
+                android:layout_alignBottom="@+id/textViewBal1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtOP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="15dp"
+                android:text="Current Price :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewQChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textV1_3"
+                android:layout_below="@+id/textV1_3"
+                android:layout_marginTop="15dp"
+                android:text="Quantity :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textViewQChange"
+                android:layout_alignLeft="@+id/txt1_4"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textViewBal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewQChange"
+                android:layout_below="@+id/textViewQChange"
+                android:layout_marginTop="20dp"
+                android:text="Action  :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textViewBal2"
+                android:layout_alignLeft="@+id/txt1_5"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/btnD"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_alignBottom="@+id/btnR"
+                android:layout_alignLeft="@+id/txt1_6"
+                android:onClick="@string/onClickDel"
+                android:text="Delete"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewBal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="42dp"
+                android:layout_marginTop="1dp"
+                android:layout_toLeftOf="@+id/txt1_1"
+                android:text="Stock Name  :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewBal1"
+                android:layout_below="@+id/textViewBal1"
+                android:layout_marginTop="18dp"
+                android:text="Order Price  :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnR"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_alignRight="@+id/textView4"
+                android:layout_below="@+id/textViewBal2"
+                android:layout_marginTop="46dp"
+                android:onClick="@string/doRefresh"
+                android:text="Refresh"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/activity_order.xml -->

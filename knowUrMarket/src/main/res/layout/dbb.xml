@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="ডাবল বটম প্রযুক্তিগত বিশ্লেষণ charting প্যাটার্ন একটি সাধারণ এবং অত্যন্ত কার্যকর মূল্য উলটাপালটা প্যাটার্ন.
+\n \n
+Altria (MO) স্টক নীচের চার্ট ডাবল বটম উলটাপালটা প্যাটার্ন প্রকাশ:"/>
+    <ImageView 
+        android:src="@drawable/db1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+নিশ্চিতকরণ লাইন গোলমালে যাও অনুপ্রবিষ্ট হলে কিনতে সংকেত দেওয়া হয়. নিশ্চিতকরণ লাইন (উপরের চার্ট দেখুন) ডবল নিচের প্যাটার্ন শীর্ষ জুড়ে টানা হয়.
+\n
+মূল্য নিশ্চিতকরণ লাইন penetrates পর প্রায়শই,, দাম কখনও কখনও ফিরে নিশ্চিতকরণ লাইন, একটি স্বল্প সময়ের জন্য প্রত্যনুসরণ হবে. এই retracement দীর্ঘ বাজারের মধ্যে পেতে একটি দ্বিতীয় সুযোগ প্রস্তাব.
+\n
+ভলিউম এছাড়াও ডাবল বটম প্যাটার্ন ব্যাখ্যা একটি গুরুত্বপূর্ণ অংশ খেলে; এই Pfizer (PFE) এর নিচের চার্টে দেখানো হয়::"/>
+        
+        
+     <ImageView 
+        android:src="@drawable/db2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+     <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+এটা Pfizer (PFE) এর চার্টে হিসাবে কি নিশ্চিতকরণ লাইন অনুপ্রবিষ্ট করা হলে সাধারণত, ভলিউম বিস্ফোরিত হবে.
+
+\n \n ডাবল বটম উলটাপালটা প্যাটার্ন একটি প্রচন্ডভাবে ব্যবহৃত এবং কার্যকর charting উলটাপালটা প্যাটার্ন. আরেকটি অনুরূপ এবং জনপ্রিয় নীচে উলটাপালটা প্যাটার্ন বিপরীত হেড ও কাঁধ প্যাটার্ন"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

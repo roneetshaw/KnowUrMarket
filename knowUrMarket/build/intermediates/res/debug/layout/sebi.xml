@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Securities and Exchange Board of India was established on April 12,1992 in accordance with the provisions of the Securities and Exchange Board of India Act, 1992. The Preamble of the Securities and Exchange Board of India describes the basic functions of the Securities and Exchange Board of India as
+“…..to protect the interests of investors in securities and to promote the
+development of, and to regulate the securities market and for matters connected
+therewith or incidental thereto”.
+\n\n
+The Board of SEBI comprises a Chairman, two members from the central government representing the ministries of finance and law, one member from the Reserve Bank of India and two other members appointed by the central government.
+
+\n\n
+SEBI as the watchdog of the industry has an important and crucial role in the market in ensuring that the market participants perform their duties in accordance with the regulatory norms. The Stock Exchange as a responsible Self Regulatory Organization (SRO) function to regulate the market and its prices as per the prevalent regulations. SEBI and the Exchange play complimentary roles to enhance the investor protection and the overall quality of the market."/>
+    </ScrollView>
+    </LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/sebi.xml -->

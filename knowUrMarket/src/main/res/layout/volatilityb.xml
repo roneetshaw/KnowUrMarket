@@ -1,0 +1,55 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+     >
+     
+    
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:padding="10dp"
+            >
+            
+            <TextView android:textStyle="bold"
+                android:textSize="15dp" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:text="অবিশ্বাস ট্রেড দুটি মৌলিক উপায় আছে:
+\n
+অবিশ্বাস বৃদ্ধি এবং তারপর একটি উচ্চ মূল্যে ঐ অপশন ফিরে বিক্রি করা হবে এমন আশা কম অবিশ্বাস সাথে অপশন কিনুন.
+অবিশ্বাস হ্রাস এবং তারপর একটি সস্তা মূল্যে যারা ​​একই অপশন ফিরে কিনতে হবে আশা মধ্যে উচ্চ অবিশ্বাস সঙ্গে \ nSell অপশন.
+\n
+উদ্বায়ীতামূলক নিম্ন যখন বিকল্প কিনুন
+\nWhen অপশন বোলিঙ্গার বাংলাদেশ উল্লেখযোগ্যভাবে ধরনের একটি দুই পা ফাঁক হিসাবে অপশন, কেনা, সংকুচিত বা শ্বাসরোধ করা হলে, একটি ভাল অপশন কৌশল হতে পারে যেমন ওয়াল মার্টের এর উপরের চার্ট কেন্দ্রে হিসাবে, অপেক্ষাকৃত সস্তা."/>
+                    <ImageView
+                    android:id="@+id/iv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bol3" />
+
+        <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="যুক্তি ধারালো প্যাচসমূহ পরে, দাম বিশ্রাম একটি ট্রেডিং সীমার মধ্যে থাকতে দেয় না. বোলিঙ্গার বাংলাদেশ একসঙ্গে অত্যন্ত ঘনিষ্ঠ হয় যখন দাম যেমন সময়কাল হিসাবে, বিশ্রান্ত পরে, তাহলে দাম সাধারণত আবার সরাতে শুরু হবে. অতএব, বোলিঙ্গার ব্যান্ড একসঙ্গে টাইট যখন বিকল্প কেনা, একটি স্মার্ট বিকল্প কৌশল হতে পারে.
+
+\nSell বিকল্প উদ্বায়ীতামূলক উচ্চ যখন
+\n বার অপশন যেমন দূরে ডান এবং বোলিঙ্গার বাংলাদেশ উল্লেখযোগ্যভাবে একটি দুই পা ফাঁক আকারে অপশন, শ্বাসরোধ, বা লোহা Condor বিক্রয়, প্রসারিত ছিল অনেক দূরে, ওয়াল মার্টের এর উপরের চার্ট পারে বাকি হিসাবে, তুলনামূলকভাবে ব্যয়বহুল যখন ব্যবহার করার জন্য একটি ভাল বিকল্প কৌশল হতে.
+\n
+লজিক বোলিঙ্গার বাংলাদেশ অত্যন্ত পর্যন্ত সরাইয়া যখন দাম যেমন সময়সীমার হিসেবে, উল্লেখযোগ্যভাবে বেড়েছে বা নিপতিত পরে, তাহলে দাম সাধারণত একত্রীকরণ এবং কম উদ্বায়ী হয়ে শুরু হবে. তাই, বোলিঙ্গার ব্যান্ড সম্ভাব্য, দূরে সরাইয়া যখন অপশন বিক্রি একটি স্মার্ট অপশন অবিশ্বাস কৌশল হতে পারে."/>
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/accb1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Accumulation বিতরণ দাম প্রবণতা নিশ্চিত করতে অথবা একটি মূল্য উলটাপালটা হতে পারে যে দুর্বল আন্দোলন সতর্ক ভলিউম ব্যবহার করে.
+
+\n Accumulation \n: দিন এর নিকট আগের দিনের ক্লোজিং দাম বেশী যখন ভলিউম জমা করা হবে বলে মনে করা হয়. সুতরাং শব্দটি 'আহরণ দিন'
+\n Distribution \n: দিন এর নিকট আগের দিনের ক্লোজিং দাম কম হলে ভলিউম বিতরণ করা হয়. অনেক ব্যবসায়ীদের শব্দটি 'বিতরণের দিন' ব্যবহার
+একটি দিন একটি আহরণ দিনে যখন \ n, \nTherefore \, দিন এর ভলিউম আগের দিন এর আহরণ বিতরণ লাইন যোগ করা হয়. একটি দিন একটি ডিস্ট্রিবিউশন দিন যখন একইভাবে,, দিন এর ভলিউম আগের দিন এর আহরণ বিতরণ লাইন থেকে বিয়োগ করা হয়."/>
+    <ImageView 
+        android:id="@+id/acc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/acc1"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/accb2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="High #1 to High #2:\n
+Nasdaq 100 HIGH # 2 এই সময়ে একটি সমান উচ্চ (অর্থাৎ ডাবল শীর্ষ গঠন) প্রণীত; \ nhowever, আহরণ বিতরণ লাইন আসলে এটি একটি নিম্ন উচ্চ তৈরি, একটি সমান উঁচু করতে ব্যর্থ হয়েছে. গড়ে, কম ভলিউম উচ্চ # 2 এই সময়ে উচ্চতর সরানো বিনিময় সম্পন্ন হয়েছিল উচ্চ # 1 এই সময়ে উচ্চতর প্রথম পদক্ষেপ উপর ঘটেছে চেয়ে; \ n এই Nasdaq মধ্যে রেলি দ্বিতীয় পদক্ষেপের পিছনে কম শক্তি এবং দৃঢ় বিশ্বাস হচ্ছে সেখানে হিসেবে ব্যাখ্যা করা যেতে পারে আহরণ বিতরণ লাইন উচ্চতর. \ n ব্যর্থতার একটি শক্তিশালী অভদ্র বিকিরণ signaled.
+\n\n
+উচ্চ # 4 থেকে উচ্চ # 3: \ n
+আবার, আহরণ বিতরণ লাইন Nasdaq 100 এই সময় একটি উচ্চতর উচ্চ তৈরি, যদিও একটি নিম্ন উচ্চ তৈরি. এই অভদ্র বিকিরণ দ্বিতীয় পদক্ষেপ দৃঢ় বিশ্বাস ইঙ্গিতও মূল্য একটি উচ্চ উচ্চ করা যে সতর্ক."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

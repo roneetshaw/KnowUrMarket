@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+		android:textSize="15dp"
+		android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="भारतीय प्रतिभूति और विनिमय बोर्ड भारत अधिनियम, 1992 के प्रतिभूति एवं विनिमय बोर्ड के प्रावधानों के अनुसार अप्रैल 12,1992 पर स्थापित किया गया था . भारतीय प्रतिभूति और विनिमय बोर्ड की प्रस्तावना प्रतिभूति और विनिमय के बुनियादी कार्यों का वर्णन भारत की बोर्ड के रूप में
+'प्रतिभूतियों में निवेशकों के हितों की रक्षा करने और बढ़ावा देने के लिए
+विकास की , और प्रतिभूति बाजार को विनियमित करने और संबंधित मामलों के लिए' इस के सिवा या उससे संबंधित आनुषंगिक बातों .
+\n\n
+सेबी के बोर्ड में एक अध्यक्ष , वित्त और कानून मंत्रालय का प्रतिनिधित्व केंद्रीय सरकार की ओर से दो सदस्यों को भारतीय रिजर्व बैंक से एक सदस्य और केंद्र सरकार द्वारा नियुक्त दो अन्य सदस्य शामिल हैं.
+
+\n\n
+उद्योग के प्रहरी के रूप में सेबी बाजार सहभागियों नियामक मानकों के अनुसार में अपने कर्तव्यों का पालन सुनिश्चित करना है कि बाजार में एक महत्वपूर्ण और महत्वपूर्ण भूमिका है. प्रचलित नियमों के अनुसार बाजार और इसकी कीमतों को विनियमित करने के लिए एक जिम्मेदार स्व नियामक संगठन ( आरओ ) समारोह के रूप में स्टॉक एक्सचेंज . सेबी और एक्सचेंज के निवेशक संरक्षण और बाजार के समग्र गुणवत्ता बढ़ाने के लिए मानार्थ भूमिका निभाते हैं."/>
+</ScrollView>    
+</LinearLayout>

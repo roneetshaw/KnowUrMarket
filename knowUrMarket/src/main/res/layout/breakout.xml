@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:padding="10dp" >
+
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+            <TextView android:textStyle="bold" 
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:text="Basically the opposite of 'Playing the Bands' and betting on reversion to the mean is playing Bollinger Band breakouts. Breakouts occur after a period of consolidation, when price closes outside of the Bollinger Bands. Other indicators such as support and resistance lines (see: Support and Resistance) can prove beneficial when deciding whether or not to buy or sell in the direction of the breakout."/>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv4"/>
+             
+        <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="Buy Signal
+        
+\nIn the example shown in the chart below of the E-mini SnP 500 Future, a trader buys or buys to cover when the price has fallen below the lower Bollinger Band.
+\nSell Signal
+\nThe sell or buy to cover exit is initiated when the stock, future, or currency price pierces outside the upper Bollinger Band." />
+       
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>

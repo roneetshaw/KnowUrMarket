@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="The Volume Oscillator consists of two moving averages of volume, one fast and one slow. The fast volume moving average is then subtracted from the slow moving average. The Volume Oscillator is interpreted using the same principles as volume analysis:
+
+\n\nAn increase or decrease in price accompanied by an increase in volume is considered a sign of strength in the prevailing trend. Therefore, when the fast volume moving average (default 14-period) is above the slow volume moving average (default 28-period), the Volume Oscillator is above the zero line and is confirming price direction, whether it be up or down.
+\n\nAn increase or decrease in price accompanied by a decrease in volume is considered a sign of weakness in the prevailing trend. Therefore, when the fast volume moving average is below the slow volume moving average, the Volume Oscillator is below the zero line and is warning that the price direction is lacking strength and conviction.
+\n\nAn example of the Volume Oscillator is presented next in the chart of the E-mini Russell 2000 Futures contract:"/>
+    <ImageView 
+        android:src="@drawable/volosc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The fact that price is making higher highs and higher lows is a bullish sign. When the price increases in the Russell 2000 e-mini is combined with the Volume Oscillator making higher highs and higher lows, a double bullish sign is given."/>
+    
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Volume Oscillator Divergence"/>
+    
+    
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Volume Oscillator divergences occur when there is an increase or decrease in price which is accompanied by a decrease in volume. When this divergence occurs, the fast volume moving average (default 14-period) is below the slow volume moving average (default 28-period) and the Volume Oscillator is below the zero line. These divergences are warnings that the current price direction is lacking strength and there is potential for a trend reverse.
+\n\n
+An example of a Volume Oscillator divergence is presented below in the chart of the E-mini Russell 2000 Futures contract:"/>
+    <ImageView 
+        android:src="@drawable/volosc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When the price was increasing in the Russell 2000 e-mini, the Volume Oscillator was not confirming the price movement because it was decreasing making repeated lower highs and lower lows. This bearish divergence indicated that the recent price increases were not being made with volume strength. The bearish divergence was confirmed when the e-mini future's upward trendline support was broken.
+\n\n
+However, when the Russell 2000 e-mini futures contract made its downturn, the Volume Oscillator confirmed the price downtrend by making higher highs and lower lows, a signal that volume was increasing and thus indicating that the trend downward had strength."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/volosc.xml -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="परिवर्तन की दर (आरओसी) सूचक कीमत अवधि के पहले की एक निश्चित संख्या की तुलना में मौजूदा कीमत का प्रतिशत परिवर्तन के उपाय. आरओसी सूचक कीमत चाल की पुष्टि या मतभेदों का पता लगाने के लिए इस्तेमाल किया जा सकता है; यह भी अधिक खरीददार और oversold स्थितियों का निर्धारण करने के लिए एक गाइड के रूप में इस्तेमाल किया जा सकता है. परिवर्तन की दर के लिए सूत्र नीचे व्यक्त किया है:
+
+\n \n [(वर्तमान मूल्य / कीमत n अवधि पूर्व) - 1] x 100
+\n \nGenerally, परिवर्तन की दर इनपुट N के लिए 14-अवधि के आधार पर गणना की है, लेकिन निश्चित रूप से किसी भी व्यापारी को प्राथमिकता अवधि के लिए संशोधित किया जा सकता है. नैस्डेक 100 ईटीएफ (QQQQ) का एक चार्ट बदले सूचक की 14 दिन की दर से नीचे दिखाया गया है:"/>
+    <ImageView 
+        android:src="@drawable/roc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculating Rate of Change
+\nthe परिवर्तन की दर की गणना कैसे QQQQ के शो की चार्ट के दाईं ओर. दिन # 14 पर बंद भाव 1.0467 netted जो दिन # 1 पर 14 दिन पहले बंद भाव से विभाजित किया गया था. एक तो .0467 पाने के लिए घटाया गया था और उसके बाद यह 4.67 पाने के लिए 100 से गुणा किया गया था. यही कारण है कि वहाँ 14 दिन की अवधि में QQQQ की की कीमत में 4.67% की वृद्धि हुई थी चार्ट में प्रकाश डाला मतलब है.
+\n \n
+बदले सूचक की दर से कई का उपयोग करता
+\ बदले सूचक की Nthe दर कीमत चाल की पुष्टि या मतभेदों का पता लगाने के लिए इस्तेमाल किया जा सकता है और अधिक खरीददार और oversold स्थितियों का निर्धारण करने के लिए एक गाइड के रूप में इस्तेमाल किया जा सकता है.
+\n \n
+एक पुष्टिकरण उपकरण के रूप में परिवर्तन की दर
+\ कीमत कार्रवाई की पुष्टि आरओसी सूचक की नेन उदाहरण के निम्न # 2 के लिए निम्न # 1 से हुई: QQQQ बनाया उच्च चढ़ाव, आम तौर पर एक तेजी साइन की शेयर कीमत; इसी तरह, बदले सूचक की दर कीमत कार्रवाई की पुष्टि की और साथ ही उच्च चढ़ाव बना दिया.
+\n \n
+एक overbought और oversold संकेतक के रूप में परिवर्तन की दर
+\nin ऊपर चार्ट, बदले सूचक की दर 3% निशान को पार कर जब कीमतें एक खरीददार क्षेत्र में थे, यह खरीदने के लिए अनुचित हो गया होता; संकेत बेचने के लिए देख अधिक उचित होगा. आरओसी oversold क्षेत्रों में प्रवेश किया इसी प्रकार, जब वह नीचे कदम का सबसे बनाया गया था, बल्कि संकेतों की मांग की जानी चाहिए खरीदने, बेचने के लिए स्मार्ट नहीं होगा.
+\n \n
+परिवर्तन की दर (आरओसी) सूचक, मूल्य आंदोलनों की पुष्टि मतभेदों का पता लगाने, और अधिक खरीददार और oversold के स्तर determing के लिए एक उपयोगी तकनीकी विश्लेषण उपकरण है. जांच की जानी चाहिए कि इसी प्रकार का एक सूचक गति सूचक है."/>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/roch.xml -->

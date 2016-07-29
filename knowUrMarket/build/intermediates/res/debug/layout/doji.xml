@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Doji is a powerful Candlestick formation, signifying indecision between bulls and bears. A Doji is quite often found at the bottom and top of trends and thus is considered as a sign of possible reversal of price direction, but the Doji can be viewed as a continuation pattern as well.\n"/>
+    <ImageView 
+        android:src="@drawable/doji1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="A Doji is formed when the opening price and the closing price are equal. A long-legged Doji, often called a 'Rickshaw Man' is the same as a Doji, except the upper and lower shadows are much longer than the regular Doji formation.
+\n
+The creation of the Doji pattern illustrates why the Doji represents such indecision. After the open, bulls push prices higher only for prices to be rejected and pushed lower by the bears. However, bears are unable to keep prices lower, and bulls then push prices back to the opening price.
+\n
+Of course, a Doji could be formed by prices moving lower first and then higher second, nevertheless, either way, the market closes back where the day started."/>
+    
+    <ImageView 
+        android:src="@drawable/doji2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In a Doji pattern, the market explores its options both upward and downward, but cannot commit either way. After a long uptrend, this indecision manifest by the Doji could be viewed as a time to exit one's position, or at least scale back. Similarly, after a long downtrend, like the one shown above of General Electric stock, reducing one's position size or exiting completely could be an intelligent move.
+\n\n
+It is important to emphasize that the Doji pattern does not mean reversal, it means indecision. Doji's are often found during periods of resting after a significant move higher or lower; the market, after resting, then continues on its way. Nevertheless, a Doji pattern is a great sign that a prior trend is losing its strength, and taking some profits might be well advised."/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/doji3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+       
+        />
+    <ImageView 
+        android:src="@drawable/doji4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+       
+        />
+    </LinearLayout>
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOJI A:
+        \nAt the opening, the bulls were in charge; however, the morning rally did not last long before the bears took charge. From mid-morning until late-afternoon, General Electric sold off, but by the end of the day, bulls pushed GE back to the opening price of the day.
+
+The second Doji daily chart on the previous page is shown next. In the intra-day chart below (Doji B), the Doji was created the exact opposite way as the chart shown above (Doji A) was created; Doji B made its day's lows first, then highs second.
+\n\nDOJI B:\n
+At the opening bell, bears took a hold of GE, but by mid-morning, bulls entered into GE's stock, pushing GE into positive territory for the day. Unfortunately for the bulls, by noon bears took over and pushed GE lower. By the end of the day, the bears had successfully brought the price of GE back to the day's opening price.
+
+As was presented above, the Doji formation can be created two different ways, but the interpretation of the Doji remains the same: the Doji pattern is a sign of indecision, neither bulls nor bears can successfully take over."
+/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/doji.xml -->

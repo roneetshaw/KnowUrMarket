@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Support and Resistance is one of the most important and fundamental part of technical analysis:
+\n\n
+Support: Prices should rise after touching support.
+\nResistance: Prices should fall after hitting resistance.
+\nAn example of price respecting support and resistance lines is given next in the chart of the Semiconductor HOLDRS (SMH):"/>
+    <ImageView 
+        android:src="@drawable/snr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When support and resistance has been firmly established: Buy Signal - Price touches support
+\n\n
+Buy Signal\n
+Buy when price touches the support line
+\n\n
+Sell Signal\n
+Sell when price touches the resistance line."/>
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breaking Support and Resistance"
+        android:textSize="20dp"
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Another fundamental concept of support and resistance is listed next and is shown in the chart below of Alcoa (AA) stock:
+\n
+If price breaks below support, then that support level becomes the new resistance level.
+\nIf price breaks above support, then that resistance level becomes the new support level."/>
+    
+    <ImageView 
+        android:src="@drawable/snr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support and Resistance are basic yet vitally important technical analysis tools. On every time frame, intra-day, daily, weekly, and monthly, Support and Resistance levels are respected by traders. Knowledge of these levels helps keep a trader on the correct side of the market, thus helping the trader profit."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="পতাকা প্যাটার্ন সাধারণত একটি আপ উল্লেখযোগ্য বা ডাউন বাজারে সরানো পরে দেখা দেয়. একটি শক্তিশালী পদক্ষেপের পর, দাম সাধারণত বিশ্রাম প্রয়োজন. এই বিশ্রামের সময়ের সাধারণত শব্দ 'পতাকা' সুতরাং, একটি আয়তক্ষেত্র আকৃতির ক্ষেত্রে দেখা দেয়. ঘুমানো পর, মূল্য সাধারণত তারা আগে কি দিক অব্যাহত থাকবে, কারণ পতাকা একটি ধারাবাহিক প্যাটার্ন বিবেচনা করা হয়.
+\n \n
+ইবে (eBay) এর চার্ট অনেক পতাকা নিদর্শন দেখায়:"/>
+    <ImageView 
+        android:src="@drawable/flag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="পতাকা এখনই সংকেত \n
+দাম উচ্চতর সরানো হয়েছে এবং দাম সমর্থন এবং প্রতিরোধের একটি চ্যানেল তৈরি করা, সংকুচিত যখন দাম পশা এবং বন্ধ উর্ধ্বগামী প্রতিরোধের রেখার উপরের যখন একটি কিনতে সংকেত দেওয়া হয়.
+\n \n
+পতাকা সংকেত \n বিক্রি
+Assuming দাম পূর্বে যখন দাম penetrates এবং সমর্থন রেখার নিচের প্রচেষ্টা তারপর দাম একত্রীকরণের একটি নির্দিষ্ট সময়ের পরে, একটি বিক্রয় সংকেত দেওয়া হয়, নিম্নগামী সরানো."/>
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

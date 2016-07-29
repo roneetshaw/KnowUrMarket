@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="সমর্থন ও প্রতিরোধ প্রযুক্তিগত বিশ্লেষণ সবচেয়ে গুরুত্বপূর্ণ ও মৌলিক অংশ এক:
+\n\n
+সাপোর্ট: বর্ণনা সমর্থন স্পর্শ পরে ওঠা উচিত.
+\nResistance: বর্ণনা প্রতিরোধের আঘাত পরে পড়া উচিত.
+\nদাম সম্মান সমর্থন এবং প্রতিরোধের লাইনের উদাহরণ অর্ধপরিবাহী HOLDRS (SMH) এর চার্ট পরবর্তী দেওয়া হয়:"/>
+    <ImageView 
+        android:src="@drawable/snr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সমর্থন এবং প্রতিরোধের দৃঢ়ভাবে প্রতিষ্ঠিত হয়েছে কখন: এখনই সংকেত - দাম ছোঁয়া সমর্থন
+\n\n
+সংকেত \n কিনুন
+মূল্য সমর্থন লাইন স্পর্শ যখন কিনুন
+\n\n
+সংকেত \n বিক্রি
+দাম প্রতিরোধের লাইন স্পর্শ যখন শোনে."/>
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ব্রেকিং সমর্থন ও প্রতিরোধ\n"
+        android:textSize="20dp"
+        />
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="সমর্থন এবং প্রতিরোধের আরেকটি মৌলিক ধারণা পরবর্তী তালিকাভুক্ত করা হয় এবং ALCOA (এএ) স্টক নিচের চার্টে দেখানো হলো:
+\n
+সমর্থন নীচের দাম বিরতি, তারপর যে সমর্থন স্তরের নতুন প্রতিরোধের স্তরের হয়ে থাকে.
+\n সমর্থন উপরে থাকেন দাম বিরতি, তারপর যে প্রতিরোধের স্তরের নতুন সাপোর্ট লেভেল হয়ে."/>
+    
+    <ImageView 
+        android:src="@drawable/snr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সমর্থন ও প্রতিরোধ মৌলিক এখনো অত্যাবশ্যকরূপে গুরুত্বপূর্ণ প্রযুক্তিগত বিশ্লেষণ সরঞ্জাম. অন ​​প্রত্যেক সময় দৈনিক ফ্রেম, ভিতরে দিন,, সাপ্তাহিক, মাসিক, সমর্থন ও প্রতিরোধের মাত্রা ব্যবসায়ীদের দ্বারা সম্মানিত করা হয়. এই মাত্রা জ্ঞান এইভাবে ব্যবসায়ীর মুনাফা সাহায্য বাজারের সঠিক দিকে একজন ব্যবসায়ীর রাখতে সাহায্য করে."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

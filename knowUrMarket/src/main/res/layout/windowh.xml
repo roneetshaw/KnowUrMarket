@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="वे पश्चिम में कहा जाता है के रूप में वे, जापानी कैंडलस्टिक चार्टिंग, या अंतराल में कहा जाता है के रूप में Windows, तकनीकी विश्लेषण में एक महत्वपूर्ण अवधारणा है. एक अंतराल (वर्तमान खुला पिछले बंद भाव के रूप में ही नहीं है) नहीं है, जब भी, कि कोई कीमत और कोई मात्रा की खाई के बीच हाथ सम्पादित कि इसका मतलब है."/>
+    <ImageView 
+        android:src="@drawable/win1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 दिवस के खुले दिन 1 के बंद की तुलना में अधिक होता है जब एक अंतराल होता है. 2 दिवस के खुले दिन 1 के बंद की तुलना में कम है जब Contrastly, एक अंतराल होता है.
+\n
+अंतराल के पीछे ज्यादा मनोविज्ञान है. : अंतराल के रूप में कार्य कर सकते हैं
+\n \n
+प्रतिरोध: नीचे मूल्य अंतराल के बाद, अंतर के रूप में लंबे समय तक या यहां तक ​​कि स्थायी प्रतिरोध कार्य कर सकते हैं.
+\n \n
+समर्थन: कीमतों में अंतर को ऊपर की ओर, अंतर स्थायी रूप से लंबे समय तक या तो, भविष्य में कीमतों को समर्थन के रूप में कार्य कर सकते हैं."/>
+   
+    <ImageView 
+        android:src="@drawable/win2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="প্রায়ই একটা ফাঁক পরে, দাম 'শূন্যস্থান পূরণ' হিসাবে উল্লেখ করা হয় কি করতে হবে. এই বেশ প্রায়ই ঘটে. ফাঁক দিয়ে আরেকটি সাধারণ সংঘটন ইন ফিরে ভরাট করা প্রয়োজন যে মূল্য চার্ট একটি গর্ত হিসাবে একটা ফাঁক চিন্তা ফাঁক ভরা হয়, একবার ফাঁক (দিক বিপরীত এবং ফাঁক দিক জারি চালিয়ে থাকে যে উদাহরণস্বরূপ , ইবে এর উপরের চার্টে ফিরে ঊর্ধ্বে).
+\n
+ইবে (eBay) এর উদাহরণ উপরে ফাঁক সমর্থন হিসাবে অভিনয় দেখায়. ব্যবসায়ীরা এবং বিনিয়োগকারীদের সব পরে, ফাঁক আপ sparked ও কোম্পানির জন্য খেলা এখনো যে কিছু ইতিবাচক সংবাদ সম্ভবত ছিল, কোন রিটার্ন একটি এলাকা হিসাবে ফাঁক নীচের কিছু দেখতে.
+\n
+ওয়াল মার্টের (WMT) স্টক নীচের চার্ট ফাঁক আপ এবং ফাঁক নিচে অনেক দৃষ্টান্ত দেখায়. লক্ষ্য করুন কিভাবে সহ্য করার ক্ষমতা এবং সমর্থন এলাকা হিসাবে ফাঁক আপ এলাকা হিসেবে আইন নিচে ফাঁক:..."/>
+    
+    <ImageView 
+        android:src="@drawable/win3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="अंतराल एक तकनीकी विश्लेषण व्यापारी बेहतर समर्थन या प्रतिरोध के क्षेत्रों का पता लगाने में मदद कर सकते हैं कि एक चार्ट पर महत्वपूर्ण क्षेत्र हैं."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="ভলিউম দোলক ভলিউম দুটি চলন্ত গড়, দ্রুত এবং ধীর এক গঠিত. দ্রুত ভলিউম চলন্ত গড় তারপর ধীর চলমান গড় থেকে বিয়োগ করা হয়. ভলিউম দোলক ভলিউম বিশ্লেষণ হিসাবে একই নীতি ব্যবহার করে ব্যাখ্যা করা হয়:
+
+\n\n বৃদ্ধি বা ভলিউম বৃদ্ধি দ্বারা অনুষঙ্গী মূল্য হ্রাস এন নীতিগুলি প্রবণতা শক্তি একটি চিহ্ন হিসেবে গণ্য করা হয়. গড় (ডিফল্ট 14 সময়সীমার) চলন্ত দ্রুত ভলিউম গড় (ডিফল্ট 28-সময়ের) চলন্ত ধীর ভলিউম উপরে যখন অতএব,, ভলিউম দোলক এটি আপ বা ডাউন হতে কিনা, শূন্য লাইন উপরে থাকে এবং মূল্য দিক নিশ্চিত করা হয়.
+\n\n বৃদ্ধি বা আয়তনের হ্রাস দ্বারা সঙ্গে মূল্য হ্রাস এন নীতিগুলি প্রবণতা দুর্বলতা একটি সাইন বিবেচনা করা হয়. দ্রুত ভলিউম চলন্ত গড় ধীর ভলিউম চলন্ত গড় নীচের যখন অতএব,, ভলিউম দোলক শূন্য রেখার নিচের হয় এবং মূল্য দিক শক্তি এবং দৃঢ় বিশ্বাস উদাসীন হয় যে সতর্কীকরণ হয়.
+ভলিউম দোলক এর \n\nউদাহরণস্বরূপ ই মিনি রাসেল 2000 ফিউচার চুক্তির চার্টে পরবর্তী প্রস্তুত করা হয়:"/>
+    <ImageView 
+        android:src="@drawable/volosc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+দাম উচ্চতর highs এবং lows উচ্চতর করছে যে একটি bullish সাইন. রাসেল 2000 ই মিনি মধ্যে দাম বাড়ে উচ্চতর highs এবং lows উচ্চতর তৈরীর ভলিউম দোলক সঙ্গে সংযুক্ত করা হয়, একটি ডবল bullish সাইন দেওয়া হয়."/>
+    
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nভলিউম দোলক অপসারণ"/>
+    
+    
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="
+আয়তনের হ্রাস দ্বারা সঙ্গে যা দাম বৃদ্ধি বা হ্রাস আছে যখন ভলিউম দোলক divergences ঘটবে. এই বিকিরণ পরিস্থিতিতে, গড় (ডিফল্ট 14 সময়সীমার) চলন্ত দ্রুত ভলিউম (ডিফল্ট 28-সময়ের) গড় চলন্ত ধীর ভলিউম নিচে এবং ভলিউম দোলক শূন্য রেখার নিচের হয়. এই প্রভেদ বর্তমান দাম দিক শক্তি উদাসীন এবং একটি প্রবণতা বিপরীত সম্ভাবনা আছে যে সতর্কবার্তা হয়.
+\n\n
+একটি ভলিউম দোলক বিকিরণ একটি উদাহরণ ই মিনি রাসেল 2000 ফিউচার চুক্তির চার্টে নিচে উপস্থাপন করা হয়:"/>
+    <ImageView 
+        android:src="@drawable/volosc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="দাম রাসেল 2000 ই মিনি বৃদ্ধি ছিল যখন এটি পুনরাবৃত্তি নিম্ন highs এবং lows কম তৈরীর কমে ছিল, কারণ, ভলিউম দোলক দাম আন্দোলন নিশ্চিত করা হয় নি. এই অভদ্র বিকিরণ সাম্প্রতিক বাজার মূল্য বেড়ে ভলিউম শক্তি দিয়ে তৈরি করা হচ্ছে না যে নির্দেশিত. অভদ্র বিকিরণ ই মিনি ভবিষ্যতে এর উর্ধ্বগামী trendline সমর্থন ভাঙ্গা ছিল যখন নিশ্চিত ছিল.
+\ N \n
+রাসেল 2000 ই মিনি ফিউচার চুক্তি তার মন্দা তৈরি যাইহোক, যখন, ভলিউম দোলক উচ্চতর highs এবং lows নিম্ন, ভলিউম বৃদ্ধি এবং এইভাবে ট্রেন্ড নিম্নগামী শক্তি ছিল যা নির্দেশ করে যে একটি সংকেত তৈরীর দ্বারা দাম downtrend নিশ্চিত করেছে."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

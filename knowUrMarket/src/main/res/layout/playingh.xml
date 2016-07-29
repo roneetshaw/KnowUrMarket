@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView android:textStyle="bold" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:text="
+बैंड बजाना सब समापन की कीमतों के विशाल बहुमत बोलिंगर बैंड के बीच होना चाहिए कि इस तथ्य पर आधारित है. कहा गया है कि, तो बहुत कम होता है, जो बोलिंगर बैंड, बाहर जा रहा एक शेयर की कीमत पिछले नहीं करना चाहिए और आम तौर पर 20 अवधि साधारण औसत हिल, जिसका अर्थ है 'वापस मतलब के लिए वापस ला' चाहिए. इस रणनीति का एक संस्करण जेम्स Altucher से एक बचाव निधि की तरह किताब व्यापार में चर्चा की है."/>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv3"/>
+             <TextView android:textStyle="bold"
+                 android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Buy Signal
+\n ई मिनी snp 500 भविष्य के लिए नीचे दिए गए चार्ट में दिखाया गया है उदाहरण के लिए, एक व्यापारी खरीदता है या कीमत कम बोलिंगर बैंड से नीचे गिर गया जब कवर करने के लिए खरीदता है.
+\nSell Signal
+जब ऊपरी बोलिंगर बैंड के बाहर स्टॉक, भविष्य, या मुद्रा की कीमत pierces. \nthe बेचने या बाहर निकलने को कवर करने के लिए खरीद शुरू की है" />
+       
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerGif"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nkk"
+    tools:context="com.example.kym.LaunchActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <WebView
+        android:id="@+id/webViewGIF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/activity_launch.xml -->

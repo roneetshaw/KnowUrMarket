@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalbck"
+    android:gravity="center"
+    tools:context="com.example.kym.QuotationActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteQuotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Stock Name"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/autoCompleteQuotation"
+        android:layout_marginTop="20dp" >
+
+        <RelativeLayout
+            android:layout_width="314dp"
+            android:layout_height="380dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView5_1"
+                android:layout_alignRight="@+id/textView4"
+                android:layout_marginRight="2dp"
+                android:text="Index :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtStockName"
+                android:layout_marginTop="32dp"
+                android:text="Last TP:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1_1"
+                android:layout_marginTop="29dp"
+                android:text="Prev. Close:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewQ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtStockName"
+                android:layout_toRightOf="@+id/textView5_1"
+                android:text="ACC" />
+
+            <TextView
+                android:id="@+id/textViewQ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView5_1"
+                android:layout_alignBottom="@+id/textViewQ1"
+                android:layout_alignLeft="@+id/textViewQ2"
+                android:layout_marginLeft="2dp"
+                android:text="000" />
+
+            <TextView
+                android:id="@+id/textViewQ4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textViewQ1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView1_1"
+                android:layout_marginRight="14dp"
+                android:layout_toLeftOf="@+id/textViewQ4"
+                android:text="ID :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewQ5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView3_1"
+                android:layout_alignBottom="@+id/textView3_1"
+                android:layout_toRightOf="@+id/textView4"
+                android:text="NSE" />
+
+            <TextView
+                android:id="@+id/textViewQ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView1_1"
+                android:layout_alignBottom="@+id/textViewQ1"
+                android:layout_alignLeft="@+id/textViewQ1"
+                android:text="000" />
+
+            <TextView
+                android:id="@+id/textViewBuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textViewQ3"
+                android:layout_alignBottom="@+id/textViewQ3"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/textViewQ5"
+                android:text="Percentage:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewQ6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textViewBuy"
+                android:layout_alignBottom="@+id/textViewBuy"
+                android:layout_alignLeft="@+id/textViewQ5"
+                android:layout_marginLeft="2dp"
+                android:text="0.00%" />
+
+            <TextView
+                android:id="@+id/textViewUpdateAt"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5_1"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Updated at :" />
+
+            <TextView
+                android:id="@+id/txtStockName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Stock :"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textViewUpdateAt"
+                android:layout_marginTop="25dp" >
+
+                <Button
+                    android:id="@+id/btnRefresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:onClick="@string/doLoad"
+                    android:text="Load"
+                    android:width="90dp" />
+
+                <Button
+                    android:id="@+id/btnRefresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/btnRefresh"
+                    android:onClick="@string/doLoad"
+                    android:text="Load"
+                    android:width="90dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:onClick="@string/doNew"
+                    android:text="New"
+                    android:width="90dp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="@string/doRefresh"
+                    android:text="Refresh"
+                    android:width="90dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/scrollView1"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textViewQBigPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textViewQChange"
+            android:layout_marginRight="48dp"
+            android:layout_toLeftOf="@+id/imageViewChange"
+            android:text="ACC"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewQChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="62dp"
+            android:text="0.00" />
+
+        <ImageView
+            android:id="@+id/imageViewChange"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/arrowgreen" />
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/activity_quotation.xml -->

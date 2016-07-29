@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The following is the profit/loss graph at expiration for the put option in the example given on the previous page."/>
+    <ImageView 
+        android:src="@drawable/put2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break-even
+\nThe breakeven point is quite easy to calculate for a put option:
+\n\n
+Breakeven Stock Price = Put Option Strike Price - Premium Paid
+\n\nTo illustrate, the trader purchased the $47.50 strike price put option for $0.44. Therefore, $47.50 - $0.44 = $47.06. The trader will breakeven, excluding commissions/slippage, if the stock falls to $47.06 by expiration.
+\n\n
+Profit
+\nTo calculate profits or losses on a put option use the following simple formula:
+\n\n
+Put Option Profit/Loss = Breakeven Point - Stock Price at Expiration
+\nFor every dollar the stock price falls once the $47.06 breakeven barrier has been surpassed, there is a dollar for dollar profit for the options contract. So if the stock falls $5.00 to $45.00 by expiration, the owner of the the put option would make $2.06 per share ($47.06 breakeven stock price - $45.00 stock price at expiration). So total, the trader would have made $206 ($2.06 x 100 shares/contract).
+\n\n
+Partial Loss
+\nIf the stock price decreased by $2.75 to close at $47.25 by expiration, the option trader would lose money. For this example, the trader would have lost $0.19 per contract ($47.06 breakeven stock price - $47.25 stock price). Therefore, the hypothetical trader would have lost $19 (-$0.19 x 100 shares/contract).
+
+\nTo summarize, in this partial loss example, the option trader bought a put option because they thought that the stock was going to fall. By all accounts, the trader was right, the stock did fall by $2.75, however, the trader was not right enough. The stock needed to move lower by at least $2.94 to $47.06 to breakeven.
+
+\n\nComplete Loss
+\nIf the stock did not move lower than the strike price of the put option contract by expiration, the option trader would lose their entire premium paid $0.44. Likewise, if the stock moved up, irrelavent by how much it moved upward, then the option trader would still lose the $0.44 paid for the option. In either of those two circumstances, the trader would have lost $44 (-$0.44 x 100 shares/contract)."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/put2.xml -->

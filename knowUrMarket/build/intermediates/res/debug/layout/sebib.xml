@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+		android:textSize="15dp"
+		android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="ভারতের সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ বোর্ড ইন্ডিয়া অ্যাক্ট , 1992 এর সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ বোর্ডের বিধান অনুযায়ী এপ্রিল 12,1992 উপর প্রতিষ্ঠিত হয়. ভারতের সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ বোর্ডের প্রস্তাবনা সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ মৌলিক ফাংশন বর্ণনা করে ভারতের বোর্ড হিসাবে
+' সিকিউরিটিজ বিনিয়োগকারীদের স্বার্থ রক্ষা ও প্রচার
+উন্নয়ন , এবং সিকিউরিটিজ বাজার নিয়ন্ত্রণ ও ছিলেন বিষয়গুলি জন্য' উহার সহিত বা তত্প্রতি আনুষঙ্গিক .
+\n\n
+সেবি বোর্ডের একটি চেয়ারম্যান , অর্থ ও আইন মন্ত্রণালয়ের প্রতিনিধিত্বমূলক কেন্দ্রীয় সরকার থেকে দুই সদস্য, ভারতীয় রিজার্ভ ব্যাংক থেকে এক সদস্য ও কেন্দ্রীয় সরকার কর্তৃক নিযুক্ত দুই অন্যান্য সদস্যদের গঠিত.
+
+\n\n
+শিল্পের রক্ষী কুকুর হিসাবে সেবি বাজারের অংশগ্রহণকারীদের নিয়ন্ত্রক নিয়ম অনুযায়ী তাদের কর্তব্য সম্পাদন নিশ্চিত যে এ বাজারে একটি গুরুত্বপূর্ণ এবং অত্যন্ত গুরুত্বপূর্ণ ভূমিকা আছে . প্রচলিত নিয়ম অনুযায়ী বাজার এবং তার দাম নিয়ন্ত্রণ একটি দায়ী স্বয়ং রেগুলেটরি সংস্থা ( SRO ) ফাংশন হিসাবে স্টক এক্সচেঞ্জ . সেবি অ্যান্ড এক্সচেঞ্জ বিনিয়োগকারী সুরক্ষা এবং বাজারে সামগ্রিক মান উন্নত প্রশংসাসূচক ভূমিকা খেলার."/>
+</ScrollView>
+    </LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/sebib.xml -->

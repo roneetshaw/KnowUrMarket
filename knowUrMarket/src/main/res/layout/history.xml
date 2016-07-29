@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView android:textStyle="bold"
+        
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History of the Indian Stock Market"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indian Stock Markets are one of the oldest in Asia. Its history dates back to nearly 200 years ago. The earliest records of security dealings in India are meagre and obscure. The East India Company was the dominant institution in those days and business in its loan securities used to be transacted towards the close of the eighteenth century.
+\n\nBy 1830's business on corporate stocks and shares in Bank and Cotton presses took place in Bombay. Though the trading list was broader in 1839, there were only half a dozen brokers recognized by banks and merchants during 1840 and 1850.
+The 1850's witnessed a rapid development of commercial enterprise and brokerage business attracted many men into the field and by 1860 the number of brokers increased into 60.
+In 1860-61 the American Civil War broke out and cotton supply from United States of Europe was stopped; thus, the 'Share Mania' in India begun. The number of brokers increased to about 200 to 250. However, at the end of the American Civil War, in 1865, a disastrous slump began (for example, Bank of Bombay Share which had touched Rs 2850 could only be sold at Rs. 87).\n
+At the end of the American Civil War, the brokers who thrived out of Civil War in 1874, found a place in a street (now appropriately called as Dalal Street) where they would conveniently assemble and transact business. In 1887, they formally established in Bombay, the 'Native Share and Stock Brokers' Association' (which is alternatively known as 'The Stock Exchange'). In 1895, the Stock Exchange acquired a premise in the same street and it was inaugurated in 1899. Thus, the Stock Exchange at Bombay was consolidated.
+Other leading cities in stock market operations
+\n\nAhmedabad gained importance next to Bombay with respect to cotton textile industry. After 1880, many mills originated from Ahmedabad and rapidly forged ahead. As new mills were floated, the need for a Stock Exchange at Ahmedabad was realized and in 1894 the brokers formed 'The Ahmedabad Share and Stock Brokers' Association'.
+What the cotton textile industry was to Bombay and Ahmedabad, the jute industry was to Calcutta. Also tea and coal industries were the other major industrial groups in Calcutta. After the Share Mania in 1861-65, in the 1870's there was a sharp boom in jute shares, which was followed by a boom in tea shares in the 1880's and 1890's; and a coal boom between 1904 and 1908. On June 1908, some leading brokers formed 'The Calcutta Stock Exchange Association'.
+In the beginning of the twentieth century, the industrial revolution was on the way in India with the Swadeshi Movement; and with the inauguration of the Tata Iron and Steel Company Limited in 1907, an important stage in industrial advancement under Indian enterprise was reached.
+\n\nIndian cotton and jute textiles, steel, sugar, paper and flour mills and all companies generally enjoyed phenomenal prosperity, due to the First World War.
+In 1920, the then demure city of Madras had the maiden thrill of a stock exchange functioning in its midst, under the name and style of 'The Madras Stock Exchange' with 100 members. However, when boom faded, the number of members stood reduced from 100 to 3, by 1923, and so it went out of existence.
+In 1935, the stock market activity improved, especially in South India where there was a rapid increase in the number of textile mills and many plantation companies were floated. In 1937, a stock exchange was once again organized in Madras - Madras Stock Exchange Association (Pvt) Limited. (In 1957 the name was changed to Madras Stock Exchange Limited).
+Lahore Stock Exchange was formed in 1934 and it had a brief life. It was merged with the Punjab Stock Exchange Limited, which was incorporated in 1936." />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post-independence Scenario"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most of the exchanges suffered almost a total eclipse during depression. Lahore Exchange was closed during partition of the country and later migrated to Delhi and merged with Delhi Stock Exchange.
+Bangalore Stock Exchange Limited was registered in 1957 and recognized in 1963.\n
+Most of the other exchanges languished till 1957 when they applied to the Central Government for recognition under the Securities Contracts (Regulation) Act, 1956. Only Bombay, Calcutta, Madras, Ahmedabad, Delhi, Hyderabad and Indore, the well established exchanges, were recognized under the Act.
+\n\nAt present, there are totally twenty one recognized stock exchanges in India excluding the Over The Counter Exchange of India Limited (OTCEI) and the National Stock Exchange of India Limited (NSEIL)." />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

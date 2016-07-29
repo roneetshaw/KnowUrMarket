@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="The $VIX is the 30-day annualized implied volatility of the S and P 500 Index Options. In addition, the $VXN is the 30-day annualized implied volatility of the Nasdaq 100 Index Options. When markets crash or move downward quickly, put options become popular. Traders bid up the price of these put options, which manifests itself as an increase in the implied volatility level; thus an increase in the $VIX and $VXN index. The basic relationship between stock and index prices and the $VIX and $VXN is presented next:
+
+\nWhen prices fall, the $VIX and $VXN Indexes rise.
+\n\In contrast, when prices rise, the $VIX and $VXN Indexes fall.
+\n\nThis basic relationship is summed up by a famous traders' saying: 'When the VIX is high it's time to buy; when the VIX is low it's time to go.'
+\n\n
+The following chart of the S and P 500 exchange traded fund (SPY), top half of chart, shows the inverse relationship between it and the $VIX Volatility Index, bottom half of chart:"/>
+    <ImageView 
+        android:src="@drawable/vix1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notice how an uptrend in the price of the S and P 500 is accompanied by a downtrend in the level of the $VIX.
+\n\n
+The next chart of the Nasdaq 100 exchange traded fund (QQQQ) shows how great buying opportunities are when the $VXN spikes higher:"/>
+    
+    <ImageView 
+        android:src="@drawable/vix2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIX and VXN Buy Signal
+\nWhen the $VIX or $VXN spike (usually they both spike during the same periods) buy. If history repeats itself, which it has done often, buying $VIX and $VXN spikes has proven quite profitable. Nevertheless, the Mutual Fund mantra applies: 'Past performance is not indicative of future performance'."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/vix.xml -->

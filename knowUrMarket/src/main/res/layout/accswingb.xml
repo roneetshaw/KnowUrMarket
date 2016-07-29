@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="টেকনিক্যাল ট্রেডিং সিস্টেম, ক্রমবর্ধমান সুইং সূচক (এএসআই) তার জনপ্রিয় প্রযুক্তিগত বিশ্লেষণ বই নতুন ধারণা সালে ওয়েলস Wilder দ্বারা বিকশিত প্রধানত একটি বিকিরণ এবং নিশ্চিতকরণ হাতিয়ার হিসাবে ব্যবহার করা হয়, কিন্তু এখনই জন্য ব্যবহার করা হয় এবং সেইসাথে সংকেত বিক্রি করা যাবে. \n নিকী পরিকল্পনা করা হয়েছিল ফিউচার ট্রেডিং জন্য ব্যবহার করা হবে, কিন্তু খুব স্টক ট্রেডিং এবং মুদ্রার ট্রেডিং জন্য ব্যবহার করা যাবে. \n \n \n Basically, ক্রমবর্ধমান সুইং সূচক সুইং সূচক একটি চলমান মোট হয়"/>
+    <ImageView 
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="কি Signal কিনুন - ক্রমবর্ধমান সুইং সূচক \n
+ক্রমবর্ধমান সুইং সূচক প্রতিরোধের উপরে একটি মূল্য একত্রীকরণের সময়ের মধ্যে একটি নিম্নগামী trendline বা, উপরে ভেঙ্গে যখন কিনুন.
+\n \n
+সংকেত বিক্রয় - ক্রমবর্ধমান সুইং সূচক \n
+ক্রমবর্ধমান সুইং সূচক একটি উর্ধ্বগামী trendline নিচে বিরতি বা, একটি মূল্য একত্রীকরণের সময়ের মধ্যে, সমর্থন নীচের যখন শোনে."/>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

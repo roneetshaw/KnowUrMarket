@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/acc1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="\nAccumulation Distribution uses volume to confirm price trends or warn of weak movements that could result in a price reversal.
+
+\n\nAccumulation: Volume is considered to be accumulated when the day's close is higher than the previous day's closing price. Thus the term 'accumulation day'
+\n\nDistribution: Volume is distributed when the day's close is lower than the previous day's closing price. Many traders use the term 'distribution day'
+\n\nTherefore, when a day is an accumulation day, the day's volume is added to the previous day's Accumulation Distribution Line. Similarly, when a day is a distribution day, the day's volume is subtracted from the previous day's Accumulation Distribution Line."/>
+    <ImageView 
+        android:id="@+id/accimg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:src="@drawable/acc1"
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/acc2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High #1 to High #2:\n
+The Nasdaq 100 made an equal high (i.e. Double Top formation) at High #2;\nhowever, the Accumulation Distribution Line failed to make an equal high, in fact it made a lower high. On average, less volume was transacted on the move higher at High #2 than occured on the first move higher at High #1;\nthus, this could be interpreted as there being less strength and conviction behind the rally in the Nasdaq the second move higher.\nThis failure of the Accumulation Distribution Line signaled a strong bearish divergence.
+\n\n
+High #3 to High #4:\n
+Again, the Accumulation Distribution line made a lower high, even though the Nasdaq 100 this time made a higher high. This bearish divergence warned that the second move to make a higher high in price lacked conviction."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/accumulation.xml -->

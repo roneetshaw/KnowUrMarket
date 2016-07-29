@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="कनीकी ट्रेडिंग सिस्टम, संचयी घुमाओ सूचकांक (एएसआई) में अपने लोकप्रिय तकनीकी विश्लेषण किताब नई अवधारणाओं में Welles वाइल्डर द्वारा विकसित मुख्य रूप से एक विचलन और पुष्टि उपकरण के रूप में इस्तेमाल किया जाता है, लेकिन खरीदने के लिए इस्तेमाल किया और साथ ही संकेत बेचने जा सकता है. \n लीख डिजाइन किया गया था वायदा कारोबार के लिए इस्तेमाल किया जाएगा, लेकिन बहुत शेयर ट्रेडिंग और मुद्रा व्यापार के लिए इस्तेमाल किया जा सकता है. \n \nbasically, संचयी घुमाओ सूचकांक घुमाओ सूचकांक के एक चल कुल है"/>
+    <ImageView 
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="सिग्नल की खरीद - संचयी घुमाओ सूचकांक \n
+संचयी घुमाओ सूचकांक प्रतिरोध के ऊपर एक कीमत समेकन की अवधि में एक नीचे ट्रेंडलाइन या,, ऊपर टूट जाता है जब खरीदें.
+\n \n
+सिग्नल बेचते हैं - संचयी घुमाओ सूचकांक \n
+संचयी घुमाओ सूचकांक ऊपर की ओर ट्रेंडलाइन से नीचे जाती है या, एक मूल्य समेकन अवधि में, समर्थन नीचे जब बेचें."/>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

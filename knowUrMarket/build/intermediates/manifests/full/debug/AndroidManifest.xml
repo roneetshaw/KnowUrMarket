@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kym"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kymicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.kym.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.TutorialActivity"
+            android:label="@string/title_activity_tutorial"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.GameActivity"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.example.kym.FrontActivity"
+            android:label="@string/title_activity_front"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="com.example.kym.Service_Order"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.example.kym.Service_Order" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.kym.RegActivity"
+            android:label="@string/title_activity_reg"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+        <activity
+            android:name="com.example.kym.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        -->
+        <activity
+            android:name="com.example.kym.LoginActivity1"
+            android:label="@string/title_activity_login_activity1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+            <activity
+            android:name="com.example.kym.UserHomeActivity"
+            android:label="@string/title_activity_user_home"
+            android:screenOrientation="portrait" >
+        </activity>
+        -->
+        <activity
+            android:name="com.example.kym.HotPicksActivity"
+            android:label="@string/title_activity_hot_picks"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.NiftyActivity"
+            android:label="@string/title_activity_nifty"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.ReportActivity"
+            android:label="@string/title_activity_report"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.BalanceActivity"
+            android:label="@string/title_activity_balance"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.BuySellActivity"
+            android:label="@string/title_activity_buy_sell"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.CurrenyActivity"
+            android:label="@string/title_activity_curreny"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.PortfolioActivity"
+            android:label="@string/title_activity_portfolio"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.QuotationActivity"
+            android:label="@string/title_activity_quotation"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.MarketWatchActivity"
+            android:label="@string/title_activity_market_watch"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.OrderBookActivity"
+            android:label="@string/title_activity_order_book"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.OrderActivity"
+            android:label="@string/title_activity_order"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.TradeBookActivity"
+            android:label="@string/title_activity_trade_book"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.TradeActivity"
+            android:label="@string/title_activity_trade"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.StockValueActivity"
+            android:label="@string/title_activity_stock_value"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+        <activity
+            android:name="com.example.kym.DisplayResultActivity"
+            android:label="@string/title_activity_display_result"
+            android:noHistory="true" 
+            android:screenOrientation="portrait">
+        </activity>
+        -->
+        <activity
+            android:name="com.example.kym.LaunchActivity"
+            android:label="@string/title_activity_launch"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kym.GameSplashActivity"
+            android:label="@string/title_activity_game_splash"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Technical"
+            android:label="@string/tech"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Accumulation"
+            android:label="Accumulation Distribution"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Flags"
+            android:label="Flags"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.AccuSwing"
+            android:label="Accumulation Swing Index"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Bollinger"
+            android:label="Bollinger Bands"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Playing"
+            android:label="Playing the Bands"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Breakout"
+            android:label="Bollinger Band Breakout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Volatile"
+            android:label="Option Volatility Strategy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Vix"
+            android:label="VIX"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Volume"
+            android:label="VolOsc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.RSI"
+            android:label="RSI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.ROC"
+            android:label="ROC"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Pivot"
+            android:label="pivot"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Basics"
+            android:label="Basics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Bear"
+            android:label="Bear"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Bull"
+            android:label="Bull"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Doji"
+            android:label="Doji"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Hamm"
+            android:label="Hammer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Windows"
+            android:label="Windows"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Call"
+            android:label="Call Options"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.BCS"
+            android:label="BCS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.BPS"
+            android:label="BPS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.HNS"
+            android:label="HNS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.DT"
+            android:label="DT"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.DB"
+            android:label="DB"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+            <activity
+            android:name="com.example.kym.Flag"
+            android:label="Flags" 
+            android:screenOrientation="portrait">
+        </activity>
+        -->
+        <activity
+            android:name="com.example.kym.SNR"
+            android:label="SNR"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Chart"
+            android:label="Chart"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Option"
+            android:label="Options"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Candle"
+            android:label="Candle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Class2"
+            android:label="Class2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Put2"
+            android:label="Put2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Put"
+            android:label="Put Options"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.History"
+            android:label="History"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Sebi"
+            android:label="SEBI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Stock"
+            android:label="Stock"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.FAQs"
+            android:label="FAQs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.kym.Prefs"
+            android:label="Prefs"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.kym.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kym.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Head and Shoulders"/>
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="सिर और कंधे चार्ट पैटर्न आसानी से समझा खरीदें और बेचने के संकेत दे रही है, एक भारी इस्तेमाल और काफी लाभदायक अपनाने के पैटर्न है.
+
+होम डिपो (एचडी) के चार्ट के नीचे एक सिर और कंधे पैटर्न से पता चलता है:"/>
+    <ImageView 
+        android:src="@drawable/hns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="Head and Shoulders Components
+\n 1. बाएं कंधे: बुल्स ऊपर की तरफ नई ऊंचाई बनाने कीमतों धक्का; हालांकि इन नई ऊंचाई कम रहता है और कीमतों में वापसी कर रहे हैं.
+\n2. सिर: बैल एक और रन बनाने की वजह से कीमतें इस समय सफल और पिछले उच्च श्रेष्ठ है, लंबे समय के लिए पीछे हटना नहीं है; एक तेजी साइन. कीमतों में केवल एक बार फिर समर्थन पाने के लिए, फिर पीछे हटना.
+\n3. दाएँ कंधे: बैल फिर उच्च धक्का, लेकिन इस बार एक उच्च उच्च बनाने के लिए असफल. भालू बैल एक बराबर उच्च भी एक उच्च नई या बनाने के लिए अनुमति नहीं किया था, क्योंकि यह बहुत तेजी है. भालू वापस समर्थन (पुष्टिकरण लाइन) को कीमतों धक्का; यह एक निर्णायक क्षण है - बैल एक और उच्च धक्का या भालू अधिक कदम को रोकने में सफल रहा है कर देगा.
+\n \nHead और कंधे सिग्नल बेचें
+\n यदि कीमतों पुष्टि समर्थन लाइन तोड़ने, यह भालू प्रभारी रहे हैं कि स्पष्ट है; कीमत पुष्टि की रेखा से नीचे बंद होने पर इस प्रकार, एक मजबूत बेचने के संकेत दिए है.
+\n \n
+एक नीचे झुका हुआ पुष्टि लाइन की कीमतें कम चढ़ाव बना रहे हैं कि इसका मतलब है, जिसका मुख्य कारण एक नीचे झुका हुआ पुष्टि लाइन आम तौर पर एक अधिक शक्तिशाली सिर और कंधे पैटर्न के रूप में देखा जाता है कि ध्यान दें."/>
+    <TextView android:textStyle="bold" 
+        
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="रिवर्स सिर और कंधे"/>
+    <ImageView 
+        android:src="@drawable/hns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="के रूप में निम्नानुसार एक सिर और कंधे पैटर्न के पीछे तर्क है:
+
+\n 1. कंधे वाम: भालू नीचे की ओर नए चढ़ाव बना कीमतों धक्का; हालांकि, बैल थोड़ा अधिक लाभ और कीमतों धक्का लगते हैं.
+\n2. सिर: कीमत लाभ भालू लौटने से पहले लंबे समय तक और पहले की तुलना में भी कम कीमतों धक्का नहीं है; एक मंदी साइन. कीमतें तो नए कम कीमतों पर खरीदार मिल.
+\n3. दाएँ कंधे: भालू फिर से नीचे धक्का है, लेकिन इस बार एक कम कम करने में विफल. यह आम तौर पर तेजी के रूप साइन देखा जाता है, भालू आगे नीचे कीमतों धक्का करने में असमर्थ थे. मूल्य समर्थन वापस (पुष्टिकरण लाइन) के लिए उच्च धक्का दिया है जब निर्णय समय तब होता है; भालू वापस नीचे की कीमतों धक्का होगा या बैल शेयर, भविष्य, या मुद्रा जोड़ी का नियंत्रण फिर से, उच्च कीमतों धक्का होगा.
+\n \nReverse सिर और कंधे n सिग्नल खरीदें
+\nWhen कीमत पुष्टि रेखा से ऊपर बंद, एक मजबूत खरीद संकेत दिया जाता है.
+\n \n
+आमतौर पर एक ऊपर की ओर झुका हुआ पुष्टि लाइन एक ऊपर की ओर झुका हुआ पुष्टि लाइन की कीमतें उच्च highs बना रहे हैं कि इसका मतलब है, जिसका मुख्य कारण एक अधिक शक्तिशाली रिवर्स सिर और कंधे पैटर्न के रूप में देखा जाता है."/>
+    
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="
+वॉल्यूम और सिर और कंधे"/>
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="एक सिर और कंधे पैटर्न की पुष्टि लाइन नकारात्मक करने के लिए जाती है, मात्रा की एक बड़ी राशि के रूप में अच्छी तरह से हो जाना चाहिए.
+\n \n
+जनरल इलेक्ट्रिक (जीई) के लिए नीचे दिए गए चार्ट सिर और कंधे पैटर्न की पुष्टि लाइन टूट गया जब मात्रा में तेजी से वृद्धि से पता चलता है:"/>
+    <ImageView 
+        android:src="@drawable/hns3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="मात्रा में तेजी से वृद्धि के अलावा, जीई के चार्ट पर खाई नीचे भी पुष्टि लाइन में छेद किया गया था जब बेचने के लिए मजबूत संकेत दिया.
+\n \n
+इसी अवधारणा एक रिवर्स सिर और कंधे पैटर्न पर लागू होता है, पुष्टि लाइन के टूटने की मात्रा में वृद्धि के साथ किया जाना चाहिए.
+\n \n
+गोल्ड फ्यूचर्स के लिए नीचे दिए गए चार्ट पुष्टि लाइन में छेद किया गया था जब मात्रा में वृद्धि दिखाता है:"/>
+
+    <ImageView 
+        android:src="@drawable/hns4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kym.TutorialActivity" >
+
+    <item
+        android:id="@+id/Language"
+        android:orderInCategory="100"
+        android:title="Change Language"/>
+
+</menu>
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/menu/tutorial.xml -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="সবচেয়ে জনপ্রিয় প্রযুক্তিগত বিশ্লেষণ সূচক, তা হল, আপেক্ষিক ক্ষমতা সূচক (RSI) আগের দামের সম্পর্কিত বর্তমান দাম শক্তি পরিমাপ করে একটি দোলক হয়. RSI একটি বহুমুখী হাতিয়ার, এটি ব্যবহার করা যাবে করা:
+
+\n  ক্রয় এবং বিক্রয় সংকেত
+\n Overbought দেখান এবং oversold অবস্থায়
+\n Confirm দাম আন্দোলন
+\n divergences মাধ্যমে সম্ভাব্য দাম রদবদল হাজার nWarn \
+ইবে (eBay) এর নীচে \n \n চার্ট RSI সংকেত ক্রয় এবং বিক্রয় অনুসরণ করা সহজ তৈরি করতে পারেন দেখায় কিভাবে:"/>
+    <ImageView 
+        android:src="@drawable/rsi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRSI Buy Signal
+\nBuy RSI oversold রেখা (30) উপরোক্ত অতিক্রম করার সময়.
+\n\n
+RSI সংকেত বিক্রয়
+\nSell RSI overbought রেখা (70) নীচের অতিক্রম করার সময়.
+\n\n
+আপেক্ষিক ক্ষমতা সূচক সময় সময়ের তারতম্য ক্রয় এবং বিক্রয় সংকেত সংখ্যা বৃদ্ধি বা হ্রাস করতে পারেন. গোল্ড এর নিচের চার্ট, দুটি RSI সময়কাল, 14 দিনের (ডিফল্ট) দেখানো হয় এবং 5 দিন. সময়ের কমে যথেষ্ট ক্রয় এবং বিক্রয় সংকেত সংখ্যা বাড়িয়ে, RSI আরো উদ্বায়ী প্রণীত লক্ষ্য করুন কিভাবে."/>
+<ImageView 
+        android:src="@drawable/rsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+     </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/rsib.xml -->

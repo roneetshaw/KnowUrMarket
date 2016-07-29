@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalbck"
+    tools:context="com.example.kym.StockValueActivity"
+    tools:ignore="MergeRootFrame" 
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewBal1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewQChange"
+        android:layout_below="@+id/textViewQChange"
+        android:layout_marginTop="32dp"
+        android:text="Quantity :"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewBal1"
+        android:layout_below="@+id/textViewBal1"
+        android:layout_marginTop="30dp"
+        android:text="Cost Price :"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewBal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="34dp"
+        android:text="Profit/Loss :"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textV1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewBal1"
+        android:layout_alignBottom="@+id/textViewBal1"
+        android:layout_alignRight="@+id/textV1_1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textV1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/textV1_2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textV1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewBal2"
+        android:layout_alignBottom="@+id/textViewBal2"
+        android:layout_alignRight="@+id/textV1_3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textV1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewBal1"
+        android:layout_alignLeft="@+id/txtUT"
+        android:layout_marginLeft="68dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewQChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtUT"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="66dp"
+        android:text="Stock Name :"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewBal2"
+        android:layout_marginTop="48dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:onClick="@string/doRefresh"
+            android:text="Refresh" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="@string/clicksell"
+            android:text="Sell" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

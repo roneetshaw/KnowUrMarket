@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="
+डबल शीर्ष तकनीकी विश्लेषण अपनाने पैटर्न एक आम और अत्यधिक प्रभावी मूल्य उत्क्रमण पैटर्न है.
+\n \n
+Altria (एमओ) स्टॉक के लिए नीचे दिए गए चार्ट डबल शीर्ष उत्क्रमण पैटर्न दिखाता है:"/>
+    <ImageView 
+        android:src="@drawable/dt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double Top Formation Components
+\n1. पहली बारिश: बुल्स ऊपर की तरफ नई ऊंचाई बनाने कीमतों धक्का; हालांकि, इन नई ऊंचाई कम रहता है और कीमतों में वापसी कर रहे हैं.
+\n2.Second उच्च: बैल एक समान उच्च बनाने, एक और रन बनाने की वजह से कीमतों में लंबे समय के लिए पीछे हटना नहीं है. बैल उच्च कीमतों धक्का करने में असमर्थ थे क्योंकि फिर भी, इस मंदी है; भालू पिछले उच्च स्तर पर उनकी जमीन का आयोजन किया. भालू वापस समर्थन (पुष्टिकरण लाइन) को कीमतों धक्का; यह एक निर्णायक क्षण है - बैल एक और धक्का उच्चतर कर देगा या भालू नियंत्रण रखना होगा और भी कम होने की संभावना है अच्छे के लिए खत्म हो लेने से अधिक कीमतों धक्का या तो.
+\n \nDouble Top बेचना \ सिग्नल
+\nSell कीमत पुष्टि की रेखा से नीचे बंद होने पर.
+\n \n
+व्यापारियों पुष्टि पंक्ति विराम साथ देने के लिए मात्रा में उल्लेखनीय वृद्धि की उम्मीद है कि नोट; कीमत पुष्टि लाइन pierces जब बहुत कम मात्रा होती है, तो कदम नीचे संदिग्ध है. लघु मात्रा आमतौर पर कीमत आंदोलन के कमजोर समर्थन का मतलब"/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

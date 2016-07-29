@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kym.QuotationActivity" >
+
+    <item android:id="@+id/action_search2"
+          android:title="Search"
+          android:icon="@drawable/ic_action_search"
+           />
+
+
+</menu>
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/menu/quotation.xml -->

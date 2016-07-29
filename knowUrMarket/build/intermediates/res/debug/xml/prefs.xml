@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<ListPreference
+    android:title="Language"
+    android:entries="@array/Language"
+    android:key="lang"
+    android:summary="Choose Language"
+    android:entryValues="@array/lvalues">
+    </ListPreference>"
+</PreferenceScreen>
+<!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/xml/prefs.xml -->

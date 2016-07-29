@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Bearish engulfing পিলসুজ প্যাটার্ন সাধারণত একটি Uptrend শীর্ষে occuring, একটি অভদ্র উলটাপালটা প্যাটার্ন. প্যাটার্ন দুটি মোমবাতি নিয়ে গঠিত:
+\n
+\nছোট Bullish মোমবাতি (দিন 1) 
+\n বৃহত্তর Bearish মোমবাতি (দিন 2) "/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+    <ImageView 
+        android:src="@drawable/bear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:textSize="15dp"
+        android:text="সাধারণত, দিন 1 হাজার bullish মোমবাতি বাস্তব শরীর দিন 2 এর অভদ্র মোমবাতি আসল শরীরের মধ্যে অন্তর্ভুক্ত করা হয়.
+\n
+দিন 2 নেভিগেশন বাজারে ফাঁক আপ (bullish সাইন); কিন্তু, Bulls নিচে সকালে এর খোলা থেকে ফাঁক পূরণ কিন্তু আগের দিন এর খোলা নীচের দাম ঠেলে না শুধুমাত্র, বহন নিতে আগে সুদূর উচ্চ ধাক্কা এবং আরও নিচে দাম ধাক্কা না.
+\n
+Bullish engulfing প্যাটার্ন সঙ্গে, দিনের lows এ বন্ধ করে বড় অভদ্র বাস্তব শরীরের মোমবাতি খোলা এ bullish ফাঁক আপ, থেকে অনুভূতি অবিশ্বাস্য পরিবর্তন আছে. ভালুক সফলভাবে পরের কয়েক সময়সীমার জন্য সম্ভবত দিনের জন্য Bulls overtaken এবং হচ্ছে."/>
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/bear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Bearish Engulfing Sell Signal
+Bearish engulfing প্যাটার্ন ব্যবহার করে বিক্রয় জন্য \nThree প্রণালী সবচেয়ে রক্ষণশীল সবচেয়ে আক্রমনাত্মক অনুযায়ী নীচে তালিকাভুক্ত করা হয়:
+\n
+\n ভলিউম দেখুন) মূল্য নিম্নগামী বড় পদক্ষেপ সাথে আয়তনের একটি সারগর্ভ বৃদ্ধি আছে যখন দিন 2 এর নিকট এ \nSell বিক্রি করার একটি এমনকি শক্তিশালী ইঙ্গিত দেওয়া হয়.
+\n Bearish engulfing প্যাটার্ন পরে দিনে nSell দেখা দেয়; বিক্রি করার পরের দিন পর্যন্ত অপেক্ষা করে, একজন ব্যবসায়ীর অভদ্র উলটাপালটা প্যাটার্ন বাস্তব জন্য হয় এবং শুধুমাত্র একটি এক দিন সংঘটন ছিল না এমনটা নিশ্চিত করা হয়. বিক্রয় অব্যাহত কারণ ভেরাইজন উপরের চার্ট, একটি ব্যবসায়ী সম্ভবত Bearish engulfing প্যাটার্ন পরে দিনে প্রবেশ করানো হবে.
+\n একটি বিক্রয় আদেশ প্রবেশের আগে যেমন উর্ধ্বগামী সমর্থন রেখার নিচের একটি মূল্য বিভাজক হিসেবে অন্যান্য সংকেত, জন্য \nUsually ব্যবসায়ী এর অপেক্ষা. তবে, উপরোক্ত ভেরাইজন ক্ষেত্রে, Bearish engulfing প্যাটার্ন সমর্থন নীচের trendline বিভাজক হিসেবে একই সময়ে ঘটেছে."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

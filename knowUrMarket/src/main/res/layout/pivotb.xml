@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="পিভট পয়েন্ট সম্ভাব্য সমর্থন এবং প্রতিরোধের মাত্রা প্রকল্পের ব্যবহৃত হয়. ব্যবহৃত প্রধান সময়কাল দৈনিক, সাপ্তাহিক ও মাসিক pivots হয়. দৈনিক পিভট পয়েন্ট, সমর্থন, এবং প্রতিরোধের জন্য সূত্র নিম্নে দেখানো হল:
+
+\n\nPivot পয়েন্ট = [গতকালের উচ্চ + + গতকালের নিম্ন: গতকালের বন্ধ] / 3
+\n\nমিনি Dow ফিউচার চুক্তি এবং সংশ্লিষ্ট তলায় ব্যবসায়ী pivots 15 মিনিটের চার্ট নিচে দেখানো হয়েছে:"/>
+    <ImageView 
+        android:src="@drawable/pivot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support স্তর
+\nS1 = [পিভট পয়েন্ট * 2] - গতকালের হাই
+\nS2 = পিভট পয়েন্ট - গতকালের উচ্চ + + গতকালের নিম্ন
+\ns3 = S2 - গতকালের উচ্চ + + গতকালের নিম্ন
+\n\nResistance স্তর
+\nR1 = [পিভট পয়েন্ট * 2] - গতকাল এর কম
+\nR2 = পিভট পয়েন্ট + + গতকালের উচ্চ - গতকালের নিম্ন
+\nR3 = R2 + + গতকালের উচ্চ - গতকালের নিম্ন
+\n\nকেবল 'গত সপ্তাহে এর' বা সঙ্গে 'কালকের' প্রতিস্থাপন, সাপ্তাহিক বা মাসিক সংখ্যা নিরূপণ 'গত মাসে এর' উচ্চ বা নিম্ন."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

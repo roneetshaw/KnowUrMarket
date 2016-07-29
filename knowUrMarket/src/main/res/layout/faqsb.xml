@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আমি দালাল বা সাব - ব্রোকার সঙ্গে কোনো চুক্তি স্বাক্ষর করতে প্রয়োজন বোধ করছি?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+হ্যাঁ. আপনি একটি সঙ্গে সরাসরি ডিল করা হয় - যদি 'ক্লায়েন্ট চুক্তি সদস্য' সময়ে সময়ে আপনার পক্ষে ব্যবসা চালানো এবং আপনি সাইন করতে ক্লায়েন্ট নিবন্ধন ফর্ম বজায় রাখার জন্য দালাল সক্রিয় করার জন্য নিজেকে সংক্রান্ত বিবরণ সজ্জিত একটি ব্রোকার আকর্ষিক এর উদ্দেশ্যে দালাল. '- সাব ব্রোকার - ক্লায়েন্ট ত্রিপক্ষীয় চুক্তির করার Broker' ক্ষেত্রে এর পরে আপনি একটি সাইন আছে একটি সাব - ব্রোকার মাধ্যমে ডিল করা হয়. মডেল ত্রিপক্ষীয় চুক্তির দালাল-নিম্নতর ব্রোকার এবং ক্লায়েন্টদের মধ্যে একমাত্র নগদ সেগমেন্ট জন্য প্রযোজ্য." />
+
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+একটি স্টক চয়ন করুন"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="বাজারের বোঝা রয়ে, এটি একটি কোম্পানী, একটি স্টক এবং ডান দাম নির্বাচন সম্পর্কে যেতে জানেন কিভাবে গুরুত্বপূর্ণ. গবেষণা, কিছু স্মার্ট বৈচিত্রতা এবং সঠিক পর্যবেক্ষণ একটি সামান্য বিট জিনিস কদাপি ভুল তা নিশ্চিত করা হবে.
+\ নিকী যে কঠিন না: শুধু এই 4 সুবর্ণ নিয়ম অনুসরণ করুন. এবং যদি আপনি এটি করেন, যখন, কেন আপনার কাছে, কম কিনতে উচ্চ বিক্রি কিভাবে চেক আউট করবেন না." />
+	<TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+কিভাবে বিনিয়োগ অনেক কিছু!"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সত্তা আপনি বিনিয়োগ করা উচিত কত উচ্চ ঝুঁকি, উচ্চ রিটার্ন যন্ত্র, যেহেতু সত্যিই আপনি সহ্য করতে পারে না কতটা ঝুঁকির উপর নির্ভর করবে. আপনার ঝুঁকি প্রোফাইল খুঁজে বের করতে কি এই ব্যঙ্গ নিন.
+\n
+আপনি যে কাজ করেছেন, আপনি সত্তা বিনিয়োগ করা উচিত কত আপনার সঞ্চয় ঠিক নিরূপণ এই সম্পদ বরাদ্দকরণ পরীক্ষাটি."/>
+    
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+বোনাস শেয়ার কি কি?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+বোনাস শেয়ার আগের বছরে অর্জিত মুনাফা থেকে সঞ্চিত মজুদ ক্যাপিটালাইজেশন দ্বারা ব্যয়ের বিনামূল্যে তাদের শেয়ারহোল্ডারদের কোম্পানি দ্বারা জারি শেয়ার রয়েছে."/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+দালাল বা সাব ব্রোকার নিবন্ধিত হলে আমি কিভাবে জানেন?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আপনি সেবি দ্বারা জারি রেজিস্ট্রেশন সার্টিফিকেট যাচাই করে তা নিশ্চিত করতে পারেন. একটি ব্রোকার এর রেজিস্ট্রেশন নম্বর অক্ষর 'INB' এবং অক্ষর 'আইএনএস' সাথে একটি সাব ব্রোকার যে শুরু. ডেরাইভেটিভস সেগমেন্ট এর দালাল জন্য, রেজিস্ট্রেশন নম্বর অক্ষর 'INF' শুরু. ডেরাইভেটিভস সেগমেন্ট কোন সাব - ব্রোকার পর্যন্ত."/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ব্যাংকের সম্মান সঙ্গে CRR ও SLR কি কি?"
+        android:textSize="20dp" />
+
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRR বা নগদ রিজার্ভ অনুপাত নগদ আকারে অনুষ্ঠিত হবে একটি ব্যাংক এর আমানতের ন্যূনতম অনুপাতে / শতাংশ হয়. ব্যাংক আসলে নিজেদের সঙ্গে নগদ হিসেবে এইসব রাখা, কিন্তু নিজেদের সঙ্গে নগদ অধিষ্ঠিত করার সমতুল্য মনে করা হয়, যা ভারতীয় রিজার্ভ ব্যাংক / মুদ্রা chests, সঙ্গে একই জমা করি না.
+\n
+একটি ব্যাংক এর আমানতের টাকা করে বৃদ্ধি করে. 100 কোটি টাকা, এবং 6% বর্তমান নগদ রিজার্ভ অনুপাত বিবেচনায় ব্যাংকের অতিরিক্ত টাকা রাখা হবে. 6 ভারতীয় রিজার্ভ ব্যাংকের সঙ্গে কোটি এবং একমাত্র টাকা ব্যবহার করতে সক্ষম হবে. বিনিয়োগ এবং ঋণের জন্য 94 কোটি টাকা. অতএব, উচ্চতর CRR, ব্যাংক ধার করতে পারেন যে পরিমাণ কম. সুতরাং আরবিআই CRR অর্থাত্ lendable পরিমাণ এবং উপ - উলটোটা কমাতে CRR বৃদ্ধি পরিবর্তন করে তারল্য নিয়ন্ত্রণ করতে পারেন.
+\n
+হওয়া বা সংবিধিবদ্ধ তারল্য অনুপাত একটি ব্যাংক স্বর্ণ, নগদ বা অন্যান্য অনুমোদিত সিকিউরিটিজ আকারে বজায় রাখার জন্য যে আমানতের ন্যূনতম শতাংশ হয়. এটা চাহিদা ও মেয়াদী দায় / আমানত থেকে তরল সম্পদ (নগদ এবং অনুমোদিত সিকিউরিটিজ) এর অনুপাত.
+\n
+আরবিআই 40% এই অনুপাত পর্যন্ত বৃদ্ধি ক্ষমতাপ্রাপ্ত হয়. SLR বৃদ্ধি যার ফলে ঋণের প্রবৃদ্ধি নিয়ন্ত্রণ, অর্থনীতির মধ্যে আরো টাকা পাম্প ব্যাংকের লিভারেজ অবস্থান নিয়ন্ত্রণ."/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

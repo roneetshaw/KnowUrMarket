@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="कॉल ऑप्शन खरीदने का लाभ उठाने का उपयोग कर एक तेजी रणनीति है और शेयर खरीदने के लिए एक जोखिम से परिभाषित वैकल्पिक है. सार 'कॉल ऑप्शन खरीदार स्टॉक दूर कहने का अधिकार है, लेकिन दायित्व नहीं दे', एक व्यावहारिक चित्रण दिया जाएगा पूर्वगामी:
+\n
+\n 1. एक व्यापारी $ 50 पर एक विशेष शेयर ट्रेडिंग पर बहुत तेजी है.
+\n2. व्यापारी हाथ उनकी अधिकतम नुकसान से पहले जानना चाहते, जोखिम खिलाफ या तो या बस शेयर के मालिक से अधिक लाभ उठाने के लिए चाहता है.
+\n3. व्यापारी स्टॉक अगले 30 दिनों में $ 53.10 से ऊपर ले जाने की उम्मीद है.
+\n \nGiven उन उम्मीदों, व्यापारी $ 0.60 के लिए कारोबार कर रहा है जो $ 52.50 कॉल विकल्प हड़ताल मूल्य का चयन करता है. इस उदाहरण के लिए, व्यापारी केवल 1 विकल्प अनुबंध (नोट: 1 अनुबंध 100 शेयरों के लिए है) खरीद लेंगे तो कुल लागत $ 60 ($ 0.60 x 100 शेयरों / अनुबंध) हो जाएगा. इस काल्पनिक स्टॉक के नीचे ग्राफ नीचे दी गई है:"/>
+    <ImageView 
+        android:src="@drawable/call1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="विकल्प परिभाषित जोखिम की पेशकश
+एक कॉल विकल्प खरीदा है \n when, व्यापारी तुरन्त वे संभवतः खो सकते हैं पैसे की अधिकतम राशि को जानता है. अधिकतम नुकसान हमेशा विकल्प अनुबंध के मालिक को भुगतान प्रीमियम है; इस उदाहरण में, $ 60. शेयर $ 5 या 50 डॉलर प्रति शेयर तक गिर जाता है या नहीं, कॉल विकल्प धारक ही वे विकल्प के लिए भुगतान की गई राशि को खो देंगे. इस बार विकल्प व्यापार करने के लिए एक कारण के रूप में के बारे में चर्चा की जोखिम से परिभाषित लाभ है.
+\n  \n 
+विकल्प का लाभ उठाने की पेशकश
+\n  the अन्य लाभ का लाभ उठाने है. एक शेयर की कीमत (इस उदाहरण में, $ 53.10) अपने breakeven बिंदु से ऊपर है जब समाप्ति पर विकल्प अनुबंध बिल्कुल शेयर की तरह कार्य करता है. शेयर के 100 शेयरों $ 1 चलता है, तो व्यापारी $ 100 ($ 1 एक्स 100 डॉलर) लाभ होगा, उदाहरण देकर स्पष्ट करने के लिए. इसी तरह, $ 53.10 ऊपर, विकल्प शेयर $ 1 ले जाया गया है, तो विकल्प अनुबंध इस प्रकार $ 100 के रूप में अच्छी तरह से (एक्स $ 100 $ 1) बनाने, $ 1 ले जाया जाएगा, बिंदु breakeven. शेयर खरीदने के लिए, याद रखें, व्यापारी 5,000 डॉलर (x 100 शेयर $ 50/share) प्रस्तुत करने के लिए होता था. इस उदाहरण में व्यापारी, केवल कॉल ऑप्शन के लिए 60 डॉलर का भुगतान किया.
+\n  \n 
+विकल्प समय की आवश्यकता
+\ एक विकल्प और विकल्प हड़ताल मूल्य के चयन के बारे में Nthe महत्वपूर्ण हिस्सा है, भविष्य के लिए व्यापारी के सटीक उम्मीदें है. व्यापारी शेयर ऊपर की ओर बढ़ते जाने की उम्मीद है, लेकिन केवल $ 1 उच्च है, तो $ 52.50 हड़ताल कीमत खरीदने मूर्खता होगी. शेयर की कीमत में यह $ 20 या $ 52.49, चाहे कहीं भी $ 52.50 से नीचे है, तो समाप्ति पर, कॉल विकल्प बेकार समाप्त हो जाएगा क्योंकि यह है. एक व्यापारी शेयर $ 1 से अधिक कदम होगा कि उनकी भविष्यवाणी पर सही था, वे अभी भी खो दिया होता.
+\n  \n 
+शेयर $ 53 कॉल विकल्प समाप्त हो गई है के बाद दिन के लिए चले गए इसी तरह, अगर, व्यापारी अभी भी विकल्प के लिए भुगतान अपने सभी प्रीमियम खो दिया होता. विकल्प खरीदने जब ​​बस ने कहा, आप शेयर आंदोलन, शेयर आंदोलन के आकार, और समय की अवधि के स्टॉक आंदोलन घटित होगा की सही दिशा की भविष्यवाणी करने की जरूरत है; सभी एक व्यक्ति को एक शेयर के सही दिशा का अनुमान लगाया जाता है कर रही है जब यह, तो शेयर खरीदने और अधिक जटिल है."/>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/nextcall"
+        android:text="Next Page"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/callh.xml -->

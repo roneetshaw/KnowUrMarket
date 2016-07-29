@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="A Bear Put Spread, also known as a put debit spread, is a bearish strategy involving two put option strike prices:
+\n
+1. Buy one at-the-money or out-of-the money put
+\n2. Sell one put further away from the money than the put purchased
+\n\nA trader would use a Bear Put Spread in the following hypothetical situation:
+\n
+1. A trader is very bearish on a particular stock trading at $50.
+\n2. The trader is either risk-averse, wanting to know before hand their maximum loss or wants greater leverage than simply owning stock.
+\n3. The trader expects the stock to move below $47.15 but not lower than $45.00 in the next 30 days."/>
+    <ImageView 
+        android:src="@drawable/bps1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy One Put - Sell One Put
+\nGiven those expectations, the trader selects the $47.50 put option strike price to buy which is trading for $0.44. For this example, the trader will buy only 1 option contract (Note: 1 contract is for 100 shares) so the total cost will be $44 ($0.44 x 100 shares/contract).
+\n
+Also, the trader will sell the further out-of-the money put strike price at $45.00. By selling this put, the trader will receive $9 ($0.09 x 100 shares/contract). The net effect of this transaction is that the trader has paid out $35 ($44 paid - $9 received).
+\n\n
+Risk Defined and Profit Defined
+\nWhen a Bear Put Spread is purchased, the trader instantly knows the maximum amount of money they can possibly lose and the maximum amount of money they can make. The max loss is always the premium paid to own the option contract minus the premium received from the off-setting put option sold; in this example, $35 ($44 - $9).
+\n
+Whether the stock rises to $95 or $55 a share, the put option holder will only lose the amount they paid for the option spread ($35). This is the risk-defined benefit often discussed about as a reason to trade options. Similarly, the Bear Put Spread is profit-defined as well. The max the trader can make from this trade is $215. How this max profit is calculated is given in detail on the next page.
+\n\n
+Bear Put Spread requires Accurate Predictions
+\nThe important part about selecting an option strategy and option strike prices, is the trader's exact expectations for the future. If the trader expects the stock to move lower, but only $1 lower, then buying the $47.50/$45.00 Bear Put Spread would be foolish. This is because at expiration, if the stock price is anywhere above $47.50, whether it be $125 or $47.51, the spread strategy will expire worthless. Therefore, if a trader was correct on their prediction that the stock would move lower by $1, they would still have lost."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/bps.xml -->

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Head and Shoulders"/>
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The Head and Shoulders chart pattern is a heavily used and quite profitable charting pattern, giving easily understood buy and sell signals.
+
+The chart of Home Depot (HD) below shows a Head and Shoulders pattern:"/>
+    <ImageView 
+        android:src="@drawable/hns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="Head and Shoulders Components
+\n1. Left Shoulder: Bulls push prices upwards making new highs; however these new highs are short lived and prices retreat.
+\n2. Head: Prices don't retreat for long because bulls make another run, this time succeeding and surpassing the previous high; a bullish sign. Prices retreat again, only to find support yet again.
+\n3. Right Shoulder: The bulls push higher again, but this time fail to make a higher high. This is very bearish, because bears did not allow the bulls to make a new higher or even an equal high. The bears push prices back to support (Confirmation line); this is a pivotal moment - Will bulls make another push higher or have the bears succeeded in stopping the move higher.
+\n\nHead and Shoulders Sell Signal
+\nIf prices break the confirmation support line, it is clear that the bears are in charge; thus, when price closes below the confirmation line, a strong sell signal is given.
+\n\n
+Note that a downward sloping confirmation line is generally seen as a more powerful Head and Shoulders pattern, mainly because a downward sloping confirmation line means that prices are making lower lows."/>
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Reverse Head and Shoulders"/>
+    <ImageView 
+        android:src="@drawable/hns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The reasoning behind a Head and Shoulders pattern is as follows:
+
+\n1. Left Shoulder: Bears push prices downwards making new lows; however, bulls begin to return and push prices slightly higher.
+\n2. Head: Price gains don't last long before bears return and push prices even lower than before; a bearish sign. Prices then find buyers at the new lower prices.
+\n3. Right Shoulder: The bears push downward again, but this time fail to make a lower low. This is generally seen as bullish sign, bears were unable to push prices further down. Decision time occurs when the price is pushed higher back to support (Confirmation line); either bears will push prices back down or bulls will push prices higher, regaining control of the stock, future, or currency pair.
+\n\nReverse Head and Shoulders Buy Signal
+\nWhen price closes above the confirmation line, a strong buy signal is given.
+\n\n
+Usually an upward sloping confirmation line is seen as a more powerful Reverse Head and Shoulders pattern, mainly because an upward sloping confirmation line means that prices are making higher highs."/>
+    
+    <TextView android:textStyle="bold" 
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Volume and Head and Shoulders"/>
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When the confirmation line of a Head and Shoulders pattern breaks to the downside, a large amount of volume should occur as well.
+\n\n
+The chart below of General Electric (GE) shows a sharp increase in volume when the confirmation line of the Head and Shoulders pattern was broken:"/>
+    <ImageView 
+        android:src="@drawable/hns3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In addition to the sharp increase in volume, the gap down on the chart of GE also gave strong indication to sell when the confirmation line was pierced.
+\n\n
+The same concept applies to a Reverse Head and Shoulders pattern, the break of the confirmation line should be accompanied by an increase in volume.
+\n\n
+The chart below of Gold futures illustrates a rise in volume when the confirmation line was pierced:"/>
+
+    <ImageView 
+        android:src="@drawable/hns4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

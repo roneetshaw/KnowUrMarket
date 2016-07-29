@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="वॉल्यूम थरथरानवाला मात्रा के दो चल औसत, तेजी से एक और धीमी गति से एक के होते हैं. तेज मात्रा बढ़ औसत तो धीमी गति से चलती औसत से घटाया जाता है. वॉल्यूम थरथरानवाला मात्रा विश्लेषण के रूप में एक ही सिद्धांतों का उपयोग व्याख्या की है:
+
+\n नेन वृद्धि या मात्रा में वृद्धि के साथ कीमत में कमी n मौजूदा रुझान में ताकत की निशानी माना जाता है. औसत (डिफ़ॉल्ट 14-अवधि) तेजी से बढ़ मात्रा औसत (डिफ़ॉल्ट 28-अवधि) से आगे बढ़ धीमी मात्रा से ऊपर है इसलिए, जब वॉल्यूम थरथरानवाला यह ऊपर या नीचे हो, चाहे शून्य रेखा से ऊपर है और कीमत दिशा की पुष्टि की है.
+\n नेन वृद्धि या मात्रा में कमी के साथ कीमत में कमी n मौजूदा रुझान में कमजोरी की निशानी माना जाता है. तेज मात्रा बढ़ औसत धीमी मात्रा औसत से नीचे है इसलिए, जब वॉल्यूम थरथरानवाला शून्य रेखा से नीचे है और कीमत दिशा शक्ति और दृढ़ विश्वास की कमी है कि चेतावनी है.
+वॉल्यूम थरथरानवाला की \n नेन उदाहरण ई मिनी रसेल 2000 वायदा अनुबंध के चार्ट में अगले प्रस्तुत है:"/>
+    <ImageView 
+        android:src="@drawable/volosc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कीमत उच्च highs और उच्च चढ़ाव बना रहा है तथ्य यह है कि एक तेजी संकेत है. रसेल 2000 ई मिनी में कीमत बढ़ जाती है उच्च highs और उच्च चढ़ाव बना वॉल्यूम थरथरानवाला के साथ संयुक्त है, एक डबल तेजी साइन दिया जाता है."/>
+    
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Volume Oscillator Divergence"/>
+    
+    
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="मात्रा में कमी के साथ है जो मूल्य में वृद्धि या कमी आई है जब वॉल्यूम थरथरानवाला मतभेद होते हैं. इस विचलन होता है, औसत (डिफ़ॉल्ट 14-अवधि) तेजी से बढ़ मात्रा (डिफ़ॉल्ट 28-अवधि) मूविंग एवरेज धीमी मात्रा नीचे है और वॉल्यूम थरथरानवाला शून्य रेखा से नीचे है. इन मतभेदों वर्तमान कीमत दिशा शक्ति की कमी है और एक प्रवृत्ति रिवर्स के लिए क्षमता है है कि यह चेतावनी है.
+\n \n
+एक वॉल्यूम थरथरानवाला विचलन का एक उदाहरण ई मिनी रसेल 2000 वायदा अनुबंध के चार्ट में नीचे प्रस्तुत है:"/>
+    <ImageView 
+        android:src="@drawable/volosc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कीमत रसेल 2000 ई मिनी में बढ़ रहा था जब यह दोहराया कम उतार कम चढ़ाव बना घट गया था, क्योंकि वॉल्यूम थरथरानवाला कीमत आंदोलन की पुष्टि नहीं की गई थी. इस मंदी की विचलन हाल ही में कीमत बढ़ जाती मात्रा ताकत के साथ बनाया जा रहा नहीं गया कि संकेत दिया. मंदी की विचलन ई मिनी भविष्य की उर्ध्व ट्रेंडलाइन समर्थन टूट गया था जब इस बात की पुष्टि की गई थी.
+\n \n
+रसेल 2000 ई मिनी वायदा अनुबंध इसके मंदी बनाया हालांकि, जब वॉल्यूम थरथरानवाला उच्च highs और कम चढ़ाव, मात्रा बढ़ती जा रही है और इस तरह की प्रवृत्ति नीचे ताकत थी कि संकेत था कि एक संकेत बनाकर मूल्य गिरावट की पुष्टि की."/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

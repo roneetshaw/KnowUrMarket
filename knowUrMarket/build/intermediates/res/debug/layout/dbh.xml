@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="डबल नीचे तकनीकी विश्लेषण अपनाने पैटर्न एक आम और अत्यधिक प्रभावी मूल्य उत्क्रमण पैटर्न है.
+\n \n
+Altria (एमओ) स्टॉक के लिए नीचे दिए गए चार्ट डबल नीचे उत्क्रमण पैटर्न दिखाता है:"/>
+    <ImageView 
+        android:src="@drawable/db1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="एक डबल नीचे पैटर्न बनाने के लिए, मूल्य, गिरावट में शुरू होता है बंद हो जाता है, और फिर प्रवृत्ति उलट जाती है. हालांकि, उल्टा करने के लिए उलटा अल्पकालिक है. प्राइस केवल फिर से रोकने के लिए और ऊपर की ओर दिशा रिवर्स नकारात्मक पक्ष को फिर से टूट जाता है. दूसरा कम पहले कम से अधिक है, तो डबल नीचे पैटर्न के दूसरे तल के साथ, यह आमतौर पर अधिक तेजी है.
+\n\n
+डबल नीचे खरीदने के संकेत
+
+নিশ্চিতকরণ লাইন গোলমালে যাও অনুপ্রবিষ্ট হলে কিনতে সংকেত দেওয়া হয়. নিশ্চিতকরণ লাইন (উপরের চার্ট দেখুন) ডবল নিচের প্যাটার্ন শীর্ষ জুড়ে টানা হয়.
+\n
+মূল্য নিশ্চিতকরণ লাইন penetrates পর প্রায়শই,, দাম কখনও কখনও ফিরে নিশ্চিতকরণ লাইন, একটি স্বল্প সময়ের জন্য প্রত্যনুসরণ হবে. এই retracement দীর্ঘ বাজারের মধ্যে পেতে একটি দ্বিতীয় সুযোগ প্রস্তাব.
+\n
+ভলিউম এছাড়াও ডাবল বটম প্যাটার্ন ব্যাখ্যা একটি গুরুত্বপূর্ণ অংশ খেলে; এই Pfizer (PFE) এর নিচের চার্টে দেখানো হয়:"/>
+        
+        
+     <ImageView 
+        android:src="@drawable/db2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+     <TextView android:textStyle="bold"
+         android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+এটা Pfizer (PFE) এর চার্টে হিসাবে কি নিশ্চিতকরণ লাইন অনুপ্রবিষ্ট করা হলে সাধারণত, ভলিউম বিস্ফোরিত হবে.
+
+\n \n ডাবল বটম উলটাপালটা প্যাটার্ন একটি প্রচন্ডভাবে ব্যবহৃত এবং কার্যকর charting উলটাপালটা প্যাটার্ন. আরেকটি অনুরূপ এবং জনপ্রিয় নীচে উলটাপালটা প্যাটার্ন বিপরীত হেড ও কাঁধ প্যাটার্ন"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/dbh.xml -->

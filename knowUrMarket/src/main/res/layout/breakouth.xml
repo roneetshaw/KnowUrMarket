@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:padding="10dp" >
+
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView android:textStyle="bold" 
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="Bollinger Band Breakout"
+                android:textColor="@color/black"/>
+            <TextView android:textStyle="bold" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:text="असल में 'बैंड बजाना' और मतलब प्रत्यावर्तन पर सट्टेबाजी के विपरीत बोलिंगर बैंड breakouts खेल रहा है. कीमत बोलिंगर बैंड के बाहर से बंद होने breakouts, समेकन की अवधि के बाद होते हैं. इस तरह के समर्थन और विरोध लाइनों (देखें: समर्थन और प्रतिरोध) के रूप में अन्य संकेतक ब्रेकआउट की दिशा में खरीदने या बेचने के लिए किया जाए या नहीं यह तय जब फायदेमंद साबित हो सकता है."/>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv4"/>
+             
+        <TextView android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Buy सिग्नल
+        
+\n ई मिनी SnP 500 भविष्य के लिए नीचे दिए गए चार्ट में दिखाया गया है उदाहरण के लिए, एक व्यापारी खरीदता है या कीमत कम बोलिंगर बैंड से नीचे गिर गया जब कवर करने के लिए खरीदता है.
+\n sell सिग्नल
+\n बेचने या बाहर निकलने को कवर करने के लिए खरीद शुरू की है जब ऊपरी बोलिंगर बैंड के बाहर स्टॉक, भविष्य, या मुद्रा की कीमत pierces." />
+       
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</LinearLayout>

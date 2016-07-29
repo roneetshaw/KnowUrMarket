@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    <TextView android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="$ VIX एस और पी 500 सूचकांक विकल्प की 30 दिन की वार्षिक निहित अस्थिरता है. इसके अलावा, $ VXN Nasdaq 100 सूचकांक विकल्प की 30 दिन की वार्षिक निहित अस्थिरता है. बाजार दुर्घटना या जल्दी से नीचे ले जाते हैं, विकल्पों लोकप्रिय हो डाल दिया. व्यापारी गर्भित अस्थिरता स्तर में वृद्धि के रूप में प्रकट होता है जो इन पुट ऑप्शन की कीमत, बोली; एक $ वीआईएक्स में वृद्धि हुई है और $ VXN सूचकांक इस प्रकार. शेयर और सूचकांक कीमतों और $ VIX और $ VXN के बीच बुनियादी रिश्ते को अगले प्रस्तुत है:
+
+\nWhen कीमतों, $ VIX आते हैं और $ VXN अनुक्रमित वृद्धि.
+कीमतों में वृद्धि जब \ \n इसके विपरीत, $ VIX और $ VXN अनुक्रमित गिर जाते हैं.
+\n \n यह बुनियादी रिश्ते को एक प्रसिद्ध व्यापारियों 'कह:' माथुर द्वारा VIX अधिक है जब इसे खरीदने के लिए समय आ गया है; VIX कम है जब यह जाने का समय है. '
+\n \n
+एस एंड पी 500 विनिमय के निम्न चार्ट फंड (जासूस) कारोबार, चार्ट के शीर्ष आधा, यह और $ VIX अस्थिरता के बीच व्युत्क्रम संबंध दिखाता सूचकांक, चार्ट के नीचे आधा:"/>
+    <ImageView 
+        android:src="@drawable/vix1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+एस एंड पी 500 की कीमत में एक uptrend $ VIX के स्तर में गिरावट के साथ है सूचना कैसे.
+\n \n
+नैस्डैक 100 विनिमय के अगले चार्ट (QQQQ) $ VXN spikes उच्च जब महान खरीद अवसर हैं दिखाता है कि कैसे ट्रेडेड फंड:"/>
+    
+    <ImageView 
+        android:src="@drawable/vix2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIX और VXN खरीदने के संकेत
+\nWhen $ VIX या $ VXN स्पाइक (समान अवधि के दौरान आम तौर पर वे दोनों कील) खरीदते हैं. इतिहास यह $ VIX खरीदने, अक्सर किया गया है और $ VXN spikes काफी लाभदायक साबित हो गया है, जो खुद को दोहराता है. फिर भी, म्युचुअल फंड मंत्र लागू होता है: 'पिछले प्रदर्शन भविष्य के प्रदर्शन का संकेत नहीं है'."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

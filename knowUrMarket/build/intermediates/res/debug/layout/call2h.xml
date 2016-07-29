@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/blue"
+     >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+    <TextView android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="The following is the profit/loss graph at expiration for the call option in the example given on the previous page."/>
+    <ImageView 
+        android:src="@drawable/call2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+    <TextView android:textStyle="bold" 
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Break-even
+\n The breakeven बिंदु एक कॉल विकल्प के लिए गणना करने के लिए काफी आसान है:
+\n \n
+अदा Breakeven स्टॉक मूल्य = कॉल विकल्प हड़ताल मूल्य + प्रीमियम
+\n उदाहरण देकर स्पष्ट करना, व्यापारी $ 0.60 के लिए $ 52.50 हड़ताल मूल्य कॉल विकल्प खरीदा. इसलिए, $ 52.50 + $ 0.60 = $ 53.10. शेयर समाप्ति से $ 53.10 तक पहुँच जाता है, तो व्यापारी, आयोगों / slippage को छोड़कर, breakeven जाएगा.
+\n \n
+लाभ
+\n मुनाफे की गणना या एक कॉल विकल्प पर घाटा निम्नलिखित सरल सूत्र का उपयोग करें: 
+समाप्ति पर विकल्प लाभ / हानि = स्टॉक मूल्य कॉल - breakeven बिंदु
+\nFor $ 53.10 breakeven बाधा को पार कर गया है एक बार शेयर की कीमत बढ़ जाता है हर डॉलर, विकल्प अनुबंध के लिए डॉलर के लाभ के लिए एक डॉलर है. शेयर समाप्ति से $ 55.00 के लिए $ 5.00 लाभ तो, अगर कॉल विकल्प का मालिक प्रति शेयर 1.90 $ (- $ 53.10 breakeven शेयर की कीमत $ 55.00 स्टॉक मूल्य) करना होगा. तो कुल, व्यापारी $ 190 ($ 1.90 x 100 शेयरों / अनुबंध) बना दिया जाएगा.
+\n \n
+आंशिक हानि
+\ समाप्ति से $ 52.75 पर बंद $ 2.75 की वृद्धि हुई शेयर की कीमत यदि, विकल्प व्यापारी पैसे खो जाएगा. इस उदाहरण के लिए, व्यापारी (- $ 53.10 breakeven शेयर की कीमत $ 52.75 स्टॉक मूल्य) अनुबंध के अनुसार 0.35 $ खो दिया होता. (- $ 0.35 x 100 शेयरों / अनुबंध) इसलिए, काल्पनिक व्यापारी 35 $ खो दिया होता.
+\n \n
+वे शेयर वृद्धि करने के लिए जा रहा था कि सोचा क्योंकि संक्षेप में, यह आंशिक नुकसान उदाहरण में, विकल्प व्यापारी एक कॉल विकल्प खरीदा. व्यापारी हालांकि, व्यापारी पर्याप्त अधिकार नहीं था, शेयर $ 2.75 की वृद्धि की थी, सही था. स्टॉक पैसे breakeven या बनाने के लिए $ 53.10 के लिए कम से कम $ 3.10 से अधिक कदम की जरूरत है.
+\n \n
+पूरा नुकसान
+\ स्टॉक रखते समाप्ति से विकल्प अनुबंध की हड़ताल मूल्य से अधिक कदम नहीं था, विकल्प व्यापारी अपने पूरे प्रीमियम $ 0.60 भुगतान खो देगा. शेयर नीचे चले गए इसी तरह, अगर यह नीचे की ओर ले जाया कितना द्वारा irrelavent, तो विकल्प व्यापारी अभी भी विकल्प के लिए भुगतान $ 0.60 खोना होगा. (- $ 0.60 x 100 शेयरों / अनुबंध) उन दो परिस्थितियों में से किसी में, व्यापारी 60 $ खो दिया होता."/>
+   
+    </LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/LENOVO/AndroidStudioProjects/KnowUrMarket/knowUrMarket/src/main/res/layout/call2h.xml -->
