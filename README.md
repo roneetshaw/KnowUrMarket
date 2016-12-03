@@ -26,4 +26,28 @@ KYM comes with a virtual stock market game where each user will be provided with
 
 •	Report : Report of various companies so that the user can wise decision. 
 
-•	Hot Picks : Recommended stocks for buying. 
+•	Hot Picks : Recommended stocks for buying.
+
+# Usage
+
+Users can easily play with the application in case any problem . Feel free to visit this link : https://www.youtube.com/watch?v=vf5CxN6wEaU
+
+# Develop
+
+Other users can also contribute to this application . If interested they can send in pull request and after my approval they can start developing in Eclipse IDE
+
+# Contact details
+
+contact the developer at this email ids :
+
+roneet.kumar.shaw@gmail.com
+
+# License
+
+GNU GPL Version 3, 29 June 2007.
+
+Please refer to GNU GPL version 3.txt for License
+
+All rights belong to Roneet Kumar Shaw.
+
+Copyright © 2013
